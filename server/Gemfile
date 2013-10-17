@@ -63,13 +63,6 @@ gem 'friendly_id', '5.0.0.rc2'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
 
-# Color fetching
-#gem 'paleta'
-gem 'miro'
-
-# Page load bar
-#gem 'nprogress-rails'
-
 # Use unicorn as the app server
 # gem 'unicorn'
 
