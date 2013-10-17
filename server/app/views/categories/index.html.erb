@@ -1,0 +1,10 @@
+<% content_for :contextMenu do %>
+	<li><%= link_to '<i class="icon-plus"></i> Add Category'.html_safe, new_category_path %></li>
+<% end %>
+
+<div class="container">
+	<%= render :partial => "index", :locals => {:category => @category } %>	
+	<div>
+		
+	</div>
+</div>

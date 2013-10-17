@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  pageTitle: MyString
+  pageDescription: MyText
+  pageFavicon: 
+  pagePreview: 
+
+two:
+  pageTitle: MyString
+  pageDescription: MyText
+  pageFavicon: 
+  pagePreview: 

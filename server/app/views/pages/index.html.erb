@@ -1,0 +1,56 @@
+<% content_for :contextMenu do %>
+	<li><%= link_to '<i class="icon-plus"></i> Add Page'.html_safe, new_page_path, "data-no-turbolink" => true %></li>
+	<li><%= link_to '<i class="icon-eye-close"></i> Show Hidden'.html_safe, pages_unpublished_path %></li>
+	<% if params[:showLink].to_i != 1 %>
+		<li><%= link_to '<i class="icon-eye-open"></i> Show Link'.html_safe, :showLink => 1 %></li>
+	<% else %>
+		<li><%= link_to '<i class="icon-eye-close"></i> Hide Link'.html_safe, :showLink => 0 %></li>
+	<% end %>
+<% end %>
+
+<% if @page != nil && @page.count != 0 %>
+	<div class="pages">
+		<% @page.each do |p| %>
+			<div <% if p.slug != nil && p.slug.length != 0 %> id="p_<%= p.slug %>" <% end %> class="pageItem">
+				<% if p.slug != nil && p.slug.length != 0 %><a id="<%= p.slug %>"></a><% end %>
+				<% if params[:showLink].to_i == 1 %>
+					<div class="admin"><%= link_to '<i class="icon-eye-open"></i> Show'.html_safe, page_path(p) %></div>
+				<% end %>
+				<% if p.hasPreview == true && p.contentPreview != nil && p.contentPreview.length != 0 %>
+					<%= p.contentPreview.html_safe %>
+				<% else %>
+					<%= p.content.html_safe %>
+				<% end %>
+			</div>
+		<% end %>
+	</div>
+	<div class="container">
+		<center>
+			<%= will_paginate @page,
+				renderer: BootstrapPagination::Rails,
+				previous_label: "<i class='icon-chevron-left'></i>".html_safe, 
+				next_label: "<i class='icon-chevron-right'></i>".html_safe %>
+		</center>
+	</div>
+<% else %>
+	<div class="content">
+		<div class="col-md-6 col-md-offset-3">
+			<center>
+				<% case rand(0..3) %>
+					<% when 0 %>
+						<h1>There are no pages here :(</h1>
+						<p>Try looking here later...</p>
+					<% when 1 %>
+						<h1>My dog ate all the pages!</h1>
+						<p>Try looking here later...</p>
+					<% when 2 %>
+						<h1>Who turned out the lights?</h1>
+						<p>Try looking here later...</p>
+					<% when 3 %>
+						<h1>All the pages are at a party...</h1>
+						<p>Try looking here later...</p>
+				<% end %>
+			</center>		
+		</div>
+	</div>
+<% end %>

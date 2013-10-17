@@ -1,0 +1,45 @@
+<%= form_for user do |f| %>
+
+	<div class="row">
+		<div class="page new settings col-md-6">
+			<div class="form-group">
+				<label for="page_title">Name</label>
+				<%= f.text_field :nameFirst, 
+					:placeholder => "John", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Surname</label>
+				<%= f.text_field :nameLast, 
+					:placeholder => "Doe", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_tags">Email</label>
+				<%= f.text_field :contactEmail, 
+					:placeholder => "email@host.com", 
+					:class => "form-control" %>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="form-group">
+				<label for="page_title">Username</label>
+				<%= f.text_field :loginUsername, 
+					:placeholder => "Username", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Password</label>
+				<%= f.text_field :password, 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Password Confirm</label>
+				<%= f.text_field :password_confirmation, 
+					:class => "form-control" %>
+				<p class="help-block">Repeat the password one more time, just to be sure</p>
+			</div>	
+		</div>
+	</div>
+
+<% end %>

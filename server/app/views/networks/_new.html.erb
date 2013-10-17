@@ -1,0 +1,31 @@
+<%= form_for network do |f| %>
+
+	<div class="row">
+		<div class="form-group">
+			<label for="page_title">Name</label>
+			<%= f.text_field :name, 
+				:placeholder => "GitHub", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_slug">Link</label>
+			<%= f.text_field :link, 
+				:placeholder => "https://github.com/username", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Icon</label>
+			<%= f.text_field :icon, 
+				:placeholder => "<i class=\"icon-github\"></i>", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Options</label>
+			<div class="clearfix"></div>
+			<%= f.check_box :hidden %> Hidden 
+			<div class="clearfix"></div>
+			<%= f.check_box :showName %> Show Name 
+		</div>
+	</div>
+
+<% end %>

@@ -1,0 +1,20 @@
+<% content_for :contextMenu do %>
+	<li>
+		<%= link_to '<i class="icon-plus"></i> Add'.html_safe, 
+					new_page_path, 
+					"data-no-turbolink" => false %>
+	</li>
+	<li>
+		<%= link_to '<i class="icon-edit"></i> Edit'.html_safe, 
+					edit_page_path(@page), 
+					"data-no-turbolink" => false %>
+	</li>
+	<li>
+		<%= link_to '<i class="icon-trash"></i> Delete'.html_safe, 
+					page_path(@page), 
+					:method => "delete",
+					:confirm => "Are you sure you want to delete the page \n\"#{@page.title}\"?\n This action can't be undone!",
+					"data-no-turbolink" => false %>
+	</li>
+<% end %>
+<%= @page.content.html_safe %>

@@ -1,0 +1,6 @@
+<% content_for :contextMenu do %>
+	<li><%= link_to '<i class="icon-plus"></i> Add Network'.html_safe, new_network_path, "data-no-turbolink" => false %></li>
+<% end %>
+<div class="container">
+	<%= render :partial => "index", :locals => {:network => @network} %>
+</div>

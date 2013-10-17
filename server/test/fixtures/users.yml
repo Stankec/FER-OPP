@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nameFirst: MyString
+  nameLast: MyString
+  loginUsername: MyString
+  loginPasswordHash: MyString
+  loginPasswordSalt: MyString
+  loginAuthToken: MyString
+  loginLast: 
+  contactEmail: MyString
+  contactPhone: MyString
+
+two:
+  nameFirst: MyString
+  nameLast: MyString
+  loginUsername: MyString
+  loginPasswordHash: MyString
+  loginPasswordSalt: MyString
+  loginAuthToken: MyString
+  loginLast: 
+  contactEmail: MyString
+  contactPhone: MyString

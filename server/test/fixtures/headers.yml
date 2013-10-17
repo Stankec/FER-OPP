@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  path: MyString
+  isInRotation: false
+  colorDominant: MyString
+  colorPalet1: MyString
+  colorPalet2: MyString
+  colorPalet3: MyString
+  colorPalet4: MyString
+  colorPalet5: MyString
+  colorPalet6: MyString
+  colorPalet7: MyString
+  colorPalet8: MyString
+  colorPalet9: MyString
+
+two:
+  name: MyString
+  path: MyString
+  isInRotation: false
+  colorDominant: MyString
+  colorPalet1: MyString
+  colorPalet2: MyString
+  colorPalet3: MyString
+  colorPalet4: MyString
+  colorPalet5: MyString
+  colorPalet6: MyString
+  colorPalet7: MyString
+  colorPalet8: MyString
+  colorPalet9: MyString

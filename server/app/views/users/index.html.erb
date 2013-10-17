@@ -1,0 +1,6 @@
+<% content_for :contextMenu do %>
+	<li><%= link_to '<i class="icon-plus"></i> Add User'.html_safe, new_user_path, "data-no-turbolink" => false %></li>
+<% end %>
+<div class="container">
+	<%= render :partial => "index", :locals => {:user => @user} %>
+</div>

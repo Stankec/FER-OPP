@@ -1,0 +1,6 @@
+<div class="row" style="margin-left:<%= category.depth %>%;">
+	<%= link_to category.title, edit_category_path(category), :remote => true %>
+	<% category.children.each do |c| %>
+		<%= render :partial => "categoryItemTable", :locals => {:category => c } %>
+	<% end %>	
+</div>

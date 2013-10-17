@@ -1,0 +1,90 @@
+<%= form_for page do |f| %>
+	<div class="row"><h2>Page settings</h2></div>
+	<div class="row">
+		<div class="page new settings col-md-6">
+			<div class="form-group">
+				<label for="page_title">Title</label>
+				<%= f.text_field :title, :placeholder => "Title - e.g. 'Most Awesome Page Ever!'", :class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Slug</label>
+				<%= f.text_field :slug, :placeholder => "Slug - e.g. 'most-awesome-page-ever'", :class => "form-control" %>
+				<p class="help-block">Defines the page URL, instead of '/pages/:id' it will be '/pages/:slug'.</p>
+			</div>
+			<div class="form-group">
+				<label for="page_tag_list">Icon</label>
+				<%= f.text_field :icon,
+					:placeholder => "<i class='my-cool-icon'></i>", 
+					:class => "form-control" %>
+				<p class="help-block">Icon to be displayed before the page title.</p>
+			</div>
+			<div class="form-group">
+				<label for="page_tag_list">Tags</label>
+				<%= f.text_field :tag_list,
+					:placeholder => "Tags - e.g. 'awesome, cool, impressive'", 
+					:class => "form-control" %>
+				<p class="help-block">Tags that define this page, helps the search engines find content faster.</p>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="form-group">
+				<label for="page_title">Category</label>
+				<div class="clearfix"></div>
+				<div class="col-md-8" style="padding-left:0px;">
+					<select id="page_category_id" name="page[category_id]" class="form-control">
+					  	<option value="">No Category</option>
+						<% Category.roots.each do |opt|%>
+							<%= render :partial => "categories/categoryItemMenu", :locals => {:item => opt, :original => page.category } %>
+						<% end %>
+					</select>
+				</div>
+				<div class="col-md-4">
+					<%= link_to '<i class="icon-plus"></i> Add Category'.html_safe,
+						new_category_path,
+						:class => 'btn btn-default', 
+						:remote => true %>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Options</label>
+				<div class="clearfix"></div>
+				<div class="btn-group btn-toggle-group" data-toggle="buttons">
+				  	<label class="btn btn-default btn-toggle-group-item">
+				  	  	<%= f.check_box :isPublic %> Public
+				  	</label>
+				  	<label class="btn btn-default btn-toggle-group-item">
+				  	  	<%= f.check_box :isHidden %> Hidden
+				  	</label>
+				  	<label class="btn btn-default btn-toggle-group-item" id="previewCheckboxLable"
+				  		onclick='if($("#page_hasPreview").prop("checked")){$("#contentPreviewContainer").hide("fast");}else{$("#contentPreviewContainer").show("fast");};'>
+				  	  	<%= f.check_box :hasPreview %> Preview
+				  	</label>
+				</div>
+				<p class="help-block">	<u>Public</u> determines if a visitor can access this page.<br>
+										<u>Hidden</u> makes the page accessible but it is not displayed in the index.<br>
+										<u>Preview</u> uses the preview insted of the full site in the index.<br>
+			</div>
+			<div class="form-group" id="saveButtonGroup">
+				<button type="submit" class="btn btn-primary btn-large btn-block">
+				    	<i class="icon-ok"></i> Save
+				</button>
+			</div>			
+		</div>
+	</div>
+		
+
+	<div class="clearfix"></div>
+
+	<div id="contentPreviewContainer" style="<% if page.hasPreview != true %>display:none;<% end %>">
+		<h2>Content Preview</h2>
+		<%= f.cktext_area :contentPreview %>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div>
+		<h2>Content</h2>
+		<%= f.cktext_area :content %>
+	</div>
+<% end %>
