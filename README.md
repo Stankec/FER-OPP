@@ -8,7 +8,7 @@ Projekt iz kolegija Oblikovanje Programske Potpore na FERu
 Zadatak projekta:
  -- Izgubio samo dropbox link --
 
- ===
+===
  
  Korištene tehnologije:
   - Frontend Servera
