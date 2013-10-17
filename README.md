@@ -3,14 +3,12 @@ OPP
 
 Projekt iz kolegija Oblikovanje Programske Potpore na FERu
 
-===
-
 Zadatak projekta:
- -- Izgubio samo dropbox link --
-
 ===
+ -- Izgubio samo dropbox link --
  
- Korištene tehnologije:
+Korištene tehnologije:
+===
   - Frontend Servera
      - HTML
      - CSS
