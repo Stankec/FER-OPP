@@ -52,20 +52,9 @@
 	</script>
 </head>
 <body>
-
-	<div class="header">
-		<div class="title clearfix">
-			<h1>
-				<%= pageTitle %>
-			</h1>
-			<h4>
-				<%= Setting.first.pageDescription %>
-			</h4>
-		</div>
-	</div>
 	
 	<div style="height:53px;">
-		<nav class="navbar navbar-default navbar-inverse navbar-static-top" id="mainNavigation" role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-top" id="mainNavigation" role="navigation">
 			<div id="loadProgress"></div>
 			<div class="navbar-header">
 	          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -209,6 +198,18 @@
 	        </div>
 		</nav>
 	</div>
+
+	<div class="header">
+		<div class="title clearfix">
+			<h1>
+				<%= pageTitle %>
+			</h1>
+			<h4>
+				<%= Setting.first.pageDescription %>
+			</h4>
+		</div>
+	</div>
+	
 	
 
 	<%= yield %>
