@@ -1,6 +1,17 @@
 <% content_for :contextMenu do %>
-	<li><%= link_to '<i class="icon-plus"></i> Add Network'.html_safe, new_network_path, "data-no-turbolink" => false %></li>
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	      	<i class="icon-reorder icon-large"></i>
+		</a>
+	  	<ul class="dropdown-menu">
+	      	<li>
+	      		<%= link_to '<i class="icon-plus"></i> Dodaj Mrežu'.html_safe, new_network_path, "data-no-turbolink" => false %>
+	      	</li>
+		</ul>
+	</li>
 <% end %>
+<br>
 <div class="container">
 	<%= render :partial => "index", :locals => {:network => @network} %>
 </div>
+<br>

@@ -1,12 +1,14 @@
+<br>
 <div class="container">
 	<div class="row">
 		<%= render :partial => "new", :locals => {:network => @network} %>
 	</div>
 	<div class="row">
 		<div>
-			<%= link_to '<i class="icon-ok icon-white"></i> Save'.html_safe, "#", 
+			<%= link_to '<i class="icon-ok icon-white"></i> Pohrani'.html_safe, "#", 
 				:class => 'btn btn-primary', 
 				:onclick => '$(".new_network").submit()' %>
 		</div>
 	</div>
 </div>
+<br>

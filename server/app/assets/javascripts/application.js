@@ -25,5 +25,5 @@ NProgress.configure({
   	showSpinner: false,
   	ease: 'ease',
   	speed: 100,
-  	attachedTo: '#loadProgress'
+  	barColor: '#ff0000'
 });

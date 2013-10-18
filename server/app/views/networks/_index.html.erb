@@ -2,9 +2,9 @@
 	<table class="table table-striped">
 		<thead>
 			<tr>
-				<td style="width:10%">Icon</td>
-				<td>Name</td>
-				<td style="width:25%">Options</td>
+				<td style="width:10%">Ikona</td>
+				<td>Ime</td>
+				<td style="width:25%">Opcije</td>
 			</tr>
 		</thead>
 		<tbody>	
@@ -16,15 +16,15 @@
 					</td>
 					<td>
 						<div style="float:left;">
-							<%= link_to '<i class="icon-edit"></i> Edit'.html_safe, 
+							<%= link_to '<i class="icon-edit"></i> Izmjeni'.html_safe, 
 							        	edit_network_path(u),
 							        	:class => "btn btn-default" %>
 						</div>
 						<div style="float:left; margin-left:10px;">
-							<%= link_to '<i class="icon-trash"></i> Delete'.html_safe, 
+							<%= link_to '<i class="icon-trash"></i> Izbriši'.html_safe, 
 							        	network_path(u),
 							        	:method => "delete",
-							        	:confirm => "Are you sure you want to delete the network #{u.name}?",
+							        	:confirm => "Jeste li sigurni da želite izbrisati mrežu #{u.name}?",
 							        	:class => "btn btn-danger" %>
 						</div>
 					</td>

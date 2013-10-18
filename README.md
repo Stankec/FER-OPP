@@ -69,3 +69,6 @@ Korištene tehnologije:
      - MySQL (fallback)
      - Postgress SQL
   
+Organizacija Baze Podataka:
+===
+ - 

@@ -24,6 +24,10 @@
  	//fill: blue;
  }
 
+ body {
+  	margin-top: 53px;
+ }
+
  .colorPreview {
  	margin-left: 1%;
  	margin-right: 1%;

@@ -37,14 +37,9 @@ GEM
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
-    chunky_png (1.2.8)
     ckeditor (4.0.6)
       mime-types
       orm_adapter
-    climate_control (0.0.3)
-      activesupport (>= 3.0)
-    cocaine (0.5.2)
-      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -86,12 +81,7 @@ GEM
     mini_magick (3.6.0)
       subexec (~> 0.2.1)
     minitest (4.7.5)
-    miro (0.2.3)
-      cocaine
-      oily_png
     multi_json (1.8.1)
-    oily_png (1.1.0)
-      chunky_png (~> 1.2.7)
     orm_adapter (0.4.0)
     pg (0.17.0)
     polyglot (0.3.3)
@@ -172,7 +162,6 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   mini_magick
-  miro
   pg
   rails (= 4.0.0)
   rmagick

@@ -2,9 +2,9 @@
 	<thead>
 		<tr>
 			<td>ID</td>
-			<td>Name</td>
-			<td>Surname</td>
-			<td style="width:25%">Options</td>
+			<td>Ime</td>
+			<td>Prezime</td>
+			<td style="width:25%">Opcije</td>
 		</tr>
 	</thead>
 	<tbody>	
@@ -15,15 +15,15 @@
 				<td><%= u.nameLast %></td>
 				<td>
 					<div style="float:left;">
-						<%= link_to '<i class="icon-edit"></i> Edit'.html_safe, 
+						<%= link_to '<i class="icon-edit"></i> Izmjeni'.html_safe, 
 						        	edit_user_path(u),
 						        	:class => "btn btn-default" %>
 					</div>
 					<div style="float:left; margin-left:10px;">
-						<%= link_to '<i class="icon-trash"></i> Delete'.html_safe, 
+						<%= link_to '<i class="icon-trash"></i> Izbriši'.html_safe, 
 						        	user_path(u),
 						        	:method => "delete",
-						        	:confirm => "Are you sure you want to delete user #{u.nameFirst} #{u.nameLast}?",
+						        	:confirm => "Jeste li sigurni da želite izbrisati korisnika #{u.nameFirst} #{u.nameLast}?",
 						        	:class => "btn btn-danger" %>
 					</div>
 				</td>

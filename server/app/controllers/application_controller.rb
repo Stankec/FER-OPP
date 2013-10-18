@@ -22,8 +22,8 @@ class ApplicationController < ActionController::Base
   		end
       if Setting.first == nil
         settings = Setting.new
-        settings.pageTitle = "Automehanićarska radionica Đuro"
-        settings.pageDescription = "Popravljamo sve od gume do gepufne"
+        settings.pageTitle = "Mehaničar"
+        settings.pageDescription = "Popravljamo sve od gepufne do cinculatora"
         settings.save
       end
   	end # initial
