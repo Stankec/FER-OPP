@@ -51,7 +51,6 @@ Korištene tehnologije:
      - JavaScript
      - Coffee
      - jQuery
-     - Node.js
      - NProgress
      - Turbolinks
      - CKEditor
@@ -59,6 +58,7 @@ Korištene tehnologije:
      - Ruby
      - Ruby on Rails
      - Carierwave
+     - Node.js
      - bcrypt
      - Image Magic
      - RMagick
