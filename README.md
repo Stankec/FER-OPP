@@ -72,3 +72,7 @@ Korištene tehnologije:
 Organizacija Baze Podataka:
 ===
  - 
+ 
+Na ovom projektu su radili:
+===
+ - Stanko
