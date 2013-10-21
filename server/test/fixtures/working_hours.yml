@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  day: 1
+  timeStart: 2013-10-21 19:12:20
+  timeFinish: 2013-10-21 19:12:20
+  exception: false
+  exceptiondate: 2013-10-21
+
+two:
+  day: 1
+  timeStart: 2013-10-21 19:12:20
+  timeFinish: 2013-10-21 19:12:20
+  exception: false
+  exceptiondate: 2013-10-21

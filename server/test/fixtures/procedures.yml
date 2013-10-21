@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  minNumOfWorkers: 1
+  duration: 1.5
+  manHour: 1.5
+
+two:
+  name: MyString
+  description: MyText
+  minNumOfWorkers: 1
+  duration: 1.5
+  manHour: 1.5

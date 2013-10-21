@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131011211956) do
+ActiveRecord::Schema.define(version: 20131021142502) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -87,6 +87,12 @@ ActiveRecord::Schema.define(version: 20131011211956) do
 
   add_index "pages", ["category_id"], name: "index_pages_on_category_id"
 
+  create_table "roles", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "settings", force: true do |t|
     t.string   "pageTitle"
     t.text     "pageDescription"
@@ -112,6 +118,16 @@ ActiveRecord::Schema.define(version: 20131011211956) do
   create_table "tags", force: true do |t|
     t.string "name"
   end
+
+  create_table "user_roles", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "role_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "user_roles", ["role_id"], name: "index_user_roles_on_role_id"
+  add_index "user_roles", ["user_id"], name: "index_user_roles_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "nameFirst"
