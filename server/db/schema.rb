@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131021142502) do
+ActiveRecord::Schema.define(version: 20131021172108) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -37,6 +37,20 @@ ActiveRecord::Schema.define(version: 20131021142502) do
 
   add_index "ckeditor_assets", ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable"
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type"
+
+  create_table "clients", force: true do |t|
+    t.string   "nameFirst"
+    t.string   "nameLast"
+    t.string   "contactAdress"
+    t.string   "contactTelephone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "clients_vehicles", force: true do |t|
+    t.integer "client_id"
+    t.integer "vehicle_id"
+  end
 
   create_table "friendly_id_slugs", force: true do |t|
     t.string   "slug",                      null: false
@@ -70,6 +84,38 @@ ActiveRecord::Schema.define(version: 20131021142502) do
     t.datetime "updated_at"
   end
 
+  create_table "order_parts", force: true do |t|
+    t.integer  "order_id"
+    t.integer  "part_id"
+    t.float    "quantity"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "order_parts", ["order_id"], name: "index_order_parts_on_order_id"
+  add_index "order_parts", ["part_id"], name: "index_order_parts_on_part_id"
+
+  create_table "orders", force: true do |t|
+    t.integer  "client_id"
+    t.integer  "vehicle_id"
+    t.integer  "user_id"
+    t.text     "description"
+    t.integer  "status"
+    t.datetime "timeStart"
+    t.datetime "timeFinish"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "orders", ["client_id"], name: "index_orders_on_client_id"
+  add_index "orders", ["user_id"], name: "index_orders_on_user_id"
+  add_index "orders", ["vehicle_id"], name: "index_orders_on_vehicle_id"
+
+  create_table "orders_procedures", force: true do |t|
+    t.integer "order_id"
+    t.integer "procedure_id"
+  end
+
   create_table "pages", force: true do |t|
     t.string   "title"
     t.string   "slug"
@@ -87,10 +133,64 @@ ActiveRecord::Schema.define(version: 20131021142502) do
 
   add_index "pages", ["category_id"], name: "index_pages_on_category_id"
 
-  create_table "roles", force: true do |t|
-    t.string   "name"
+  create_table "part_procedures", force: true do |t|
+    t.integer  "part_id"
+    t.integer  "procedure_id"
+    t.float    "quantity"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  add_index "part_procedures", ["part_id"], name: "index_part_procedures_on_part_id"
+  add_index "part_procedures", ["procedure_id"], name: "index_part_procedures_on_procedure_id"
+
+  create_table "parts", force: true do |t|
+    t.string   "name"
+    t.integer  "quantity"
+    t.float    "price"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "procedures", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "minNumOfWorkers"
+    t.float    "duration"
+    t.float    "manHour"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles", force: true do |t|
+    t.string   "name"
+    t.boolean  "canViewUsers"
+    t.boolean  "canViewRoles"
+    t.boolean  "canViewOrders"
+    t.boolean  "canViewClients"
+    t.boolean  "canViewVehicles"
+    t.boolean  "canViewProcedures"
+    t.boolean  "canViewSettings"
+    t.boolean  "canViewParts"
+    t.boolean  "canViewworkingHours"
+    t.boolean  "canViewStatements"
+    t.boolean  "canChangeUsers"
+    t.boolean  "canChangeRoles"
+    t.boolean  "canChangeOrders"
+    t.boolean  "canChangeClients"
+    t.boolean  "canChangeVehicles"
+    t.boolean  "canChangeProcedures"
+    t.boolean  "canChangeSettings"
+    t.boolean  "canChangeParts"
+    t.boolean  "canChangeworkingHours"
+    t.boolean  "canChangeStatements"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles_users", force: true do |t|
+    t.integer "role_id"
+    t.integer "user_id"
   end
 
   create_table "settings", force: true do |t|
@@ -98,6 +198,14 @@ ActiveRecord::Schema.define(version: 20131021142502) do
     t.text     "pageDescription"
     t.integer  "pageFavicon_id"
     t.integer  "pagePreview_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "statements", force: true do |t|
+    t.integer  "type"
+    t.date     "statementDate"
+    t.float    "money"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -119,16 +227,6 @@ ActiveRecord::Schema.define(version: 20131021142502) do
     t.string "name"
   end
 
-  create_table "user_roles", force: true do |t|
-    t.integer  "user_id"
-    t.integer  "role_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "user_roles", ["role_id"], name: "index_user_roles_on_role_id"
-  add_index "user_roles", ["user_id"], name: "index_user_roles_on_user_id"
-
   create_table "users", force: true do |t|
     t.string   "nameFirst"
     t.string   "nameLast"
@@ -139,6 +237,24 @@ ActiveRecord::Schema.define(version: 20131021142502) do
     t.datetime "loginLast"
     t.string   "contactEmail"
     t.string   "contactPhone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "vehicles", force: true do |t|
+    t.string   "vehicleModel"
+    t.integer  "buildYear"
+    t.string   "vehicleRegistration"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "working_hours", force: true do |t|
+    t.integer  "day"
+    t.time     "timeStart"
+    t.time     "timeFinish"
+    t.boolean  "exception"
+    t.date     "exceptiondate"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
