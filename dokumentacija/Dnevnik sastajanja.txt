@@ -1,36 +1,36 @@
-Dnevnik sastajanja
+ï»¿Dnevnik sastajanja
 
 
 1. sastanak: Petak, 11. 10. 2013., 17:00 - 18:30 h
 
-Prisutni: Stanko Krtaliæ Rusendiæ, Zrinka Lekiæ, Marin Poganèiæ, Vlaho Poluta, Martin Sertiæ, Mirjam Škarica, Mateja Škriljak
+Prisutni: Stanko KrtaliÄ‡ RusendiÄ‡, Zrinka LekiÄ‡, Marin PoganÄiÄ‡, Vlaho Poluta, Martin SertiÄ‡, Mirjam Å karica, Mateja Å kriljak
 
-Sadraj sastanka: Zajedno smo prouèili tekst zadatka projekta i pokrenuli raspravu o naèinu implementacije. Raspravljali smo o moguæim problemima i nejasnoæama. Sastavili smo listu pitanja za asistenta i dogovorili se za konzultacije.
+SadrÅ¾aj sastanka: Zajedno smo prouÄili tekst zadatka projekta i pokrenuli raspravu o naÄinu implementacije. Raspravljali smo o moguÄ‡im problemima i nejasnoÄ‡ama. Sastavili smo listu pitanja za asistenta i dogovorili se za konzultacije.
 
-Rezultat: Odluèili smo implementirati rješenje koristeæi Ruby on Rails framework i PostgreSQL za upravljanje bazom podataka. Dogovorili smo prve konzultacije i planirali daljnje aktivnosti s posebnim naglaskom na raspodjelu poslova.
+Rezultat: OdluÄili smo implementirati rjeÅ¡enje koristeÄ‡i Ruby on Rails framework i PostgreSQL za upravljanje bazom podataka. Dogovorili smo prve konzultacije i planirali daljnje aktivnosti s posebnim naglaskom na raspodjelu poslova.
 
 
-2. sastanak: Èetvrtak, 17.10, 18:00 - 19:30
+2. sastanak: ÄŒetvrtak, 17.10, 18:00 - 19:30
 
-Prisutni: Stanko Krtaliæ Rusendiæ, Zrinka Lekiæ, Marin Poganèiæ, Vlaho Poluta, Martin Sertiæ, Mirjam Škarica, Mateja Škriljak
+Prisutni: Stanko KrtaliÄ‡ RusendiÄ‡, Zrinka LekiÄ‡, Marin PoganÄiÄ‡, Vlaho Poluta, Martin SertiÄ‡, Mirjam Å karica, Mateja Å kriljak
 
-Sadraj sastanka: Sastanak je bio neposredno nakon susreta s asistentom na konzultacijama te smo raspravili njegove upute. Dogovorili smo se oko podjele poslova.
+SadrÅ¾aj sastanka: Sastanak je bio neposredno nakon susreta s asistentom na konzultacijama te smo raspravili njegove upute. Dogovorili smo se oko podjele poslova.
 
 Rezultat: Napravili smo ER model baze podataka, obrazac upotrebe i sekvencijski dijagram. Napravili smo podjelu poslova vezanih za pisanje dokumentacije:
 
 Vlaho Poluta - dnevnik promjena
-Mirjam Škarica - opis projektnog zadatka
-Stanko Krtaliæ Rusendiæ - rjeènik pojmova, dijagram razreda i dijagram objekata
-Zrinka Lekiæ, Vlaho Poluta - funkcijski zahtjevi
-Martin Sertiæ - ostali zahtjevi, opis baza podataka
-Marin Poganèiæ - svrha, opæi prioriteti i skica sustava, opis dijagrama razreda
-Mateja Škriljak - o grafièkom suèelju, opis dijagrama objekata, dnevnik sastajanja
+Mirjam Å karica - opis projektnog zadatka
+Stanko KrtaliÄ‡ RusendiÄ‡ - rjeÄnik pojmova, dijagram razreda i dijagram objekata
+Zrinka LekiÄ‡, Vlaho Poluta - funkcijski zahtjevi
+Martin SertiÄ‡ - ostali zahtjevi, opis baza podataka
+Marin PoganÄiÄ‡ - svrha, opÄ‡i prioriteti i skica sustava, opis dijagrama razreda
+Mateja Å kriljak - o grafiÄkom suÄelju, opis dijagrama objekata, dnevnik sastajanja
 
 
 3. sastanak: Petak, 25. 10. 2013., 17:00 - 18:00
 
-Prisutni: Stanko Krtaliæ Rusendiæ, Zrinka Lekiæ, Marin Poganèiæ, Vlaho Poluta, Martin Sertiæ, Mirjam Škarica, Mateja Škriljak
+Prisutni: Stanko KrtaliÄ‡ RusendiÄ‡, Zrinka LekiÄ‡, Marin PoganÄiÄ‡, Vlaho Poluta, Martin SertiÄ‡, Mirjam Å karica, Mateja Å kriljak
 
-Sadraj sastanka: Ispravak ER modela baze podataka i dijagrama, otklanjanje nejasnoæa vezanih uz dijagrame.
+SadrÅ¾aj sastanka: Ispravak ER modela baze podataka i dijagrama, otklanjanje nejasnoÄ‡a vezanih uz dijagrame.
 
 Rezultat: Izrada dijagrama obrazaca uporabe i sekvencijskih dijagrama
