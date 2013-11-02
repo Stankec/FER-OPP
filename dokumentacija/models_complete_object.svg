@@ -18,7 +18,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="models_complete.svg">
+   sodipodi:docname="models_complete_object.svg">
   <metadata
      id="metadata980">
     <rdf:RDF>
@@ -41,2816 +41,3364 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1170"
-     inkscape:window-height="703"
+     inkscape:window-width="1440"
+     inkscape:window-height="852"
      id="namedview976"
      showgrid="false"
-     inkscape:zoom="0.87993989"
-     inkscape:cx="1663.75"
-     inkscape:cy="992.0765"
+     inkscape:zoom="0.62221146"
+     inkscape:cx="2020.1574"
+     inkscape:cy="590.75695"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <g
-     id="graph1"
-     class="graph"
-     transform="scale(1 1) rotate(0) translate(4 856)">
+     id="g3530"
+     class="node"
+     transform="translate(47.639345,618.71106)">
     <title
-       id="title5">models_diagram</title>
-    <polygon
-       fill="white"
-       stroke="white"
-       points="-4,5 -4,-856 2659,-856 2659,5 -4,5"
-       id="polygon7" />
-    <!-- _diagram_info -->
-    <g
-       id="node1"
-       class="node">
-      <title
-         id="title10">_diagram_info</title>
-    </g>
-    <!-- Category -->
-    <g
-       id="node2"
-       class="node">
-      <title
-         id="title23">Category</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="11.4946,-433.8 120.505,-433.8 "
-         id="polyline25" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M120.505,-433.8C126.505,-433.8 132.505,-439.8 132.505,-445.8"
-         id="path27" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="132.505,-445.8 132.505,-572.2 "
-         id="polyline29" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M132.505,-572.2C132.505,-578.2 126.505,-584.2 120.505,-584.2"
-         id="path31" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="120.505,-584.2 11.4946,-584.2 "
-         id="polyline33" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M11.4946,-584.2C5.49463,-584.2 -0.505371,-578.2 -0.505371,-572.2"
-         id="path35" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="-0.505371,-572.2 -0.505371,-445.8 "
-         id="polyline37" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M-0.505371,-445.8C-0.505371,-439.8 5.49463,-433.8 11.4946,-433.8"
-         id="path39" />
-      <text
-         text-anchor="middle"
-         x="66"
-         y="-566.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text41">Category</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="-0.505371,-559.4 132.505,-559.4 "
-         id="polyline43" />
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text45">id :integer</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text47">title :string</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text49">slug :string</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text51">icon :string</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text53">ancestry :string</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text55">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="7.49463"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text57">updated_at :datetime</text>
-    </g>
-    <!-- Ckeditor::Asset -->
-    <g
-       id="node3"
-       class="node">
-      <title
-         id="title60">Ckeditor::Asset</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="162.046,-400.2 295.954,-400.2 "
-         id="polyline62" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M295.954,-400.2C301.954,-400.2 307.954,-406.2 307.954,-412.2"
-         id="path64" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="307.954,-412.2 307.954,-605.8 "
-         id="polyline66" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M307.954,-605.8C307.954,-611.8 301.954,-617.8 295.954,-617.8"
-         id="path68" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="295.954,-617.8 162.046,-617.8 "
-         id="polyline70" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M162.046,-617.8C156.046,-617.8 150.046,-611.8 150.046,-605.8"
-         id="path72" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="150.046,-605.8 150.046,-412.2 "
-         id="polyline74" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M150.046,-412.2C150.046,-406.2 156.046,-400.2 162.046,-400.2"
-         id="path76" />
-      <text
-         text-anchor="middle"
-         x="229"
-         y="-599.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text78">Ckeditor::Asset</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="150.046,-593 307.954,-593 "
-         id="polyline80" />
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-575"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text82">id :integer</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-558.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text84">data_file_name :string</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text86">data_content_type :string</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text88">data_file_size :integer</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text90">assetable_id :integer</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text92">assetable_type :string</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text94">type :string</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text96">width :integer</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text98">height :integer</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-423.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text100">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="158.046"
-         y="-407"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text102">updated_at :datetime</text>
-    </g>
-    <!-- Ckeditor::AttachmentFile -->
-    <g
-       id="node4"
-       class="node">
-      <title
-         id="title105">Ckeditor::AttachmentFile</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="73.0688,-9.2 208.931,-9.2 "
-         id="polyline107" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M208.931,-9.2C214.931,-9.2 220.931,-15.2 220.931,-21.2"
-         id="path109" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="220.931,-21.2 220.931,-214.8 "
-         id="polyline111" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M220.931,-214.8C220.931,-220.8 214.931,-226.8 208.931,-226.8"
-         id="path113" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="208.931,-226.8 73.0688,-226.8 "
-         id="polyline115" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M73.0688,-226.8C67.0688,-226.8 61.0688,-220.8 61.0688,-214.8"
-         id="path117" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="61.0688,-214.8 61.0688,-21.2 "
-         id="polyline119" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M61.0688,-21.2C61.0688,-15.2 67.0688,-9.2 73.0688,-9.2"
-         id="path121" />
-      <text
-         text-anchor="middle"
-         x="141"
-         y="-208.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text123">Ckeditor::AttachmentFile</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="61.0688,-202 220.931,-202 "
-         id="polyline125" />
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-184"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text127">id :integer</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-167.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text129">data_file_name :string</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-150.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text131">data_content_type :string</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-133.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text133">data_file_size :integer</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-116.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text135">assetable_id :integer</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-100"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text137">assetable_type :string</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-83.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text139">type :string</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-66.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text141">width :integer</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-49.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text143">height :integer</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-32.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text145">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="69.0688"
-         y="-16"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text147">updated_at :datetime</text>
-    </g>
-    <!-- Ckeditor::Asset&#45;&gt;Ckeditor::AttachmentFile -->
-    <g
-       id="edge6"
-       class="edge">
-      <title
-         id="title150">Ckeditor::Asset-&gt;Ckeditor::AttachmentFile</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M204.604,-400.158C192.396,-346.195 177.658,-281.044 165.444,-227.051"
-         id="path152" />
-    </g>
-    <!-- Ckeditor::Picture -->
-    <g
-       id="node5"
-       class="node">
-      <title
-         id="title155">Ckeditor::Picture</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="251.046,-9.2 384.954,-9.2 "
-         id="polyline157" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M384.954,-9.2C390.954,-9.2 396.954,-15.2 396.954,-21.2"
-         id="path159" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="396.954,-21.2 396.954,-214.8 "
-         id="polyline161" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M396.954,-214.8C396.954,-220.8 390.954,-226.8 384.954,-226.8"
-         id="path163" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="384.954,-226.8 251.046,-226.8 "
-         id="polyline165" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M251.046,-226.8C245.046,-226.8 239.046,-220.8 239.046,-214.8"
-         id="path167" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="239.046,-214.8 239.046,-21.2 "
-         id="polyline169" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M239.046,-21.2C239.046,-15.2 245.046,-9.2 251.046,-9.2"
-         id="path171" />
-      <text
-         text-anchor="middle"
-         x="318"
-         y="-208.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text173">Ckeditor::Picture</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="239.046,-202 396.954,-202 "
-         id="polyline175" />
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-184"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text177">id :integer</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-167.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text179">data_file_name :string</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-150.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text181">data_content_type :string</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-133.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text183">data_file_size :integer</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-116.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text185">assetable_id :integer</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-100"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text187">assetable_type :string</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-83.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text189">type :string</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-66.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text191">width :integer</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-49.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text193">height :integer</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-32.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text195">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="247.046"
-         y="-16"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text197">updated_at :datetime</text>
-    </g>
-    <!-- Ckeditor::Asset&#45;&gt;Ckeditor::Picture -->
-    <g
-       id="edge8"
-       class="edge">
-      <title
-         id="title200">Ckeditor::Asset-&gt;Ckeditor::Picture</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M253.673,-400.158C266.02,-346.195 280.926,-281.044 293.279,-227.051"
-         id="path202" />
-    </g>
-    <!-- Client -->
-    <g
-       id="node6"
-       class="node">
-      <title
-         id="title205">Client</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="338.097,-433.8 467.903,-433.8 "
-         id="polyline207" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M467.903,-433.8C473.903,-433.8 479.903,-439.8 479.903,-445.8"
-         id="path209" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="479.903,-445.8 479.903,-572.2 "
-         id="polyline211" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M479.903,-572.2C479.903,-578.2 473.903,-584.2 467.903,-584.2"
-         id="path213" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="467.903,-584.2 338.097,-584.2 "
-         id="polyline215" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M338.097,-584.2C332.097,-584.2 326.097,-578.2 326.097,-572.2"
-         id="path217" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="326.097,-572.2 326.097,-445.8 "
-         id="polyline219" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M326.097,-445.8C326.097,-439.8 332.097,-433.8 338.097,-433.8"
-         id="path221" />
-      <text
-         text-anchor="middle"
-         x="403"
-         y="-566.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text223">Client</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="326.097,-559.4 479.903,-559.4 "
-         id="polyline225" />
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text227">id :integer</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text229">nameFirst :string</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text231">nameLast :string</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text233">contactAdress :string</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text235">contactTelephone :string</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text237">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="334.097"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text239">updated_at :datetime</text>
-    </g>
-    <!-- Image -->
-    <g
-       id="node7"
-       class="node">
-      <title
-         id="title242">Image</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="509.495,-433.8 618.505,-433.8 "
-         id="polyline244" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M618.505,-433.8C624.505,-433.8 630.505,-439.8 630.505,-445.8"
-         id="path246" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="630.505,-445.8 630.505,-572.2 "
-         id="polyline248" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M630.505,-572.2C630.505,-578.2 624.505,-584.2 618.505,-584.2"
-         id="path250" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="618.505,-584.2 509.495,-584.2 "
-         id="polyline252" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M509.495,-584.2C503.495,-584.2 497.495,-578.2 497.495,-572.2"
-         id="path254" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="497.495,-572.2 497.495,-445.8 "
-         id="polyline256" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M497.495,-445.8C497.495,-439.8 503.495,-433.8 509.495,-433.8"
-         id="path258" />
-      <text
-         text-anchor="middle"
-         x="564"
-         y="-566.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text260">Image</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="497.495,-559.4 630.505,-559.4 "
-         id="polyline262" />
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text264">id :integer</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text266">imageName :string</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text268">imageType :integer</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text270">path :string</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text272">isHidden :boolean</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text274">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="505.495"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text276">updated_at :datetime</text>
-    </g>
-    <!-- Network -->
-    <g
-       id="node8"
-       class="node">
-      <title
-         id="title279">Network</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="660.495,-425.4 769.505,-425.4 "
-         id="polyline281" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M769.505,-425.4C775.505,-425.4 781.505,-431.4 781.505,-437.4"
-         id="path283" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="781.505,-437.4 781.505,-580.6 "
-         id="polyline285" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M781.505,-580.6C781.505,-586.6 775.505,-592.6 769.505,-592.6"
-         id="path287" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="769.505,-592.6 660.495,-592.6 "
-         id="polyline289" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M660.495,-592.6C654.495,-592.6 648.495,-586.6 648.495,-580.6"
-         id="path291" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="648.495,-580.6 648.495,-437.4 "
-         id="polyline293" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M648.495,-437.4C648.495,-431.4 654.495,-425.4 660.495,-425.4"
-         id="path295" />
-      <text
-         text-anchor="middle"
-         x="715"
-         y="-574.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text297">Network</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="648.495,-567.8 781.505,-567.8 "
-         id="polyline299" />
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-549.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text301">id :integer</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text303">name :string</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text305">icon :string</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text307">link :string</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text309">hidden :boolean</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text311">showName :boolean</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text313">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="656.495"
-         y="-432.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text315">updated_at :datetime</text>
-    </g>
-    <!-- Order -->
-    <g
-       id="node9"
-       class="node">
-      <title
-         id="title318">Order</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="811.495,-408.6 920.505,-408.6 "
-         id="polyline320" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M920.505,-408.6C926.505,-408.6 932.505,-414.6 932.505,-420.6"
-         id="path322" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="932.505,-420.6 932.505,-597.4 "
-         id="polyline324" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M932.505,-597.4C932.505,-603.4 926.505,-609.4 920.505,-609.4"
-         id="path326" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="920.505,-609.4 811.495,-609.4 "
-         id="polyline328" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M811.495,-609.4C805.495,-609.4 799.495,-603.4 799.495,-597.4"
-         id="path330" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="799.495,-597.4 799.495,-420.6 "
-         id="polyline332" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M799.495,-420.6C799.495,-414.6 805.495,-408.6 811.495,-408.6"
-         id="path334" />
-      <text
-         text-anchor="middle"
-         x="866"
-         y="-591.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text336">Order</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="799.495,-584.6 932.505,-584.6 "
-         id="polyline338" />
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-566.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text340">id :integer</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-549.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text342">client_id :integer</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text344">vehicle_id :integer</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text346">user_id :integer</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text348">description :text</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text350">status :integer</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text352">timeStart :datetime</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text354">timeFinish :datetime</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-432.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text356">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="807.495"
-         y="-415.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text358">updated_at :datetime</text>
-    </g>
-    <!-- OrderPart -->
-    <g
-       id="node10"
-       class="node">
-      <title
-         id="title361">OrderPart</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="962.495,-442.2 1071.51,-442.2 "
-         id="polyline363" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1071.51,-442.2C1077.51,-442.2 1083.51,-448.2 1083.51,-454.2"
-         id="path365" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1083.51,-454.2 1083.51,-563.8 "
-         id="polyline367" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1083.51,-563.8C1083.51,-569.8 1077.51,-575.8 1071.51,-575.8"
-         id="path369" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1071.51,-575.8 962.495,-575.8 "
-         id="polyline371" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M962.495,-575.8C956.495,-575.8 950.495,-569.8 950.495,-563.8"
-         id="path373" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="950.495,-563.8 950.495,-454.2 "
-         id="polyline375" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M950.495,-454.2C950.495,-448.2 956.495,-442.2 962.495,-442.2"
-         id="path377" />
-      <text
-         text-anchor="middle"
-         x="1017"
-         y="-557.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text379">OrderPart</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="950.495,-551 1083.51,-551 "
-         id="polyline381" />
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text383">id :integer</text>
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text385">order_id :integer</text>
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text387">part_id :integer</text>
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text389">quantity :float</text>
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text391">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="958.495"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text393">updated_at :datetime</text>
-    </g>
-    <!-- Page -->
-    <g
-       id="node11"
-       class="node">
-      <title
-         id="title396">Page</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1113.49,-383.4 1222.51,-383.4 "
-         id="polyline398" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1222.51,-383.4C1228.51,-383.4 1234.51,-389.4 1234.51,-395.4"
-         id="path400" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1234.51,-395.4 1234.51,-622.6 "
-         id="polyline402" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1234.51,-622.6C1234.51,-628.6 1228.51,-634.6 1222.51,-634.6"
-         id="path404" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1222.51,-634.6 1113.49,-634.6 "
-         id="polyline406" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1113.49,-634.6C1107.49,-634.6 1101.49,-628.6 1101.49,-622.6"
-         id="path408" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1101.49,-622.6 1101.49,-395.4 "
-         id="polyline410" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1101.49,-395.4C1101.49,-389.4 1107.49,-383.4 1113.49,-383.4"
-         id="path412" />
-      <text
-         text-anchor="middle"
-         x="1168"
-         y="-616.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text414">Page</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1101.49,-609.8 1234.51,-609.8 "
-         id="polyline416" />
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-591.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text418">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-575"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text420">title :string</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-558.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text422">slug :string</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text424">ancestry :string</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text426">icon :string</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text428">content :text</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text430">contentPreview :text</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text432">isPublic :boolean</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text434">isHidden :boolean</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text436">hasPreview :boolean</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-423.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text438">category_id :integer</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-407"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text440">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1109.49"
-         y="-390.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text442">updated_at :datetime</text>
-    </g>
-    <!-- ActsAsTaggableOn::Tagging -->
-    <g
-       id="node32"
-       class="node">
-      <title
-         id="title445">ActsAsTaggableOn::Tagging</title>
-      <ellipse
-         fill="none"
-         stroke="black"
-         cx="1035"
-         cy="-118"
-         rx="123.097"
-         ry="18"
-         id="ellipse447"
-         d="m 1158.097,-118 c 0,9.94113 -55.1124,18 -123.097,18 -67.9846,0 -123.097,-8.05887 -123.097,-18 0,-9.94113 55.1124,-18 123.097,-18 67.9846,0 123.097,8.05887 123.097,18 z" />
-      <text
-         text-anchor="middle"
-         x="1035"
-         y="-112.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text449">ActsAsTaggableOn::Tagging</text>
-    </g>
-    <!-- Page&#45;&gt;ActsAsTaggableOn::Tagging -->
-    <g
-       id="edge24"
-       class="edge">
-      <title
-         id="title452">Page-&gt;ActsAsTaggableOn::Tagging</title>
-      <path
-         fill="none"
-         stroke="#a9f987"
-         d="M1143.42,-375.294C1132.19,-343.996 1115.82,-313.068 1092,-290 1072.75,-271.36 1050.33,-293.593 1034.46,-272 1007.48,-235.305 1016.88,-179.138 1026.03,-146.038"
-         id="path454" />
-      <ellipse
-         fill="none"
-         stroke="#a9f987"
-         cx="1144.87"
-         cy="-379.474"
-         rx="4.00001"
-         ry="4.00001"
-         id="ellipse456"
-         d="m 1148.87,-379.474 c 0,2.20915 -1.7909,4.00001 -4,4.00001 -2.2091,0 -4,-1.79086 -4,-4.00001 0,-2.20914 1.7909,-4.00001 4,-4.00001 2.2091,0 4,1.79087 4,4.00001 z" />
-      <polygon
-         fill="#a9f987"
-         stroke="#a9f987"
-         points="1026.12,-145.747 1033.27,-137.429 1027.54,-140.951 1028.95,-136.156 1028.95,-136.156 1028.95,-136.156 1027.54,-140.951 1024.63,-134.882 1026.12,-145.747 1026.12,-145.747"
-         id="polygon458" />
-      <text
-         text-anchor="middle"
-         x="1070.77"
-         y="-257.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text460">tag_taggings</text>
-    </g>
-    <!-- Page&#45;&gt;ActsAsTaggableOn::Tagging -->
-    <g
-       id="edge20"
-       class="edge">
-      <title
-         id="title463">Page-&gt;ActsAsTaggableOn::Tagging</title>
-      <path
-         fill="none"
-         stroke="#a630a3"
-         d="M1145.11,-375.289C1136.29,-335.585 1124.71,-292.412 1110,-254 1094.64,-213.909 1069.16,-171.156 1052.22,-144.755"
-         id="path465" />
-      <ellipse
-         fill="none"
-         stroke="#a630a3"
-         cx="1145.98"
-         cy="-379.274"
-         rx="4.00001"
-         ry="4.00001"
-         id="ellipse467"
-         d="m 1149.98,-379.27399 c 0,2.20915 -1.7909,4.00001 -4,4.00001 -2.2092,0 -4,-1.79086 -4,-4.00001 0,-2.20914 1.7908,-4.00001 4,-4.00001 2.2091,0 4,1.79087 4,4.00001 z" />
-      <polygon
-         fill="#a630a3"
-         stroke="#a630a3"
-         points="1052.06,-144.515 1050.39,-133.678 1049.34,-140.322 1046.61,-136.129 1046.61,-136.129 1046.61,-136.129 1049.34,-140.322 1042.84,-138.581 1052.06,-144.515 1052.06,-144.515"
-         id="polygon469" />
-      <text
-         text-anchor="middle"
-         x="1138.72"
-         y="-257.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text471">taggings</text>
-    </g>
-    <!-- ActsAsTaggableOn::Tag -->
-    <g
-       id="node34"
-       class="node">
-      <title
-         id="title474">ActsAsTaggableOn::Tag</title>
-      <ellipse
-         fill="none"
-         stroke="black"
-         cx="1283"
-         cy="-118"
-         rx="106.344"
-         ry="18"
-         id="ellipse476"
-         d="m 1389.344,-118 c 0,9.94113 -47.6118,18 -106.344,18 -58.7322,0 -106.344,-8.05887 -106.344,-18 0,-9.94113 47.6118,-18 106.344,-18 58.7322,0 106.344,8.05887 106.344,18 z" />
-      <text
-         text-anchor="middle"
-         x="1283"
-         y="-112.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text478">ActsAsTaggableOn::Tag</text>
-    </g>
-    <!-- Page&#45;&gt;ActsAsTaggableOn::Tag -->
-    <g
-       id="edge22"
-       class="edge">
-      <title
-         id="title481">Page-&gt;ActsAsTaggableOn::Tag</title>
-      <path
-         fill="none"
-         stroke="#98be34"
-         d="M1178.46,-372.965C1184.02,-333.862 1192.53,-291.599 1205.57,-254 1219.81,-212.947 1246.71,-170.197 1264.75,-144.083"
-         id="path483" />
-      <polygon
-         fill="#98be34"
-         stroke="#98be34"
-         points="1178.39,-373.459 1172.58,-382.758 1177.72,-378.413 1177.04,-383.367 1177.04,-383.367 1177.04,-383.367 1177.72,-378.413 1181.5,-383.976 1178.39,-373.459 1178.39,-373.459"
-         id="polygon485" />
-      <polygon
-         fill="#98be34"
-         stroke="#98be34"
-         points="1264.76,-144.078 1274.18,-138.476 1267.63,-139.984 1270.5,-135.891 1270.5,-135.891 1270.5,-135.891 1267.63,-139.984 1266.82,-133.307 1264.76,-144.078 1264.76,-144.078"
-         id="polygon487" />
-      <text
-         text-anchor="middle"
-         x="1233.21"
-         y="-257.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text489">base_tags</text>
-    </g>
-    <!-- Page&#45;&gt;ActsAsTaggableOn::Tag -->
-    <g
-       id="edge26"
-       class="edge">
-      <title
-         id="title492">Page-&gt;ActsAsTaggableOn::Tag</title>
-      <path
-         fill="none"
-         stroke="#827758"
-         d="M1204.15,-373.709C1214.58,-345.045 1227.46,-315.69 1243,-290 1248.7,-280.585 1255.18,-281.894 1260,-272 1279.77,-231.384 1283.49,-178.105 1283.72,-146.327"
-         id="path494" />
-      <polygon
-         fill="#827758"
-         stroke="#827758"
-         points="1204.05,-373.976 1196.46,-381.89 1202.38,-378.687 1200.7,-383.398 1200.7,-383.398 1200.7,-383.398 1202.38,-378.687 1204.94,-384.905 1204.05,-373.976 1204.05,-373.976"
-         id="polygon496" />
-      <polygon
-         fill="#827758"
-         stroke="#827758"
-         points="1283.72,-146.04 1288.17,-136.02 1283.69,-141.04 1283.67,-136.04 1283.67,-136.04 1283.67,-136.04 1283.69,-141.04 1279.17,-136.06 1283.72,-146.04 1283.72,-146.04"
-         id="polygon498" />
-      <text
-         text-anchor="middle"
-         x="1278.28"
-         y="-257.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text500">tags</text>
-    </g>
-    <!-- Part -->
-    <g
-       id="node12"
-       class="node">
-      <title
-         id="title503">Part</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1264.49,-442.2 1373.51,-442.2 "
-         id="polyline505" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1373.51,-442.2C1379.51,-442.2 1385.51,-448.2 1385.51,-454.2"
-         id="path507" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1385.51,-454.2 1385.51,-563.8 "
-         id="polyline509" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1385.51,-563.8C1385.51,-569.8 1379.51,-575.8 1373.51,-575.8"
-         id="path511" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1373.51,-575.8 1264.49,-575.8 "
-         id="polyline513" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1264.49,-575.8C1258.49,-575.8 1252.49,-569.8 1252.49,-563.8"
-         id="path515" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1252.49,-563.8 1252.49,-454.2 "
-         id="polyline517" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1252.49,-454.2C1252.49,-448.2 1258.49,-442.2 1264.49,-442.2"
-         id="path519" />
-      <text
-         text-anchor="middle"
-         x="1319"
-         y="-557.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text521">Part</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1252.49,-551 1385.51,-551 "
-         id="polyline523" />
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text525">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text527">name :string</text>
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text529">quantity :integer</text>
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text531">price :float</text>
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text533">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1260.49"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text535">updated_at :datetime</text>
-    </g>
-    <!-- PartProcedure -->
-    <g
-       id="node13"
-       class="node">
-      <title
-         id="title538">PartProcedure</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1415.94,-442.2 1528.06,-442.2 "
-         id="polyline540" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1528.06,-442.2C1534.06,-442.2 1540.06,-448.2 1540.06,-454.2"
-         id="path542" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1540.06,-454.2 1540.06,-563.8 "
-         id="polyline544" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1540.06,-563.8C1540.06,-569.8 1534.06,-575.8 1528.06,-575.8"
-         id="path546" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1528.06,-575.8 1415.94,-575.8 "
-         id="polyline548" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1415.94,-575.8C1409.94,-575.8 1403.94,-569.8 1403.94,-563.8"
-         id="path550" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1403.94,-563.8 1403.94,-454.2 "
-         id="polyline552" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1403.94,-454.2C1403.94,-448.2 1409.94,-442.2 1415.94,-442.2"
-         id="path554" />
-      <text
-         text-anchor="middle"
-         x="1472"
-         y="-557.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text556">PartProcedure</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1403.94,-551 1540.06,-551 "
-         id="polyline558" />
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text560">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text562">part_id :integer</text>
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text564">procedure_id :integer</text>
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text566">quantity :float</text>
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text568">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1411.94"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text570">updated_at :datetime</text>
-    </g>
-    <!-- Procedure -->
-    <g
-       id="node14"
-       class="node">
-      <title
-         id="title573">Procedure</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1570.05,-425.4 1719.95,-425.4 "
-         id="polyline575" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1719.95,-425.4C1725.95,-425.4 1731.95,-431.4 1731.95,-437.4"
-         id="path577" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1731.95,-437.4 1731.95,-580.6 "
-         id="polyline579" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1731.95,-580.6C1731.95,-586.6 1725.95,-592.6 1719.95,-592.6"
-         id="path581" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1719.95,-592.6 1570.05,-592.6 "
-         id="polyline583" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1570.05,-592.6C1564.05,-592.6 1558.05,-586.6 1558.05,-580.6"
-         id="path585" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1558.05,-580.6 1558.05,-437.4 "
-         id="polyline587" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1558.05,-437.4C1558.05,-431.4 1564.05,-425.4 1570.05,-425.4"
-         id="path589" />
-      <text
-         text-anchor="middle"
-         x="1645"
-         y="-574.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text591">Procedure</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1558.05,-567.8 1731.95,-567.8 "
-         id="polyline593" />
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-549.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text595">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text597">name :string</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text599">description :text</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text601">minNumOfWorkers :integer</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text603">duration :float</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text605">manHour :float</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text607">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1566.05"
-         y="-432.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text609">updated_at :datetime</text>
-    </g>
-    <!-- Role -->
-    <g
-       id="node15"
-       class="node">
-      <title
-         id="title612">Role</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1761.61,-291 1948.39,-291 "
-         id="polyline614" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1948.39,-291C1954.39,-291 1960.39,-297 1960.39,-303"
-         id="path616" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1960.39,-303 1960.39,-715 "
-         id="polyline618" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1960.39,-715C1960.39,-721 1954.39,-727 1948.39,-727"
-         id="path620" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1948.39,-727 1761.61,-727 "
-         id="polyline622" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1761.61,-727C1755.61,-727 1749.61,-721 1749.61,-715"
-         id="path624" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1749.61,-715 1749.61,-303 "
-         id="polyline626" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1749.61,-303C1749.61,-297 1755.61,-291 1761.61,-291"
-         id="path628" />
-      <text
-         text-anchor="middle"
-         x="1855"
-         y="-709"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text630">Role</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1749.61,-702.2 1960.39,-702.2 "
-         id="polyline632" />
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-684.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text634">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-667.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text636">name :string</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-650.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text638">canViewUsers :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-633.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text640">canViewRoles :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-617"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text642">canViewOrders :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-600.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text644">canViewClients :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-583.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text646">canViewVehicles :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-566.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text648">canViewProcedures :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-549.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text650">canViewSettings :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text652">canViewParts :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text654">canViewworkingHours :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text656">canViewStatements :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text658">canChangeUsers :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text660">canChangeRoles :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text662">canChangeOrders :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-432.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text664">canChangeClients :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-415.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text666">canChangeVehicles :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-398.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text668">canChangeProcedures :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-381.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text670">canChangeSettings :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-365"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text672">canChangeParts :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-348.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text674">canChangeworkingHours :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-331.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text676">canChangeStatements :boolean</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-314.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text678">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1757.61"
-         y="-297.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text680">updated_at :datetime</text>
-    </g>
-    <!-- User -->
-    <g
-       id="node18"
-       class="node">
-      <title
-         id="title683">User</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2125.75,-0.8 2268.25,-0.8 "
-         id="polyline685" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2268.25,-0.8C2274.25,-0.8 2280.25,-6.8 2280.25,-12.8"
-         id="path687" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2280.25,-12.8 2280.25,-223.2 "
-         id="polyline689" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2280.25,-223.2C2280.25,-229.2 2274.25,-235.2 2268.25,-235.2"
-         id="path691" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2268.25,-235.2 2125.75,-235.2 "
-         id="polyline693" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2125.75,-235.2C2119.75,-235.2 2113.75,-229.2 2113.75,-223.2"
-         id="path695" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2113.75,-223.2 2113.75,-12.8 "
-         id="polyline697" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2113.75,-12.8C2113.75,-6.8 2119.75,-0.8 2125.75,-0.8"
-         id="path699" />
-      <text
-         text-anchor="middle"
-         x="2197"
-         y="-217.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text701">User</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2113.75,-210.4 2280.25,-210.4 "
-         id="polyline703" />
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-192.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text705">id :integer</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-175.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text707">nameFirst :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-158.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text709">nameLast :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-142"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text711">loginUsername :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-125.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text713">loginPasswordHash :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-108.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text715">loginPasswordSalt :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-91.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text717">loginAuthToken :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-74.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text719">loginLast :datetime</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-58"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text721">contactEmail :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-41.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text723">contactPhone :string</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-24.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text725">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="2121.75"
-         y="-7.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text727">updated_at :datetime</text>
-    </g>
-    <!-- Role&#45;&gt;User -->
-    <g
-       id="edge36"
-       class="edge">
-      <title
-         id="title730">Role-&gt;User</title>
-      <path
-         fill="none"
-         stroke="#fb3c84"
-         d="M1966.66,-293.985C1967.77,-292.645 1968.88,-291.316 1970,-290 2008.31,-245 2060.47,-204.675 2105.13,-174.501"
-         id="path732" />
-      <polygon
-         fill="#fb3c84"
-         stroke="#fb3c84"
-         points="1966.65,-293.992 1956.88,-298.974 1963.52,-297.891 1960.39,-301.79 1960.39,-301.79 1960.39,-301.79 1963.52,-297.891 1963.9,-304.607 1966.65,-293.992 1966.65,-293.992"
-         id="polygon734" />
-      <polygon
-         fill="#fb3c84"
-         stroke="#fb3c84"
-         points="2105.35,-174.353 2116.16,-172.536 2109.5,-171.574 2113.66,-168.795 2113.66,-168.795 2113.66,-168.795 2109.5,-171.574 2111.16,-165.054 2105.35,-174.353 2105.35,-174.353"
-         id="polygon736" />
-    </g>
-    <!-- Setting -->
-    <g
-       id="node16"
-       class="node">
-      <title
-         id="title739">Setting</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1990.77,-433.8 2119.23,-433.8 "
-         id="polyline741" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2119.23,-433.8C2125.23,-433.8 2131.23,-439.8 2131.23,-445.8"
-         id="path743" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2131.23,-445.8 2131.23,-572.2 "
-         id="polyline745" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2131.23,-572.2C2131.23,-578.2 2125.23,-584.2 2119.23,-584.2"
-         id="path747" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2119.23,-584.2 1990.77,-584.2 "
-         id="polyline749" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1990.77,-584.2C1984.77,-584.2 1978.77,-578.2 1978.77,-572.2"
-         id="path751" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1978.77,-572.2 1978.77,-445.8 "
-         id="polyline753" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M1978.77,-445.8C1978.77,-439.8 1984.77,-433.8 1990.77,-433.8"
-         id="path755" />
-      <text
-         text-anchor="middle"
-         x="2055"
-         y="-566.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text757">Setting</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="1978.77,-559.4 2131.23,-559.4 "
-         id="polyline759" />
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-541.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text761">id :integer</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-524.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text763">pageTitle :string</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-507.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text765">pageDescription :text</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-491"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text767">pageFavicon_id :integer</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-474.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text769">pagePreview_id :integer</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-457.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text771">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="1986.77"
-         y="-440.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text773">updated_at :datetime</text>
-    </g>
-    <!-- Statement -->
-    <g
-       id="node17"
-       class="node">
-      <title
-         id="title776">Statement</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2161.49,-442.2 2270.51,-442.2 "
-         id="polyline778" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2270.51,-442.2C2276.51,-442.2 2282.51,-448.2 2282.51,-454.2"
-         id="path780" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2282.51,-454.2 2282.51,-563.8 "
-         id="polyline782" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2282.51,-563.8C2282.51,-569.8 2276.51,-575.8 2270.51,-575.8"
-         id="path784" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2270.51,-575.8 2161.49,-575.8 "
-         id="polyline786" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2161.49,-575.8C2155.49,-575.8 2149.49,-569.8 2149.49,-563.8"
-         id="path788" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2149.49,-563.8 2149.49,-454.2 "
-         id="polyline790" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2149.49,-454.2C2149.49,-448.2 2155.49,-442.2 2161.49,-442.2"
-         id="path792" />
-      <text
-         text-anchor="middle"
-         x="2216"
-         y="-557.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text794">Statement</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2149.49,-551 2282.51,-551 "
-         id="polyline796" />
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text798">id :integer</text>
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text800">type :integer</text>
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text802">statementDate :date</text>
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text804">money :float</text>
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text806">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="2157.49"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text808">updated_at :datetime</text>
-    </g>
-    <!-- Vehicle -->
-    <g
-       id="node19"
-       class="node">
-      <title
-         id="title811">Vehicle</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2350.93,-442.2 2491.07,-442.2 "
-         id="polyline813" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2491.07,-442.2C2497.07,-442.2 2503.07,-448.2 2503.07,-454.2"
-         id="path815" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2503.07,-454.2 2503.07,-563.8 "
-         id="polyline817" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2503.07,-563.8C2503.07,-569.8 2497.07,-575.8 2491.07,-575.8"
-         id="path819" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2491.07,-575.8 2350.93,-575.8 "
-         id="polyline821" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2350.93,-575.8C2344.93,-575.8 2338.93,-569.8 2338.93,-563.8"
-         id="path823" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2338.93,-563.8 2338.93,-454.2 "
-         id="polyline825" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2338.93,-454.2C2338.93,-448.2 2344.93,-442.2 2350.93,-442.2"
-         id="path827" />
-      <text
-         text-anchor="middle"
-         x="2421"
-         y="-557.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text829">Vehicle</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2338.93,-551 2503.07,-551 "
-         id="polyline831" />
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text833">id :integer</text>
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text835">vehicleModel :string</text>
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text837">buildYear :integer</text>
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text839">vehicleRegistration :string</text>
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text841">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="2346.93"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text843">updated_at :datetime</text>
-    </g>
-    <!-- WorkingHour -->
-    <g
-       id="node20"
-       class="node">
-      <title
-         id="title846">WorkingHour</title>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2533.49,-425.4 2642.51,-425.4 "
-         id="polyline848" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2642.51,-425.4C2648.51,-425.4 2654.51,-431.4 2654.51,-437.4"
-         id="path850" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2654.51,-437.4 2654.51,-580.6 "
-         id="polyline852" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2654.51,-580.6C2654.51,-586.6 2648.51,-592.6 2642.51,-592.6"
-         id="path854" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2642.51,-592.6 2533.49,-592.6 "
-         id="polyline856" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2533.49,-592.6C2527.49,-592.6 2521.49,-586.6 2521.49,-580.6"
-         id="path858" />
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2521.49,-580.6 2521.49,-437.4 "
-         id="polyline860" />
-      <path
-         fill="none"
-         stroke="black"
-         d="M2521.49,-437.4C2521.49,-431.4 2527.49,-425.4 2533.49,-425.4"
-         id="path862" />
-      <text
-         text-anchor="middle"
-         x="2588"
-         y="-574.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text864">WorkingHour</text>
-      <polyline
-         fill="none"
-         stroke="black"
-         points="2521.49,-567.8 2654.51,-567.8 "
-         id="polyline866" />
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-549.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text868">id :integer</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-533"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text870">day :integer</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-516.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text872">timeStart :time</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-499.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text874">timeFinish :time</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-482.6"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text876">exception :boolean</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-465.8"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text878">exceptiondate :date</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-449"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text880">created_at :datetime</text>
-      <text
-         text-anchor="start"
-         x="2529.49"
-         y="-432.2"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text882">updated_at :datetime</text>
-    </g>
-    <!-- ActiveRecord::Base -->
-    <g
-       id="node21"
-       class="node">
-      <title
-         id="title885">ActiveRecord::Base</title>
-      <ellipse
-         fill="none"
-         stroke="black"
-         cx="1319"
-         cy="-809"
-         rx="88.2033"
-         ry="18"
-         id="ellipse887"
-         d="m 1407.2033,-809 c 0,9.94113 -39.49,18 -88.2033,18 -48.7133,0 -88.2033,-8.05887 -88.2033,-18 0,-9.94113 39.49,-18 88.2033,-18 48.7133,0 88.2033,8.05887 88.2033,18 z" />
-      <text
-         text-anchor="middle"
-         x="1319"
-         y="-803.4"
-         font-family="Times,serif"
-         font-size="14.00"
-         id="text889">ActiveRecord::Base</text>
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Category -->
-    <g
-       id="edge2"
-       class="edge">
-      <title
-         id="title892">ActiveRecord::Base-&gt;Category</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1289.53,-791.837C1270.57,-782.341 1245.06,-771.208 1221,-766 1103.64,-740.597 235.775,-801.726 141,-728 97.3248,-694.025 78.9491,-633.168 71.2849,-584.372"
-         id="path894" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Ckeditor::Asset -->
-    <g
-       id="edge4"
-       class="edge">
-      <title
-         id="title897">ActiveRecord::Base-&gt;Ckeditor::Asset</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1289.52,-791.882C1270.56,-782.404 1245.05,-771.274 1221,-766 1122.8,-744.464 397.876,-787.716 317,-728 281.457,-701.756 260.238,-658.728 247.585,-617.802"
-         id="path899" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Client -->
-    <g
-       id="edge10"
-       class="edge">
-      <title
-         id="title902">ActiveRecord::Base-&gt;Client</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1289.51,-791.951C1270.54,-782.499 1245.03,-771.373 1221,-766 1141.41,-748.201 553.187,-777.006 488,-728 443.029,-694.192 421.838,-633.157 411.86,-584.251"
-         id="path904" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Image -->
-    <g
-       id="edge12"
-       class="edge">
-      <title
-         id="title907">ActiveRecord::Base-&gt;Image</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1289.06,-791.827C1270.13,-782.455 1244.82,-771.459 1221,-766 1157.83,-751.521 689.697,-768.366 639,-728 595.79,-693.595 577.372,-632.935 569.573,-584.323"
-         id="path909" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Network -->
-    <g
-       id="edge14"
-       class="edge">
-      <title
-         id="title912">ActiveRecord::Base-&gt;Network</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1288.57,-791.869C1269.66,-782.639 1244.55,-771.776 1221,-766 1127.62,-743.098 865.315,-787.77 790,-728 749.165,-695.593 730.468,-639.73 721.952,-592.668"
-         id="path914" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Order -->
-    <g
-       id="edge16"
-       class="edge">
-      <title
-         id="title917">ActiveRecord::Base-&gt;Order</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1287.57,-791.947C1268.72,-782.982 1244.01,-772.367 1221,-766 1160.48,-749.258 989.542,-767.832 941,-728 905.573,-698.929 886.833,-652.253 876.94,-609.535"
-         id="path919" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;OrderPart -->
-    <g
-       id="edge18"
-       class="edge">
-      <title
-         id="title922">ActiveRecord::Base-&gt;OrderPart</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1284.93,-792.219C1266.26,-783.874 1242.6,-773.777 1221,-766 1164.77,-745.748 1135.2,-769.304 1092,-728 1050.41,-688.24 1031.88,-624.395 1023.63,-576.05"
-         id="path924" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Page -->
-    <g
-       id="edge28"
-       class="edge">
-      <title
-         id="title927">ActiveRecord::Base-&gt;Page</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1299.04,-791.443C1282.07,-776.428 1258.11,-752.892 1243,-728 1225.66,-699.431 1211.65,-666.306 1200.65,-634.637"
-         id="path929" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Part -->
-    <g
-       id="edge30"
-       class="edge">
-      <title
-         id="title932">ActiveRecord::Base-&gt;Part</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1319,-790.69C1319,-749.76 1319,-645.26 1319,-575.963"
-         id="path934" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;PartProcedure -->
-    <g
-       id="edge32"
-       class="edge">
-      <title
-         id="title937">ActiveRecord::Base-&gt;PartProcedure</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1338.61,-791.345C1355.3,-776.267 1378.91,-752.695 1394,-728 1422.92,-680.662 1443.32,-621.012 1455.99,-576.08"
-         id="path939" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Procedure -->
-    <g
-       id="edge34"
-       class="edge">
-      <title
-         id="title942">ActiveRecord::Base-&gt;Procedure</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1390.82,-798.389C1440.57,-788.378 1505.43,-768.215 1549,-728 1587.75,-692.239 1611.71,-638.024 1626.01,-592.608"
-         id="path944" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Role -->
-    <g
-       id="edge38"
-       class="edge">
-      <title
-         id="title947">ActiveRecord::Base-&gt;Role</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1398.5,-801.118C1505.04,-790.531 1686.9,-767.25 1740,-728 1743.27,-725.584 1746.45,-723.046 1749.56,-720.4"
-         id="path949" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Setting -->
-    <g
-       id="edge40"
-       class="edge">
-      <title
-         id="title952">ActiveRecord::Base-&gt;Setting</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1407.44,-807.995C1564.41,-806.254 1883.25,-794.38 1969,-728 2013.4,-693.631 2034.92,-632.968 2045.33,-584.346"
-         id="path954" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Statement -->
-    <g
-       id="edge42"
-       class="edge">
-      <title
-         id="title957">ActiveRecord::Base-&gt;Statement</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1405.24,-804.829C1604.31,-796.775 2083.26,-772.914 2140,-728 2185.88,-691.68 2204.15,-625.882 2211.38,-576.042"
-         id="path959" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;User -->
-    <g
-       id="edge44"
-       class="edge">
-      <title
-         id="title962">ActiveRecord::Base-&gt;User</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1407.41,-807.472C1635.94,-805.183 2232.53,-792.98 2291,-728 2356.1,-655.644 2315.2,-384.276 2291,-290 2286.28,-271.625 2279.13,-253.106 2270.84,-235.386"
-         id="path964" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;Vehicle -->
-    <g
-       id="edge46"
-       class="edge">
-      <title
-         id="title967">ActiveRecord::Base-&gt;Vehicle</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1407.38,-808.057C1639.11,-807.467 2251.49,-800.865 2325,-748 2380.07,-708.394 2403.59,-631.717 2413.61,-576.072"
-         id="path969" />
-    </g>
-    <!-- ActiveRecord::Base&#45;&gt;WorkingHour -->
-    <g
-       id="edge48"
-       class="edge">
-      <title
-         id="title972">ActiveRecord::Base-&gt;WorkingHour</title>
-      <path
-         fill="none"
-         stroke="black"
-         d="M1407.31,-807.805C1668.82,-806.445 2426.38,-796.567 2512,-728 2552.67,-695.43 2571.63,-639.723 2580.45,-592.776"
-         id="path974" />
-    </g>
+       id="title3532">Category</title>
+    <polyline
+       points="11.4946,-433.8 120.505,-433.8 "
+       id="polyline3534"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 120.505,-433.8 c 6,0 12,-6 12,-12"
+       id="path3536"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="132.505,-445.8 132.505,-572.2 "
+       id="polyline3538"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 132.505,-572.2 c 0,-6 -6,-12 -12,-12"
+       id="path3540"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="120.505,-584.2 11.4946,-584.2 "
+       id="polyline3542"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 11.4946,-584.2 c -5.99997,0 -11.999971,6 -11.999971,12"
+       id="path3544"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="-0.505371,-572.2 -0.505371,-445.8 "
+       id="polyline3546"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m -0.505371,-445.8 c 0,6 6.000001,12 11.999971,12"
+       id="path3548"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="66"
+       y="-566.20001"
+       font-size="14.00"
+       id="text3550"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Category</text>
+    <polyline
+       points="-0.505371,-559.4 132.505,-559.4 "
+       id="polyline3552"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="7.4946299"
+       y="-541.40002"
+       font-size="14.00"
+       id="text3554"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="7.4946299"
+       y="-524.59998"
+       font-size="14.00"
+       id="text3556"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">title :string</text>
+    <text
+       x="7.4946299"
+       y="-507.79999"
+       font-size="14.00"
+       id="text3558"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">slug :string</text>
+    <text
+       x="7.4946299"
+       y="-491"
+       font-size="14.00"
+       id="text3560"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :string</text>
+    <text
+       x="7.4946299"
+       y="-474.20001"
+       font-size="14.00"
+       id="text3562"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">ancestry :string</text>
+    <text
+       x="7.4946299"
+       y="-457.39999"
+       font-size="14.00"
+       id="text3564"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="7.4946299"
+       y="-440.60001"
+       font-size="14.00"
+       id="text3566"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
   </g>
+  <g
+     id="g3568"
+     class="node"
+     transform="translate(-607.85998,1248.7541)">
+    <title
+       id="title3570">Network</title>
+    <polyline
+       points="660.495,-425.4 769.505,-425.4 "
+       id="polyline3572"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 769.505,-425.4 c 6,0 12,-6 12,-12"
+       id="path3574"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="781.505,-437.4 781.505,-580.6 "
+       id="polyline3576"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 781.505,-580.6 c 0,-6 -6,-12 -12,-12"
+       id="path3578"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="769.505,-592.6 660.495,-592.6 "
+       id="polyline3580"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 660.495,-592.6 c -6,0 -12,6 -12,12"
+       id="path3582"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="648.495,-580.6 648.495,-437.4 "
+       id="polyline3584"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 648.495,-437.4 c 0,6 6,12 12,12"
+       id="path3586"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="715"
+       y="-574.59998"
+       font-size="14.00"
+       id="text3588"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Network</text>
+    <polyline
+       points="648.495,-567.8 781.505,-567.8 "
+       id="polyline3590"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="656.495"
+       y="-549.79999"
+       font-size="14.00"
+       id="text3592"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="656.495"
+       y="-533"
+       font-size="14.00"
+       id="text3594"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+    <text
+       x="656.495"
+       y="-516.20001"
+       font-size="14.00"
+       id="text3596"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :string</text>
+    <text
+       x="656.495"
+       y="-499.39999"
+       font-size="14.00"
+       id="text3598"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">link :string</text>
+    <text
+       x="656.495"
+       y="-482.60001"
+       font-size="14.00"
+       id="text3600"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">hidden :boolean</text>
+    <text
+       x="656.495"
+       y="-465.79999"
+       font-size="14.00"
+       id="text3602"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">showName :boolean</text>
+    <text
+       x="656.495"
+       y="-449"
+       font-size="14.00"
+       id="text3604"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="656.495"
+       y="-432.20001"
+       font-size="14.00"
+       id="text3606"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g3608"
+     class="node"
+     transform="translate(681.31899,742.35587)">
+    <title
+       id="title3610">Role</title>
+    <polyline
+       points="1761.61,-291 1948.39,-291 "
+       id="polyline3612"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1948.39,-291 c 6,0 12,-6 12,-12"
+       id="path3614"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1960.39,-303 1960.39,-715 "
+       id="polyline3616"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1960.39,-715 c 0,-6 -6,-12 -12,-12"
+       id="path3618"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1948.39,-727 1761.61,-727 "
+       id="polyline3620"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1761.61,-727 c -6,0 -12,6 -12,12"
+       id="path3622"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1749.61,-715 1749.61,-303 "
+       id="polyline3624"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1749.61,-303 c 0,6 6,12 12,12"
+       id="path3626"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1855"
+       y="-709"
+       font-size="14.00"
+       id="text3628"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Role</text>
+    <polyline
+       points="1749.61,-702.2 1960.39,-702.2 "
+       id="polyline3630"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1757.61"
+       y="-684.20001"
+       font-size="14.00"
+       id="text3632"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="1757.61"
+       y="-667.40002"
+       font-size="14.00"
+       id="text3634"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+    <text
+       x="1757.61"
+       y="-650.59998"
+       font-size="14.00"
+       id="text3636"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewUsers :boolean</text>
+    <text
+       x="1757.61"
+       y="-633.79999"
+       font-size="14.00"
+       id="text3638"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewRoles :boolean</text>
+    <text
+       x="1757.61"
+       y="-617"
+       font-size="14.00"
+       id="text3640"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewOrders :boolean</text>
+    <text
+       x="1757.61"
+       y="-600.20001"
+       font-size="14.00"
+       id="text3642"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewClients :boolean</text>
+    <text
+       x="1757.61"
+       y="-583.40002"
+       font-size="14.00"
+       id="text3644"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewVehicles :boolean</text>
+    <text
+       x="1757.61"
+       y="-566.59998"
+       font-size="14.00"
+       id="text3646"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewProcedures :boolean</text>
+    <text
+       x="1757.61"
+       y="-549.79999"
+       font-size="14.00"
+       id="text3648"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewSettings :boolean</text>
+    <text
+       x="1757.61"
+       y="-533"
+       font-size="14.00"
+       id="text3650"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewParts :boolean</text>
+    <text
+       x="1757.61"
+       y="-516.20001"
+       font-size="14.00"
+       id="text3652"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewworkingHours :boolean</text>
+    <text
+       x="1757.61"
+       y="-499.39999"
+       font-size="14.00"
+       id="text3654"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewStatements :boolean</text>
+    <text
+       x="1757.61"
+       y="-482.60001"
+       font-size="14.00"
+       id="text3656"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeUsers :boolean</text>
+    <text
+       x="1757.61"
+       y="-465.79999"
+       font-size="14.00"
+       id="text3658"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeRoles :boolean</text>
+    <text
+       x="1757.61"
+       y="-449"
+       font-size="14.00"
+       id="text3660"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeOrders :boolean</text>
+    <text
+       x="1757.61"
+       y="-432.20001"
+       font-size="14.00"
+       id="text3662"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeClients :boolean</text>
+    <text
+       x="1757.61"
+       y="-415.39999"
+       font-size="14.00"
+       id="text3664"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeVehicles :boolean</text>
+    <text
+       x="1757.61"
+       y="-398.60001"
+       font-size="14.00"
+       id="text3666"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeProcedures :boolean</text>
+    <text
+       x="1757.61"
+       y="-381.79999"
+       font-size="14.00"
+       id="text3668"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeSettings :boolean</text>
+    <text
+       x="1757.61"
+       y="-365"
+       font-size="14.00"
+       id="text3670"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeParts :boolean</text>
+    <text
+       x="1757.61"
+       y="-348.20001"
+       font-size="14.00"
+       id="text3672"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeworkingHours :boolean</text>
+    <text
+       x="1757.61"
+       y="-331.39999"
+       font-size="14.00"
+       id="text3674"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeStatements :boolean</text>
+    <text
+       x="1757.61"
+       y="-314.60001"
+       font-size="14.00"
+       id="text3676"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="1757.61"
+       y="-297.79999"
+       font-size="14.00"
+       id="text3678"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g3680"
+     class="node"
+     transform="translate(318.56694,716.89959)">
+    <title
+       id="title3682">User</title>
+    <polyline
+       points="2125.75,-0.8 2268.25,-0.8 "
+       id="polyline3684"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2268.25,-0.8 c 6,0 12,-6 12,-12"
+       id="path3686"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2280.25,-12.8 2280.25,-223.2 "
+       id="polyline3688"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2280.25,-223.2 c 0,-6 -6,-12 -12,-12"
+       id="path3690"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2268.25,-235.2 2125.75,-235.2 "
+       id="polyline3692"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2125.75,-235.2 c -6,0 -12,6 -12,12"
+       id="path3694"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2113.75,-223.2 2113.75,-12.8 "
+       id="polyline3696"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2113.75,-12.8 c 0,6 6,12 12,12"
+       id="path3698"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2197"
+       y="-217.2"
+       font-size="14.00"
+       id="text3700"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">User</text>
+    <polyline
+       points="2113.75,-210.4 2280.25,-210.4 "
+       id="polyline3702"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2121.75"
+       y="-192.39999"
+       font-size="14.00"
+       id="text3704"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="2121.75"
+       y="-175.60001"
+       font-size="14.00"
+       id="text3706"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :string</text>
+    <text
+       x="2121.75"
+       y="-158.8"
+       font-size="14.00"
+       id="text3708"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :string</text>
+    <text
+       x="2121.75"
+       y="-142"
+       font-size="14.00"
+       id="text3710"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginUsername :string</text>
+    <text
+       x="2121.75"
+       y="-125.2"
+       font-size="14.00"
+       id="text3712"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordHash :string</text>
+    <text
+       x="2121.75"
+       y="-108.4"
+       font-size="14.00"
+       id="text3714"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordSalt :string</text>
+    <text
+       x="2121.75"
+       y="-91.599998"
+       font-size="14.00"
+       id="text3716"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginAuthToken :string</text>
+    <text
+       x="2121.75"
+       y="-74.800003"
+       font-size="14.00"
+       id="text3718"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginLast :datetime</text>
+    <text
+       x="2121.75"
+       y="-58"
+       font-size="14.00"
+       id="text3720"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactEmail :string</text>
+    <text
+       x="2121.75"
+       y="-41.200001"
+       font-size="14.00"
+       id="text3722"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactPhone :string</text>
+    <text
+       x="2121.75"
+       y="-24.4"
+       font-size="14.00"
+       id="text3724"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="2121.75"
+       y="-7.5999999"
+       font-size="14.00"
+       id="text3726"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     class="node"
+     id="node1"
+     transform="translate(4,856)">
+    <title
+       id="title10">_diagram_info</title>
+  </g>
+  <g
+     transform="translate(246.74385,618.71106)"
+     class="node"
+     id="node2">
+    <title
+       id="title23">Category</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline25"
+       points="11.4946,-433.8 120.505,-433.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path27"
+       d="m 120.505,-433.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline29"
+       points="132.505,-445.8 132.505,-572.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path31"
+       d="m 132.505,-572.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline33"
+       points="120.505,-584.2 11.4946,-584.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path35"
+       d="m 11.4946,-584.2 c -5.99997,0 -11.999971,6 -11.999971,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline37"
+       points="-0.505371,-572.2 -0.505371,-445.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path39"
+       d="m -0.505371,-445.8 c 0,6 6.000001,12 11.999971,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text41"
+       font-size="14.00"
+       y="-566.20001"
+       x="66">Category</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline43"
+       points="-0.505371,-559.4 132.505,-559.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text45"
+       font-size="14.00"
+       y="-541.40002"
+       x="7.4946299">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text47"
+       font-size="14.00"
+       y="-524.59998"
+       x="7.4946299">title :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text49"
+       font-size="14.00"
+       y="-507.79999"
+       x="7.4946299">slug :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text51"
+       font-size="14.00"
+       y="-491"
+       x="7.4946299">icon :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text53"
+       font-size="14.00"
+       y="-474.20001"
+       x="7.4946299">ancestry :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text55"
+       font-size="14.00"
+       y="-457.39999"
+       x="7.4946299">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text57"
+       font-size="14.00"
+       y="-440.60001"
+       x="7.4946299">updated_at :datetime</text>
+  </g>
+  <g
+     class="edge"
+     id="edge6"
+     transform="translate(4,856)">
+    <title
+       id="title150">Ckeditor::Asset-&gt;Ckeditor::AttachmentFile</title>
+  </g>
+  <g
+     class="edge"
+     id="edge8"
+     transform="translate(4,856)">
+    <title
+       id="title200">Ckeditor::Asset-&gt;Ckeditor::Picture</title>
+    <path
+       inkscape:connector-curvature="0"
+       id="path202"
+       d="m 253.673,-400.158 c 12.347,53.963 27.253,119.114 39.606,173.107" />
+  </g>
+  <g
+     transform="translate(1379.5485,604.16461)"
+     class="node"
+     id="node6">
+    <title
+       id="title205">Client</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline207"
+       points="338.097,-433.8 467.903,-433.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path209"
+       d="m 467.903,-433.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline211"
+       points="479.903,-445.8 479.903,-572.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path213"
+       d="m 479.903,-572.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline215"
+       points="467.903,-584.2 338.097,-584.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path217"
+       d="m 338.097,-584.2 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline219"
+       points="326.097,-572.2 326.097,-445.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path221"
+       d="m 326.097,-445.8 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text223"
+       font-size="14.00"
+       y="-566.20001"
+       x="403">Client</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline225"
+       points="326.097,-559.4 479.903,-559.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text227"
+       font-size="14.00"
+       y="-541.40002"
+       x="334.09698">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text229"
+       font-size="14.00"
+       y="-524.59998"
+       x="334.09698">nameFirst :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text231"
+       font-size="14.00"
+       y="-507.79999"
+       x="334.09698">nameLast :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text233"
+       font-size="14.00"
+       y="-491"
+       x="334.09698">contactAdress :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text235"
+       font-size="14.00"
+       y="-474.20001"
+       x="334.09698">contactTelephone :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text237"
+       font-size="14.00"
+       y="-457.39999"
+       x="334.09698">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text239"
+       font-size="14.00"
+       y="-440.60001"
+       x="334.09698">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(311.18287,880.46948)"
+     class="node"
+     id="node7">
+    <title
+       id="title242">Image</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline244"
+       points="509.495,-433.8 618.505,-433.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path246"
+       d="m 618.505,-433.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline248"
+       points="630.505,-445.8 630.505,-572.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path250"
+       d="m 630.505,-572.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline252"
+       points="618.505,-584.2 509.495,-584.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path254"
+       d="m 509.495,-584.2 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline256"
+       points="497.495,-572.2 497.495,-445.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path258"
+       d="m 497.495,-445.8 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text260"
+       font-size="14.00"
+       y="-566.20001"
+       x="564">Image</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline262"
+       points="497.495,-559.4 630.505,-559.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text264"
+       font-size="14.00"
+       y="-541.40002"
+       x="505.495">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text266"
+       font-size="14.00"
+       y="-524.59998"
+       x="505.495">imageName :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text268"
+       font-size="14.00"
+       y="-507.79999"
+       x="505.495">imageType :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text270"
+       font-size="14.00"
+       y="-491"
+       x="505.495">path :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text272"
+       font-size="14.00"
+       y="-474.20001"
+       x="505.495">isHidden :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text274"
+       font-size="14.00"
+       y="-457.39999"
+       x="505.495">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text276"
+       font-size="14.00"
+       y="-440.60001"
+       x="505.495">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-450.57651,1248.7541)"
+     class="node"
+     id="node8">
+    <title
+       id="title279">Network</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline281"
+       points="660.495,-425.4 769.505,-425.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path283"
+       d="m 769.505,-425.4 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline285"
+       points="781.505,-437.4 781.505,-580.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path287"
+       d="m 781.505,-580.6 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline289"
+       points="769.505,-592.6 660.495,-592.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path291"
+       d="m 660.495,-592.6 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline293"
+       points="648.495,-580.6 648.495,-437.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path295"
+       d="m 648.495,-437.4 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text297"
+       font-size="14.00"
+       y="-574.59998"
+       x="715">Network</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline299"
+       points="648.495,-567.8 781.505,-567.8 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text301"
+       font-size="14.00"
+       y="-549.79999"
+       x="656.495">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text303"
+       font-size="14.00"
+       y="-533"
+       x="656.495">name :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text305"
+       font-size="14.00"
+       y="-516.20001"
+       x="656.495">icon :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text307"
+       font-size="14.00"
+       y="-499.39999"
+       x="656.495">link :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text309"
+       font-size="14.00"
+       y="-482.60001"
+       x="656.495">hidden :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text311"
+       font-size="14.00"
+       y="-465.79999"
+       x="656.495">showName :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text313"
+       font-size="14.00"
+       y="-449"
+       x="656.495">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text315"
+       font-size="14.00"
+       y="-432.20001"
+       x="656.495">updated_at :datetime</text>
+  </g>
+  <g
+     class="node"
+     id="node9"
+     transform="translate(414.35107,1054.9145)">
+    <title
+       id="title318">Order</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline320"
+       points="811.495,-408.6 920.505,-408.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path322"
+       d="m 920.505,-408.6 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline324"
+       points="932.505,-420.6 932.505,-597.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path326"
+       d="m 932.505,-597.4 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline328"
+       points="920.505,-609.4 811.495,-609.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path330"
+       d="m 811.495,-609.4 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline332"
+       points="799.495,-597.4 799.495,-420.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path334"
+       d="m 799.495,-420.6 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text336"
+       font-size="14.00"
+       y="-591.40002"
+       x="866">Order</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline338"
+       points="799.495,-584.6 932.505,-584.6 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text340"
+       font-size="14.00"
+       y="-566.59998"
+       x="807.495">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text342"
+       font-size="14.00"
+       y="-549.79999"
+       x="807.495">client_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text344"
+       font-size="14.00"
+       y="-533"
+       x="807.495">vehicle_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text346"
+       font-size="14.00"
+       y="-516.20001"
+       x="807.495">user_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text348"
+       font-size="14.00"
+       y="-499.39999"
+       x="807.495">description :text</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text350"
+       font-size="14.00"
+       y="-482.60001"
+       x="807.495">status :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text352"
+       font-size="14.00"
+       y="-465.79999"
+       x="807.495">timeStart :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text354"
+       font-size="14.00"
+       y="-449"
+       x="807.495">timeFinish :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text356"
+       font-size="14.00"
+       y="-432.20001"
+       x="807.495">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text358"
+       font-size="14.00"
+       y="-415.39999"
+       x="807.495">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(67.781024,1250.1369)"
+     class="node"
+     id="node10">
+    <title
+       id="title361">OrderPart</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline363"
+       points="962.495,-442.2 1071.51,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path365"
+       d="m 1071.51,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline367"
+       points="1083.51,-454.2 1083.51,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path369"
+       d="m 1083.51,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline371"
+       points="1071.51,-575.8 962.495,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path373"
+       d="m 962.495,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline375"
+       points="950.495,-563.8 950.495,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path377"
+       d="m 950.495,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text379"
+       font-size="14.00"
+       y="-557.79999"
+       x="1017">OrderPart</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline381"
+       points="950.495,-551 1083.51,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text383"
+       font-size="14.00"
+       y="-533"
+       x="958.495">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text385"
+       font-size="14.00"
+       y="-516.20001"
+       x="958.495">order_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text387"
+       font-size="14.00"
+       y="-499.39999"
+       x="958.495">part_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text389"
+       font-size="14.00"
+       y="-482.60001"
+       x="958.495">quantity :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text391"
+       font-size="14.00"
+       y="-465.79999"
+       x="958.495">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text393"
+       font-size="14.00"
+       y="-449"
+       x="958.495">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-856.9679,856)"
+     class="node"
+     id="node11">
+    <title
+       id="title396">Page</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline398"
+       points="1113.49,-383.4 1222.51,-383.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path400"
+       d="m 1222.51,-383.4 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline402"
+       points="1234.51,-395.4 1234.51,-622.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path404"
+       d="m 1234.51,-622.6 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline406"
+       points="1222.51,-634.6 1113.49,-634.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path408"
+       d="m 1113.49,-634.6 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline410"
+       points="1101.49,-622.6 1101.49,-395.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path412"
+       d="m 1101.49,-395.4 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text414"
+       font-size="14.00"
+       y="-616.59998"
+       x="1168">Page</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline416"
+       points="1101.49,-609.8 1234.51,-609.8 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text418"
+       font-size="14.00"
+       y="-591.79999"
+       x="1109.49">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text420"
+       font-size="14.00"
+       y="-575"
+       x="1109.49">title :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text422"
+       font-size="14.00"
+       y="-558.20001"
+       x="1109.49">slug :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text424"
+       font-size="14.00"
+       y="-541.40002"
+       x="1109.49">ancestry :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text426"
+       font-size="14.00"
+       y="-524.59998"
+       x="1109.49">icon :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text428"
+       font-size="14.00"
+       y="-507.79999"
+       x="1109.49">content :text</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text430"
+       font-size="14.00"
+       y="-491"
+       x="1109.49">contentPreview :text</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text432"
+       font-size="14.00"
+       y="-474.20001"
+       x="1109.49">isPublic :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text434"
+       font-size="14.00"
+       y="-457.39999"
+       x="1109.49">isHidden :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text436"
+       font-size="14.00"
+       y="-440.60001"
+       x="1109.49">hasPreview :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text438"
+       font-size="14.00"
+       y="-423.79999"
+       x="1109.49">category_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text440"
+       font-size="14.00"
+       y="-407"
+       x="1109.49">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text442"
+       font-size="14.00"
+       y="-390.20001"
+       x="1109.49">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-445.98561,1061.1964)"
+     class="node"
+     id="node12">
+    <title
+       id="title503">Part</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline505"
+       points="1264.49,-442.2 1373.51,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path507"
+       d="m 1373.51,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline509"
+       points="1385.51,-454.2 1385.51,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path511"
+       d="m 1385.51,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline513"
+       points="1373.51,-575.8 1264.49,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path515"
+       d="m 1264.49,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline517"
+       points="1252.49,-563.8 1252.49,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path519"
+       d="m 1252.49,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text521"
+       font-size="14.00"
+       y="-557.79999"
+       x="1319">Part</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline523"
+       points="1252.49,-551 1385.51,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text525"
+       font-size="14.00"
+       y="-533"
+       x="1260.49">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text527"
+       font-size="14.00"
+       y="-516.20001"
+       x="1260.49">name :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text529"
+       font-size="14.00"
+       y="-499.39999"
+       x="1260.49">quantity :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text531"
+       font-size="14.00"
+       y="-482.60001"
+       x="1260.49">price :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text533"
+       font-size="14.00"
+       y="-465.79999"
+       x="1260.49">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text535"
+       font-size="14.00"
+       y="-449"
+       x="1260.49">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-782.42575,1059.4251)"
+     class="node"
+     id="node13">
+    <title
+       id="title538">PartProcedure</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline540"
+       points="1415.94,-442.2 1528.06,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path542"
+       d="m 1528.06,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline544"
+       points="1540.06,-454.2 1540.06,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path546"
+       d="m 1540.06,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline548"
+       points="1528.06,-575.8 1415.94,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path550"
+       d="m 1415.94,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline552"
+       points="1403.94,-563.8 1403.94,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path554"
+       d="m 1403.94,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text556"
+       font-size="14.00"
+       y="-557.79999"
+       x="1472">PartProcedure</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline558"
+       points="1403.94,-551 1540.06,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text560"
+       font-size="14.00"
+       y="-533"
+       x="1411.9399">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text562"
+       font-size="14.00"
+       y="-516.20001"
+       x="1411.9399">part_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text564"
+       font-size="14.00"
+       y="-499.39999"
+       x="1411.9399">procedure_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text566"
+       font-size="14.00"
+       y="-482.60001"
+       x="1411.9399">quantity :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text568"
+       font-size="14.00"
+       y="-465.79999"
+       x="1411.9399">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text570"
+       font-size="14.00"
+       y="-449"
+       x="1411.9399">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-1157.4537,1145.4134)"
+     class="node"
+     id="node14">
+    <title
+       id="title573">Procedure</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline575"
+       points="1570.05,-425.4 1719.95,-425.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path577"
+       d="m 1719.95,-425.4 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline579"
+       points="1731.95,-437.4 1731.95,-580.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path581"
+       d="m 1731.95,-580.6 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline583"
+       points="1719.95,-592.6 1570.05,-592.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path585"
+       d="m 1570.05,-592.6 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline587"
+       points="1558.05,-580.6 1558.05,-437.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path589"
+       d="m 1558.05,-437.4 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text591"
+       font-size="14.00"
+       y="-574.59998"
+       x="1645">Procedure</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline593"
+       points="1558.05,-567.8 1731.95,-567.8 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text595"
+       font-size="14.00"
+       y="-549.79999"
+       x="1566.05">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text597"
+       font-size="14.00"
+       y="-533"
+       x="1566.05">name :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text599"
+       font-size="14.00"
+       y="-516.20001"
+       x="1566.05">description :text</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text601"
+       font-size="14.00"
+       y="-499.39999"
+       x="1566.05">minNumOfWorkers :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text603"
+       font-size="14.00"
+       y="-482.60001"
+       x="1566.05">duration :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text605"
+       font-size="14.00"
+       y="-465.79999"
+       x="1566.05">manHour :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text607"
+       font-size="14.00"
+       y="-449"
+       x="1566.05">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text609"
+       font-size="14.00"
+       y="-432.20001"
+       x="1566.05">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(404.02732,742.35587)"
+     class="node"
+     id="node15">
+    <title
+       id="title612">Role</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline614"
+       points="1761.61,-291 1948.39,-291 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path616"
+       d="m 1948.39,-291 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline618"
+       points="1960.39,-303 1960.39,-715 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path620"
+       d="m 1960.39,-715 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline622"
+       points="1948.39,-727 1761.61,-727 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path624"
+       d="m 1761.61,-727 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline626"
+       points="1749.61,-715 1749.61,-303 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path628"
+       d="m 1749.61,-303 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text630"
+       font-size="14.00"
+       y="-709"
+       x="1855">Role</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline632"
+       points="1749.61,-702.2 1960.39,-702.2 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text634"
+       font-size="14.00"
+       y="-684.20001"
+       x="1757.61">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text636"
+       font-size="14.00"
+       y="-667.40002"
+       x="1757.61">name :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text638"
+       font-size="14.00"
+       y="-650.59998"
+       x="1757.61">canViewUsers :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text640"
+       font-size="14.00"
+       y="-633.79999"
+       x="1757.61">canViewRoles :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text642"
+       font-size="14.00"
+       y="-617"
+       x="1757.61">canViewOrders :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text644"
+       font-size="14.00"
+       y="-600.20001"
+       x="1757.61">canViewClients :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text646"
+       font-size="14.00"
+       y="-583.40002"
+       x="1757.61">canViewVehicles :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text648"
+       font-size="14.00"
+       y="-566.59998"
+       x="1757.61">canViewProcedures :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text650"
+       font-size="14.00"
+       y="-549.79999"
+       x="1757.61">canViewSettings :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text652"
+       font-size="14.00"
+       y="-533"
+       x="1757.61">canViewParts :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text654"
+       font-size="14.00"
+       y="-516.20001"
+       x="1757.61">canViewworkingHours :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text656"
+       font-size="14.00"
+       y="-499.39999"
+       x="1757.61">canViewStatements :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text658"
+       font-size="14.00"
+       y="-482.60001"
+       x="1757.61">canChangeUsers :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text660"
+       font-size="14.00"
+       y="-465.79999"
+       x="1757.61">canChangeRoles :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text662"
+       font-size="14.00"
+       y="-449"
+       x="1757.61">canChangeOrders :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text664"
+       font-size="14.00"
+       y="-432.20001"
+       x="1757.61">canChangeClients :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text666"
+       font-size="14.00"
+       y="-415.39999"
+       x="1757.61">canChangeVehicles :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text668"
+       font-size="14.00"
+       y="-398.60001"
+       x="1757.61">canChangeProcedures :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text670"
+       font-size="14.00"
+       y="-381.79999"
+       x="1757.61">canChangeSettings :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text672"
+       font-size="14.00"
+       y="-365"
+       x="1757.61">canChangeParts :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text674"
+       font-size="14.00"
+       y="-348.20001"
+       x="1757.61">canChangeworkingHours :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text676"
+       font-size="14.00"
+       y="-331.39999"
+       x="1757.61">canChangeStatements :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text678"
+       font-size="14.00"
+       y="-314.60001"
+       x="1757.61">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text680"
+       font-size="14.00"
+       y="-297.79999"
+       x="1757.61">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(41.275272,716.89959)"
+     class="node"
+     id="node18">
+    <title
+       id="title683">User</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline685"
+       points="2125.75,-0.8 2268.25,-0.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path687"
+       d="m 2268.25,-0.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline689"
+       points="2280.25,-12.8 2280.25,-223.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path691"
+       d="m 2280.25,-223.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline693"
+       points="2268.25,-235.2 2125.75,-235.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path695"
+       d="m 2125.75,-235.2 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline697"
+       points="2113.75,-223.2 2113.75,-12.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path699"
+       d="m 2113.75,-12.8 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text701"
+       font-size="14.00"
+       y="-217.2"
+       x="2197">User</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline703"
+       points="2113.75,-210.4 2280.25,-210.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text705"
+       font-size="14.00"
+       y="-192.39999"
+       x="2121.75">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text707"
+       font-size="14.00"
+       y="-175.60001"
+       x="2121.75">nameFirst :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text709"
+       font-size="14.00"
+       y="-158.8"
+       x="2121.75">nameLast :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text711"
+       font-size="14.00"
+       y="-142"
+       x="2121.75">loginUsername :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text713"
+       font-size="14.00"
+       y="-125.2"
+       x="2121.75">loginPasswordHash :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text715"
+       font-size="14.00"
+       y="-108.4"
+       x="2121.75">loginPasswordSalt :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text717"
+       font-size="14.00"
+       y="-91.599998"
+       x="2121.75">loginAuthToken :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text719"
+       font-size="14.00"
+       y="-74.800003"
+       x="2121.75">loginLast :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text721"
+       font-size="14.00"
+       y="-58"
+       x="2121.75">contactEmail :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text723"
+       font-size="14.00"
+       y="-41.200001"
+       x="2121.75">contactPhone :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text725"
+       font-size="14.00"
+       y="-24.4"
+       x="2121.75">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text727"
+       font-size="14.00"
+       y="-7.5999999"
+       x="2121.75">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-1942.4966,1037.8306)"
+     class="node"
+     id="node16">
+    <title
+       id="title739">Setting</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline741"
+       points="1990.77,-433.8 2119.23,-433.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path743"
+       d="m 2119.23,-433.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline745"
+       points="2131.23,-445.8 2131.23,-572.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path747"
+       d="m 2131.23,-572.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline749"
+       points="2119.23,-584.2 1990.77,-584.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path751"
+       d="m 1990.77,-584.2 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline753"
+       points="1978.77,-572.2 1978.77,-445.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path755"
+       d="m 1978.77,-445.8 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text757"
+       font-size="14.00"
+       y="-566.20001"
+       x="2055">Setting</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline759"
+       points="1978.77,-559.4 2131.23,-559.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text761"
+       font-size="14.00"
+       y="-541.40002"
+       x="1986.77">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text763"
+       font-size="14.00"
+       y="-524.59998"
+       x="1986.77">pageTitle :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text765"
+       font-size="14.00"
+       y="-507.79999"
+       x="1986.77">pageDescription :text</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text767"
+       font-size="14.00"
+       y="-491"
+       x="1986.77">pageFavicon_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text769"
+       font-size="14.00"
+       y="-474.20001"
+       x="1986.77">pagePreview_id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text771"
+       font-size="14.00"
+       y="-457.39999"
+       x="1986.77">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text773"
+       font-size="14.00"
+       y="-440.60001"
+       x="1986.77">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-1653.2253,625.09081)"
+     class="node"
+     id="node17">
+    <title
+       id="title776">Statement</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline778"
+       points="2161.49,-442.2 2270.51,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path780"
+       d="m 2270.51,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline782"
+       points="2282.51,-454.2 2282.51,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path784"
+       d="m 2282.51,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline786"
+       points="2270.51,-575.8 2161.49,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path788"
+       d="m 2161.49,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline790"
+       points="2149.49,-563.8 2149.49,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path792"
+       d="m 2149.49,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text794"
+       font-size="14.00"
+       y="-557.79999"
+       x="2216">Statement</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline796"
+       points="2149.49,-551 2282.51,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text798"
+       font-size="14.00"
+       y="-533"
+       x="2157.49">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text800"
+       font-size="14.00"
+       y="-516.20001"
+       x="2157.49">type :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text802"
+       font-size="14.00"
+       y="-499.39999"
+       x="2157.49">statementDate :date</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text804"
+       font-size="14.00"
+       y="-482.60001"
+       x="2157.49">money :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text806"
+       font-size="14.00"
+       y="-465.79999"
+       x="2157.49">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text808"
+       font-size="14.00"
+       y="-449"
+       x="2157.49">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-887.87911,697.80738)"
+     class="node"
+     id="node19">
+    <title
+       id="title811">Vehicle</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline813"
+       points="2350.93,-442.2 2491.07,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path815"
+       d="m 2491.07,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline817"
+       points="2503.07,-454.2 2503.07,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path819"
+       d="m 2503.07,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline821"
+       points="2491.07,-575.8 2350.93,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path823"
+       d="m 2350.93,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline825"
+       points="2338.93,-563.8 2338.93,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path827"
+       d="m 2338.93,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text829"
+       font-size="14.00"
+       y="-557.79999"
+       x="2421">Vehicle</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline831"
+       points="2338.93,-551 2503.07,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text833"
+       font-size="14.00"
+       y="-533"
+       x="2346.9299">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text835"
+       font-size="14.00"
+       y="-516.20001"
+       x="2346.9299">vehicleModel :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text837"
+       font-size="14.00"
+       y="-499.39999"
+       x="2346.9299">buildYear :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text839"
+       font-size="14.00"
+       y="-482.60001"
+       x="2346.9299">vehicleRegistration :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text841"
+       font-size="14.00"
+       y="-465.79999"
+       x="2346.9299">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text843"
+       font-size="14.00"
+       y="-449"
+       x="2346.9299">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-602.40505,612.34699)"
+     class="node"
+     id="node20">
+    <title
+       id="title846">WorkingHour</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline848"
+       points="2533.49,-425.4 2642.51,-425.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path850"
+       d="m 2642.51,-425.4 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline852"
+       points="2654.51,-437.4 2654.51,-580.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path854"
+       d="m 2654.51,-580.6 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline856"
+       points="2642.51,-592.6 2533.49,-592.6 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path858"
+       d="m 2533.49,-592.6 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline860"
+       points="2521.49,-580.6 2521.49,-437.4 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path862"
+       d="m 2521.49,-437.4 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text864"
+       font-size="14.00"
+       y="-574.59998"
+       x="2588">WorkingHour</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline866"
+       points="2521.49,-567.8 2654.51,-567.8 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text868"
+       font-size="14.00"
+       y="-549.79999"
+       x="2529.49">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text870"
+       font-size="14.00"
+       y="-533"
+       x="2529.49">day :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text872"
+       font-size="14.00"
+       y="-516.20001"
+       x="2529.49">timeStart :time</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text874"
+       font-size="14.00"
+       y="-499.39999"
+       x="2529.49">timeFinish :time</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text876"
+       font-size="14.00"
+       y="-482.60001"
+       x="2529.49">exception :boolean</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text878"
+       font-size="14.00"
+       y="-465.79999"
+       x="2529.49">exceptiondate :date</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text880"
+       font-size="14.00"
+       y="-449"
+       x="2529.49">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text882"
+       font-size="14.00"
+       y="-432.20001"
+       x="2529.49">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4214"
+     class="node"
+     transform="translate(-602.40505,798.85258)">
+    <title
+       id="title4216">WorkingHour</title>
+    <polyline
+       points="2533.49,-425.4 2642.51,-425.4 "
+       id="polyline4218"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2642.51,-425.4 c 6,0 12,-6 12,-12"
+       id="path4220"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2654.51,-437.4 2654.51,-580.6 "
+       id="polyline4222"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2654.51,-580.6 c 0,-6 -6,-12 -12,-12"
+       id="path4224"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2642.51,-592.6 2533.49,-592.6 "
+       id="polyline4226"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2533.49,-592.6 c -6,0 -12,6 -12,12"
+       id="path4228"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2521.49,-580.6 2521.49,-437.4 "
+       id="polyline4230"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2521.49,-437.4 c 0,6 6,12 12,12"
+       id="path4232"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2588"
+       y="-574.59998"
+       font-size="14.00"
+       id="text4234"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">WorkingHour</text>
+    <polyline
+       points="2521.49,-567.8 2654.51,-567.8 "
+       id="polyline4236"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2529.49"
+       y="-549.79999"
+       font-size="14.00"
+       id="text4238"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="2529.49"
+       y="-533"
+       font-size="14.00"
+       id="text4240"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">day :integer</text>
+    <text
+       x="2529.49"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4242"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeStart :time</text>
+    <text
+       x="2529.49"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4244"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeFinish :time</text>
+    <text
+       x="2529.49"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4246"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exception :boolean</text>
+    <text
+       x="2529.49"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4248"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exceptiondate :date</text>
+    <text
+       x="2529.49"
+       y="-449"
+       font-size="14.00"
+       id="text4250"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="2529.49"
+       y="-432.20001"
+       font-size="14.00"
+       id="text4252"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4334"
+     class="node"
+     transform="translate(1379.5485,772.35792)">
+    <title
+       id="title4336">Client</title>
+    <polyline
+       points="338.097,-433.8 467.903,-433.8 "
+       id="polyline4338"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 467.903,-433.8 c 6,0 12,-6 12,-12"
+       id="path4340"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="479.903,-445.8 479.903,-572.2 "
+       id="polyline4342"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 479.903,-572.2 c 0,-6 -6,-12 -12,-12"
+       id="path4344"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="467.903,-584.2 338.097,-584.2 "
+       id="polyline4346"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 338.097,-584.2 c -6,0 -12,6 -12,12"
+       id="path4348"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="326.097,-572.2 326.097,-445.8 "
+       id="polyline4350"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 326.097,-445.8 c 0,6 6,12 12,12"
+       id="path4352"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="403"
+       y="-566.20001"
+       font-size="14.00"
+       id="text4354"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Client</text>
+    <polyline
+       points="326.097,-559.4 479.903,-559.4 "
+       id="polyline4356"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="334.09698"
+       y="-541.40002"
+       font-size="14.00"
+       id="text4358"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="334.09698"
+       y="-524.59998"
+       font-size="14.00"
+       id="text4360"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :string</text>
+    <text
+       x="334.09698"
+       y="-507.79999"
+       font-size="14.00"
+       id="text4362"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :string</text>
+    <text
+       x="334.09698"
+       y="-491"
+       font-size="14.00"
+       id="text4364"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactAdress :string</text>
+    <text
+       x="334.09698"
+       y="-474.20001"
+       font-size="14.00"
+       id="text4366"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactTelephone :string</text>
+    <text
+       x="334.09698"
+       y="-457.39999"
+       font-size="14.00"
+       id="text4368"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="334.09698"
+       y="-440.60001"
+       font-size="14.00"
+       id="text4370"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(1379.5485,938.73292)"
+     class="node"
+     id="g4372">
+    <title
+       id="title4374">Client</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4376"
+       points="338.097,-433.8 467.903,-433.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4378"
+       d="m 467.903,-433.8 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4380"
+       points="479.903,-445.8 479.903,-572.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4382"
+       d="m 479.903,-572.2 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4384"
+       points="467.903,-584.2 338.097,-584.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4386"
+       d="m 338.097,-584.2 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4388"
+       points="326.097,-572.2 326.097,-445.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4390"
+       d="m 326.097,-445.8 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text4392"
+       font-size="14.00"
+       y="-566.20001"
+       x="403">Client</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4394"
+       points="326.097,-559.4 479.903,-559.4 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4396"
+       font-size="14.00"
+       y="-541.40002"
+       x="334.09698">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4398"
+       font-size="14.00"
+       y="-524.59998"
+       x="334.09698">nameFirst :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4400"
+       font-size="14.00"
+       y="-507.79999"
+       x="334.09698">nameLast :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4402"
+       font-size="14.00"
+       y="-491"
+       x="334.09698">contactAdress :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4404"
+       font-size="14.00"
+       y="-474.20001"
+       x="334.09698">contactTelephone :string</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4406"
+       font-size="14.00"
+       y="-457.39999"
+       x="334.09698">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4408"
+       font-size="14.00"
+       y="-440.60001"
+       x="334.09698">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4410"
+     class="node"
+     transform="translate(-887.87911,938.73293)">
+    <title
+       id="title4412">Vehicle</title>
+    <polyline
+       points="2350.93,-442.2 2491.07,-442.2 "
+       id="polyline4414"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2491.07,-442.2 c 6,0 12,-6 12,-12"
+       id="path4416"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2503.07,-454.2 2503.07,-563.8 "
+       id="polyline4418"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2503.07,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4420"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2491.07,-575.8 2350.93,-575.8 "
+       id="polyline4422"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2350.93,-575.8 c -6,0 -12,6 -12,12"
+       id="path4424"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2338.93,-563.8 2338.93,-454.2 "
+       id="polyline4426"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2338.93,-454.2 c 0,6 6,12 12,12"
+       id="path4428"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2421"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4430"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Vehicle</text>
+    <polyline
+       points="2338.93,-551 2503.07,-551 "
+       id="polyline4432"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2346.9299"
+       y="-533"
+       font-size="14.00"
+       id="text4434"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="2346.9299"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4436"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleModel :string</text>
+    <text
+       x="2346.9299"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4438"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">buildYear :integer</text>
+    <text
+       x="2346.9299"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4440"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleRegistration :string</text>
+    <text
+       x="2346.9299"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4442"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="2346.9299"
+       y="-449"
+       font-size="14.00"
+       id="text4444"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4446"
+     class="node"
+     transform="translate(69.066759,1063.4402)">
+    <title
+       id="title4448">OrderPart</title>
+    <polyline
+       points="962.495,-442.2 1071.51,-442.2 "
+       id="polyline4450"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1071.51,-442.2 c 6,0 12,-6 12,-12"
+       id="path4452"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1083.51,-454.2 1083.51,-563.8 "
+       id="polyline4454"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1083.51,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4456"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1071.51,-575.8 962.495,-575.8 "
+       id="polyline4458"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 962.495,-575.8 c -6,0 -12,6 -12,12"
+       id="path4460"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="950.495,-563.8 950.495,-454.2 "
+       id="polyline4462"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 950.495,-454.2 c 0,6 6,12 12,12"
+       id="path4464"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1017"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4466"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">OrderPart</text>
+    <polyline
+       points="950.495,-551 1083.51,-551 "
+       id="polyline4468"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="958.495"
+       y="-533"
+       font-size="14.00"
+       id="text4470"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="958.495"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4472"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">order_id :integer</text>
+    <text
+       x="958.495"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4474"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :integer</text>
+    <text
+       x="958.495"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4476"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :float</text>
+    <text
+       x="958.495"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4478"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="958.495"
+       y="-449"
+       font-size="14.00"
+       id="text4480"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4482"
+     class="node"
+     transform="translate(-447.27135,1243.4146)">
+    <title
+       id="title4484">Part</title>
+    <polyline
+       points="1264.49,-442.2 1373.51,-442.2 "
+       id="polyline4486"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1373.51,-442.2 c 6,0 12,-6 12,-12"
+       id="path4488"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1385.51,-454.2 1385.51,-563.8 "
+       id="polyline4490"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1385.51,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4492"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1373.51,-575.8 1264.49,-575.8 "
+       id="polyline4494"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1264.49,-575.8 c -6,0 -12,6 -12,12"
+       id="path4496"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1252.49,-563.8 1252.49,-454.2 "
+       id="polyline4498"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1252.49,-454.2 c 0,6 6,12 12,12"
+       id="path4500"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1319"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4502"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Part</text>
+    <polyline
+       points="1252.49,-551 1385.51,-551 "
+       id="polyline4504"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1260.49"
+       y="-533"
+       font-size="14.00"
+       id="text4506"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="1260.49"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4508"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+    <text
+       x="1260.49"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4510"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :integer</text>
+    <text
+       x="1260.49"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4512"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">price :float</text>
+    <text
+       x="1260.49"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4514"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="1260.49"
+       y="-449"
+       font-size="14.00"
+       id="text4516"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4518"
+     class="node"
+     transform="translate(-779.85428,1244.5712)">
+    <title
+       id="title4520">PartProcedure</title>
+    <polyline
+       points="1415.94,-442.2 1528.06,-442.2 "
+       id="polyline4522"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1528.06,-442.2 c 6,0 12,-6 12,-12"
+       id="path4524"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1540.06,-454.2 1540.06,-563.8 "
+       id="polyline4526"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1540.06,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4528"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1528.06,-575.8 1415.94,-575.8 "
+       id="polyline4530"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1415.94,-575.8 c -6,0 -12,6 -12,12"
+       id="path4532"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="1403.94,-563.8 1403.94,-454.2 "
+       id="polyline4534"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 1403.94,-454.2 c 0,6 6,12 12,12"
+       id="path4536"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1472"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4538"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">PartProcedure</text>
+    <polyline
+       points="1403.94,-551 1540.06,-551 "
+       id="polyline4540"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="1411.9399"
+       y="-533"
+       font-size="14.00"
+       id="text4542"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="1411.9399"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4544"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :integer</text>
+    <text
+       x="1411.9399"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4546"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">procedure_id :integer</text>
+    <text
+       x="1411.9399"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4548"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :float</text>
+    <text
+       x="1411.9399"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4550"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="1411.9399"
+       y="-449"
+       font-size="14.00"
+       id="text4552"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4554"
+     class="node"
+     transform="translate(-1489.9368,625.09081)">
+    <title
+       id="title4556">Statement</title>
+    <polyline
+       points="2161.49,-442.2 2270.51,-442.2 "
+       id="polyline4558"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2270.51,-442.2 c 6,0 12,-6 12,-12"
+       id="path4560"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2282.51,-454.2 2282.51,-563.8 "
+       id="polyline4562"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2282.51,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4564"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2270.51,-575.8 2161.49,-575.8 "
+       id="polyline4566"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2161.49,-575.8 c -6,0 -12,6 -12,12"
+       id="path4568"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2149.49,-563.8 2149.49,-454.2 "
+       id="polyline4570"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2149.49,-454.2 c 0,6 6,12 12,12"
+       id="path4572"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2216"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4574"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Statement</text>
+    <polyline
+       points="2149.49,-551 2282.51,-551 "
+       id="polyline4576"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2157.49"
+       y="-533"
+       font-size="14.00"
+       id="text4578"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="2157.49"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4580"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :integer</text>
+    <text
+       x="2157.49"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4582"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">statementDate :date</text>
+    <text
+       x="2157.49"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4584"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :float</text>
+    <text
+       x="2157.49"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4586"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="2157.49"
+       y="-449"
+       font-size="14.00"
+       id="text4588"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <g
+     transform="translate(-1330.5055,625.09081)"
+     class="node"
+     id="g4590">
+    <title
+       id="title4592">Statement</title>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4594"
+       points="2161.49,-442.2 2270.51,-442.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4596"
+       d="m 2270.51,-442.2 c 6,0 12,-6 12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4598"
+       points="2282.51,-454.2 2282.51,-563.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4600"
+       d="m 2282.51,-563.8 c 0,-6 -6,-12 -12,-12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4602"
+       points="2270.51,-575.8 2161.49,-575.8 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4604"
+       d="m 2161.49,-575.8 c -6,0 -12,6 -12,12" />
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4606"
+       points="2149.49,-563.8 2149.49,-454.2 " />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path4608"
+       d="m 2149.49,-454.2 c 0,6 6,12 12,12" />
+    <text
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+       id="text4610"
+       font-size="14.00"
+       y="-557.79999"
+       x="2216">Statement</text>
+    <polyline
+       style="fill:none;stroke:#000000"
+       id="polyline4612"
+       points="2149.49,-551 2282.51,-551 " />
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4614"
+       font-size="14.00"
+       y="-533"
+       x="2157.49">id :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4616"
+       font-size="14.00"
+       y="-516.20001"
+       x="2157.49">type :integer</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4618"
+       font-size="14.00"
+       y="-499.39999"
+       x="2157.49">statementDate :date</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4620"
+       font-size="14.00"
+       y="-482.60001"
+       x="2157.49">money :float</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4622"
+       font-size="14.00"
+       y="-465.79999"
+       x="2157.49">created_at :datetime</text>
+    <text
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
+       id="text4624"
+       font-size="14.00"
+       y="-449"
+       x="2157.49">updated_at :datetime</text>
+  </g>
+  <g
+     id="g4626"
+     class="node"
+     transform="translate(-1162.074,625.09081)">
+    <title
+       id="title4628">Statement</title>
+    <polyline
+       points="2161.49,-442.2 2270.51,-442.2 "
+       id="polyline4630"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2270.51,-442.2 c 6,0 12,-6 12,-12"
+       id="path4632"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2282.51,-454.2 2282.51,-563.8 "
+       id="polyline4634"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2282.51,-563.8 c 0,-6 -6,-12 -12,-12"
+       id="path4636"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2270.51,-575.8 2161.49,-575.8 "
+       id="polyline4638"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2161.49,-575.8 c -6,0 -12,6 -12,12"
+       id="path4640"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <polyline
+       points="2149.49,-563.8 2149.49,-454.2 "
+       id="polyline4642"
+       style="fill:none;stroke:#000000" />
+    <path
+       d="m 2149.49,-454.2 c 0,6 6,12 12,12"
+       id="path4644"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2216"
+       y="-557.79999"
+       font-size="14.00"
+       id="text4646"
+       style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">Statement</text>
+    <polyline
+       points="2149.49,-551 2282.51,-551 "
+       id="polyline4648"
+       style="fill:none;stroke:#000000" />
+    <text
+       x="2157.49"
+       y="-533"
+       font-size="14.00"
+       id="text4650"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+    <text
+       x="2157.49"
+       y="-516.20001"
+       font-size="14.00"
+       id="text4652"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :integer</text>
+    <text
+       x="2157.49"
+       y="-499.39999"
+       font-size="14.00"
+       id="text4654"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">statementDate :date</text>
+    <text
+       x="2157.49"
+       y="-482.60001"
+       font-size="14.00"
+       id="text4656"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :float</text>
+    <text
+       x="2157.49"
+       y="-465.79999"
+       font-size="14.00"
+       id="text4658"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+    <text
+       x="2157.49"
+       y="-449"
+       font-size="14.00"
+       id="text4660"
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 218.0448,228.49454 305.65263,333.8092"
+     id="path4666"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g3530"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node11"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 718.12037,749.25655 58.77244,-25.01506"
+     id="path4668"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node14"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node13"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 718.12037,848.19145 61.98678,30.0415"
+     id="path4670"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node14"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g4518"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 947.04281,688.85286 61.08769,0.58986"
+     id="path4672"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node13"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node12"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 950.25715,918.91608 56.26615,-0.36238"
+     id="path4674"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g4518"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g4482"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1174.4055,691.12107 100.0467,1.05365"
+     id="path4676"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node12"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g4446"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1172.7983,920.6414 100.0467,3.15667"
+     id="path4680"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g4482"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node10"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1434.676,847.8634 82.6316,-82.48574"
+     id="path4686"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node10"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node9"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1440.7209,689.40205 76.5867,-3.36086"
+     id="path4688"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g4446"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node9"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1092.8507,558.33685 -0.5808,48.40865"
+     id="path4690"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node7"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node12"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 2132.0569,155.04544 -113.0683,42.44929"
+     id="path4692"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node6"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node19"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 2132.0569,300.46582 2018.9886,266.67124"
+     id="path4694"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g4334"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node19"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 1857.2976,319.50922 1682.3874,566.61823"
+     id="path4696"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node19"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node9"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 2018.9886,537.16616 113.0683,-10e-6"
+     id="path4698"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g4410"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g4372"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 2955.5216,479.40781 89.4745,127.49233"
+     id="path4700"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node15"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g3680"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 3154.9288,564.19484 -2.1533,37.92965"
+     id="path4702"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#g3608"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#g3680"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 2808.3142,564.19484 -2.1533,37.92965"
+     id="path4704"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node15"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node18"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 2693.7816,742.86854 1683.5701,686.99131"
+     id="path4706"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#node18"
+     inkscape:connection-start-point="d4"
+     inkscape:connection-end="#node9"
+     inkscape:connection-end-point="d4"
+     transform="scale(0.8,0.8)" />
 </svg>
