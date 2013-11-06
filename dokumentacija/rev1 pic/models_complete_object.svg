@@ -45,9 +45,9 @@
      inkscape:window-height="852"
      id="namedview976"
      showgrid="false"
-     inkscape:zoom="0.62221146"
-     inkscape:cx="2020.1574"
-     inkscape:cy="590.75695"
+     inkscape:zoom="0.43996994"
+     inkscape:cx="1331.3826"
+     inkscape:cy="566.29266"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -109,43 +109,43 @@
        y="-541.40002"
        font-size="14.00"
        id="text3554"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :1</text>
     <text
        x="7.4946299"
        y="-524.59998"
        font-size="14.00"
        id="text3556"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">title :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">title :&quot;Akcije&quot;</text>
     <text
        x="7.4946299"
        y="-507.79999"
        font-size="14.00"
        id="text3558"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">slug :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">slug :&quot;akcije&quot;</text>
     <text
        x="7.4946299"
        y="-491"
        font-size="14.00"
        id="text3560"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :&quot;&quot;</text>
     <text
        x="7.4946299"
        y="-474.20001"
        font-size="14.00"
        id="text3562"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">ancestry :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">ancestry :&quot;&quot;</text>
     <text
        x="7.4946299"
        y="-457.39999"
        font-size="14.00"
        id="text3564"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165624</text>
     <text
        x="7.4946299"
        y="-440.60001"
        font-size="14.00"
        id="text3566"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165624</text>
   </g>
   <g
      id="g3568"
@@ -204,49 +204,49 @@
        y="-549.79999"
        font-size="14.00"
        id="text3592"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :1</text>
     <text
        x="656.495"
        y="-533"
        font-size="14.00"
        id="text3594"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :&quot;Facebook&quot;</text>
     <text
        x="656.495"
        y="-516.20001"
        font-size="14.00"
        id="text3596"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">icon :&quot;&quot;</text>
     <text
        x="656.495"
        y="-499.39999"
        font-size="14.00"
        id="text3598"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">link :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">link :&quot;facebook.com&quot;</text>
     <text
        x="656.495"
        y="-482.60001"
        font-size="14.00"
        id="text3600"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">hidden :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">hidden :false</text>
     <text
        x="656.495"
        y="-465.79999"
        font-size="14.00"
        id="text3602"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">showName :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">showName :false</text>
     <text
        x="656.495"
        y="-449"
        font-size="14.00"
        id="text3604"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165637</text>
     <text
        x="656.495"
        y="-432.20001"
        font-size="14.00"
        id="text3606"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165642</text>
   </g>
   <g
      id="g3608"
@@ -305,145 +305,145 @@
        y="-684.20001"
        font-size="14.00"
        id="text3632"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="1757.61"
        y="-667.40002"
        font-size="14.00"
        id="text3634"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :&quot;Voditelj&quot;</text>
     <text
        x="1757.61"
        y="-650.59998"
        font-size="14.00"
        id="text3636"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewUsers :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewUsers :false</text>
     <text
        x="1757.61"
        y="-633.79999"
        font-size="14.00"
        id="text3638"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewRoles :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewRoles :false</text>
     <text
        x="1757.61"
        y="-617"
        font-size="14.00"
        id="text3640"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewOrders :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewOrders :true</text>
     <text
        x="1757.61"
        y="-600.20001"
        font-size="14.00"
        id="text3642"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewClients :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewClients :true</text>
     <text
        x="1757.61"
        y="-583.40002"
        font-size="14.00"
        id="text3644"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewVehicles :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewVehicles :true</text>
     <text
        x="1757.61"
        y="-566.59998"
        font-size="14.00"
        id="text3646"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewProcedures :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewProcedures :true</text>
     <text
        x="1757.61"
        y="-549.79999"
        font-size="14.00"
        id="text3648"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewSettings :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewSettings :false</text>
     <text
        x="1757.61"
        y="-533"
        font-size="14.00"
        id="text3650"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewParts :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewParts :true</text>
     <text
        x="1757.61"
        y="-516.20001"
        font-size="14.00"
        id="text3652"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewworkingHours :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewworkingHours :false</text>
     <text
        x="1757.61"
        y="-499.39999"
        font-size="14.00"
        id="text3654"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewStatements :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canViewStatements :false</text>
     <text
        x="1757.61"
        y="-482.60001"
        font-size="14.00"
        id="text3656"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeUsers :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeUsers :false</text>
     <text
        x="1757.61"
        y="-465.79999"
        font-size="14.00"
        id="text3658"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeRoles :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeRoles :false</text>
     <text
        x="1757.61"
        y="-449"
        font-size="14.00"
        id="text3660"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeOrders :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeOrders :true</text>
     <text
        x="1757.61"
        y="-432.20001"
        font-size="14.00"
        id="text3662"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeClients :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeClients :true</text>
     <text
        x="1757.61"
        y="-415.39999"
        font-size="14.00"
        id="text3664"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeVehicles :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeVehicles :true</text>
     <text
        x="1757.61"
        y="-398.60001"
        font-size="14.00"
        id="text3666"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeProcedures :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeProcedures :true</text>
     <text
        x="1757.61"
        y="-381.79999"
        font-size="14.00"
        id="text3668"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeSettings :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeSettings :false</text>
     <text
        x="1757.61"
        y="-365"
        font-size="14.00"
        id="text3670"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeParts :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeParts :true</text>
     <text
        x="1757.61"
        y="-348.20001"
        font-size="14.00"
        id="text3672"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeworkingHours :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeworkingHours :false</text>
     <text
        x="1757.61"
        y="-331.39999"
        font-size="14.00"
        id="text3674"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeStatements :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">canChangeStatements :false</text>
     <text
        x="1757.61"
        y="-314.60001"
        font-size="14.00"
        id="text3676"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :721656240</text>
     <text
        x="1757.61"
        y="-297.79999"
        font-size="14.00"
        id="text3678"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :721656240</text>
   </g>
   <g
      id="g3680"
@@ -502,73 +502,73 @@
        y="-192.39999"
        font-size="14.00"
        id="text3704"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="2121.75"
        y="-175.60001"
        font-size="14.00"
        id="text3706"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :&quot;Luigi&quot;</text>
     <text
        x="2121.75"
        y="-158.8"
        font-size="14.00"
        id="text3708"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :&quot;Kuppa&quot;</text>
     <text
        x="2121.75"
        y="-142"
        font-size="14.00"
        id="text3710"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginUsername :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginUsername :&quot;cptLol&quot;</text>
     <text
        x="2121.75"
        y="-125.2"
        font-size="14.00"
        id="text3712"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordHash :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordHash :&quot;asS...&quot;</text>
     <text
        x="2121.75"
        y="-108.4"
        font-size="14.00"
        id="text3714"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordSalt :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginPasswordSalt :&quot;23f...&quot;</text>
     <text
        x="2121.75"
        y="-91.599998"
        font-size="14.00"
        id="text3716"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginAuthToken :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginAuthToken :&quot;AS65...&quot;</text>
     <text
        x="2121.75"
        y="-74.800003"
        font-size="14.00"
        id="text3718"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginLast :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">loginLast :721656240</text>
     <text
        x="2121.75"
        y="-58"
        font-size="14.00"
        id="text3720"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactEmail :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactEmail :&quot;l.kuppa@...&quot;</text>
     <text
        x="2121.75"
        y="-41.200001"
        font-size="14.00"
        id="text3722"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactPhone :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactPhone :&quot;38512304&quot;</text>
     <text
        x="2121.75"
        y="-24.4"
        font-size="14.00"
        id="text3724"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :721656240</text>
     <text
        x="2121.75"
        y="-7.5999999"
        font-size="14.00"
        id="text3726"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :721656240</text>
   </g>
   <g
      class="node"
@@ -634,43 +634,43 @@
        id="text45"
        font-size="14.00"
        y="-541.40002"
-       x="7.4946299">id :integer</text>
+       x="7.4946299">id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text47"
        font-size="14.00"
        y="-524.59998"
-       x="7.4946299">title :string</text>
+       x="7.4946299">title :&quot;Podaci&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text49"
        font-size="14.00"
        y="-507.79999"
-       x="7.4946299">slug :string</text>
+       x="7.4946299">slug :&quot;podaci&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text51"
        font-size="14.00"
        y="-491"
-       x="7.4946299">icon :string</text>
+       x="7.4946299">icon :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text53"
        font-size="14.00"
        y="-474.20001"
-       x="7.4946299">ancestry :string</text>
+       x="7.4946299">ancestry :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text55"
        font-size="14.00"
        y="-457.39999"
-       x="7.4946299">created_at :datetime</text>
+       x="7.4946299">created_at :72165627</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text57"
        font-size="14.00"
        y="-440.60001"
-       x="7.4946299">updated_at :datetime</text>
+       x="7.4946299">updated_at :72165627</text>
   </g>
   <g
      class="edge"
@@ -747,43 +747,43 @@
        id="text227"
        font-size="14.00"
        y="-541.40002"
-       x="334.09698">id :integer</text>
+       x="334.09698">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text229"
        font-size="14.00"
        y="-524.59998"
-       x="334.09698">nameFirst :string</text>
+       x="334.09698">nameFirst :&quot;John&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text231"
        font-size="14.00"
        y="-507.79999"
-       x="334.09698">nameLast :string</text>
+       x="334.09698">nameLast :&quot;Doe&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text233"
        font-size="14.00"
        y="-491"
-       x="334.09698">contactAdress :string</text>
+       x="334.09698">contactAdress :&quot;Nigdje 1&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text235"
        font-size="14.00"
        y="-474.20001"
-       x="334.09698">contactTelephone :string</text>
+       x="334.09698">contactTelephone :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text237"
        font-size="14.00"
        y="-457.39999"
-       x="334.09698">created_at :datetime</text>
+       x="334.09698">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text239"
        font-size="14.00"
        y="-440.60001"
-       x="334.09698">updated_at :datetime</text>
+       x="334.09698">updated_at :721656240</text>
   </g>
   <g
      transform="translate(311.18287,880.46948)"
@@ -842,43 +842,43 @@
        id="text264"
        font-size="14.00"
        y="-541.40002"
-       x="505.495">id :integer</text>
+       x="505.495">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text266"
        font-size="14.00"
        y="-524.59998"
-       x="505.495">imageName :string</text>
+       x="505.495">imageName :&quot;Gepufna&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text268"
        font-size="14.00"
        y="-507.79999"
-       x="505.495">imageType :integer</text>
+       x="505.495">imageType :0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text270"
        font-size="14.00"
        y="-491"
-       x="505.495">path :string</text>
+       x="505.495">path :&quot;/slike/gepufna.jpg&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text272"
        font-size="14.00"
        y="-474.20001"
-       x="505.495">isHidden :boolean</text>
+       x="505.495">isHidden :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text274"
        font-size="14.00"
        y="-457.39999"
-       x="505.495">created_at :datetime</text>
+       x="505.495">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text276"
        font-size="14.00"
        y="-440.60001"
-       x="505.495">updated_at :datetime</text>
+       x="505.495">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-450.57651,1248.7541)"
@@ -937,49 +937,49 @@
        id="text301"
        font-size="14.00"
        y="-549.79999"
-       x="656.495">id :integer</text>
+       x="656.495">id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text303"
        font-size="14.00"
        y="-533"
-       x="656.495">name :string</text>
+       x="656.495">name :&quot;Twitter&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text305"
        font-size="14.00"
        y="-516.20001"
-       x="656.495">icon :string</text>
+       x="656.495">icon :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text307"
        font-size="14.00"
        y="-499.39999"
-       x="656.495">link :string</text>
+       x="656.495">link :&quot;twitter.com&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text309"
        font-size="14.00"
        y="-482.60001"
-       x="656.495">hidden :boolean</text>
+       x="656.495">hidden :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text311"
        font-size="14.00"
        y="-465.79999"
-       x="656.495">showName :boolean</text>
+       x="656.495">showName :true</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text313"
        font-size="14.00"
        y="-449"
-       x="656.495">created_at :datetime</text>
+       x="656.495">created_at :72165639</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text315"
        font-size="14.00"
        y="-432.20001"
-       x="656.495">updated_at :datetime</text>
+       x="656.495">updated_at :72165640</text>
   </g>
   <g
      class="node"
@@ -1038,61 +1038,61 @@
        id="text340"
        font-size="14.00"
        y="-566.59998"
-       x="807.495">id :integer</text>
+       x="807.495">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text342"
        font-size="14.00"
        y="-549.79999"
-       x="807.495">client_id :integer</text>
+       x="807.495">client_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text344"
        font-size="14.00"
        y="-533"
-       x="807.495">vehicle_id :integer</text>
+       x="807.495">vehicle_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text346"
        font-size="14.00"
        y="-516.20001"
-       x="807.495">user_id :integer</text>
+       x="807.495">user_id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text348"
        font-size="14.00"
        y="-499.39999"
-       x="807.495">description :text</text>
+       x="807.495">description :&quot;Gepufna&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text350"
        font-size="14.00"
        y="-482.60001"
-       x="807.495">status :integer</text>
+       x="807.495">status :0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text352"
        font-size="14.00"
        y="-465.79999"
-       x="807.495">timeStart :datetime</text>
+       x="807.495">timeStart :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text354"
        font-size="14.00"
        y="-449"
-       x="807.495">timeFinish :datetime</text>
+       x="807.495">timeFinish :null</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text356"
        font-size="14.00"
        y="-432.20001"
-       x="807.495">created_at :datetime</text>
+       x="807.495">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text358"
        font-size="14.00"
        y="-415.39999"
-       x="807.495">updated_at :datetime</text>
+       x="807.495">updated_at :72165624</text>
   </g>
   <g
      transform="translate(67.781024,1250.1369)"
@@ -1151,37 +1151,37 @@
        id="text383"
        font-size="14.00"
        y="-533"
-       x="958.495">id :integer</text>
+       x="958.495">id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text385"
        font-size="14.00"
        y="-516.20001"
-       x="958.495">order_id :integer</text>
+       x="958.495">order_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text387"
        font-size="14.00"
        y="-499.39999"
-       x="958.495">part_id :integer</text>
+       x="958.495">part_id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text389"
        font-size="14.00"
        y="-482.60001"
-       x="958.495">quantity :float</text>
+       x="958.495">quantity :4.0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text391"
        font-size="14.00"
        y="-465.79999"
-       x="958.495">created_at :datetime</text>
+       x="958.495">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text393"
        font-size="14.00"
        y="-449"
-       x="958.495">updated_at :datetime</text>
+       x="958.495">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-856.9679,856)"
@@ -1240,79 +1240,79 @@
        id="text418"
        font-size="14.00"
        y="-591.79999"
-       x="1109.49">id :integer</text>
+       x="1109.49">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text420"
        font-size="14.00"
        y="-575"
-       x="1109.49">title :string</text>
+       x="1109.49">title :&quot;Nove Gume&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text422"
        font-size="14.00"
        y="-558.20001"
-       x="1109.49">slug :string</text>
+       x="1109.49">slug :&quot;nove-gume&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text424"
        font-size="14.00"
        y="-541.40002"
-       x="1109.49">ancestry :string</text>
+       x="1109.49">ancestry :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text426"
        font-size="14.00"
        y="-524.59998"
-       x="1109.49">icon :string</text>
+       x="1109.49">icon :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text428"
        font-size="14.00"
        y="-507.79999"
-       x="1109.49">content :text</text>
+       x="1109.49">content :&quot;&lt;div&gt;...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text430"
        font-size="14.00"
        y="-491"
-       x="1109.49">contentPreview :text</text>
+       x="1109.49">contentPreview :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text432"
        font-size="14.00"
        y="-474.20001"
-       x="1109.49">isPublic :boolean</text>
+       x="1109.49">isPublic :true</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text434"
        font-size="14.00"
        y="-457.39999"
-       x="1109.49">isHidden :boolean</text>
+       x="1109.49">isHidden :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text436"
        font-size="14.00"
        y="-440.60001"
-       x="1109.49">hasPreview :boolean</text>
+       x="1109.49">hasPreview :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text438"
        font-size="14.00"
        y="-423.79999"
-       x="1109.49">category_id :integer</text>
+       x="1109.49">category_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text440"
        font-size="14.00"
        y="-407"
-       x="1109.49">created_at :datetime</text>
+       x="1109.49">created_at :72165629</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text442"
        font-size="14.00"
        y="-390.20001"
-       x="1109.49">updated_at :datetime</text>
+       x="1109.49">updated_at :72165629</text>
   </g>
   <g
      transform="translate(-445.98561,1061.1964)"
@@ -1371,37 +1371,37 @@
        id="text525"
        font-size="14.00"
        y="-533"
-       x="1260.49">id :integer</text>
+       x="1260.49">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text527"
        font-size="14.00"
        y="-516.20001"
-       x="1260.49">name :string</text>
+       x="1260.49">name :&quot;Gepufna&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text529"
        font-size="14.00"
        y="-499.39999"
-       x="1260.49">quantity :integer</text>
+       x="1260.49">quantity :13</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text531"
        font-size="14.00"
        y="-482.60001"
-       x="1260.49">price :float</text>
+       x="1260.49">price :130.00</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text533"
        font-size="14.00"
        y="-465.79999"
-       x="1260.49">created_at :datetime</text>
+       x="1260.49">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text535"
        font-size="14.00"
        y="-449"
-       x="1260.49">updated_at :datetime</text>
+       x="1260.49">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-782.42575,1059.4251)"
@@ -1460,37 +1460,37 @@
        id="text560"
        font-size="14.00"
        y="-533"
-       x="1411.9399">id :integer</text>
+       x="1411.9399">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text562"
        font-size="14.00"
        y="-516.20001"
-       x="1411.9399">part_id :integer</text>
+       x="1411.9399">part_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text564"
        font-size="14.00"
        y="-499.39999"
-       x="1411.9399">procedure_id :integer</text>
+       x="1411.9399">procedure_id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text566"
        font-size="14.00"
        y="-482.60001"
-       x="1411.9399">quantity :float</text>
+       x="1411.9399">quantity :1.0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text568"
        font-size="14.00"
        y="-465.79999"
-       x="1411.9399">created_at :datetime</text>
+       x="1411.9399">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text570"
        font-size="14.00"
        y="-449"
-       x="1411.9399">updated_at :datetime</text>
+       x="1411.9399">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-1157.4537,1145.4134)"
@@ -1549,49 +1549,49 @@
        id="text595"
        font-size="14.00"
        y="-549.79999"
-       x="1566.05">id :integer</text>
+       x="1566.05">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text597"
        font-size="14.00"
        y="-533"
-       x="1566.05">name :string</text>
+       x="1566.05">name :&quot;Zamjena Gepufne&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text599"
        font-size="14.00"
        y="-516.20001"
-       x="1566.05">description :text</text>
+       x="1566.05">description :&quot;Zamjena&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text601"
        font-size="14.00"
        y="-499.39999"
-       x="1566.05">minNumOfWorkers :integer</text>
+       x="1566.05">minNumOfWorkers :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text603"
        font-size="14.00"
        y="-482.60001"
-       x="1566.05">duration :float</text>
+       x="1566.05">duration :2.0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text605"
        font-size="14.00"
        y="-465.79999"
-       x="1566.05">manHour :float</text>
+       x="1566.05">manHour :35.0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text607"
        font-size="14.00"
        y="-449"
-       x="1566.05">created_at :datetime</text>
+       x="1566.05">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text609"
        font-size="14.00"
        y="-432.20001"
-       x="1566.05">updated_at :datetime</text>
+       x="1566.05">updated_at :721656240</text>
   </g>
   <g
      transform="translate(404.02732,742.35587)"
@@ -1650,145 +1650,145 @@
        id="text634"
        font-size="14.00"
        y="-684.20001"
-       x="1757.61">id :integer</text>
+       x="1757.61">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text636"
        font-size="14.00"
        y="-667.40002"
-       x="1757.61">name :string</text>
+       x="1757.61">name :&quot;Mehaničar&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text638"
        font-size="14.00"
        y="-650.59998"
-       x="1757.61">canViewUsers :boolean</text>
+       x="1757.61">canViewUsers :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text640"
        font-size="14.00"
        y="-633.79999"
-       x="1757.61">canViewRoles :boolean</text>
+       x="1757.61">canViewRoles :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text642"
        font-size="14.00"
        y="-617"
-       x="1757.61">canViewOrders :boolean</text>
+       x="1757.61">canViewOrders :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text644"
        font-size="14.00"
        y="-600.20001"
-       x="1757.61">canViewClients :boolean</text>
+       x="1757.61">canViewClients :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text646"
        font-size="14.00"
        y="-583.40002"
-       x="1757.61">canViewVehicles :boolean</text>
+       x="1757.61">canViewVehicles :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text648"
        font-size="14.00"
        y="-566.59998"
-       x="1757.61">canViewProcedures :boolean</text>
+       x="1757.61">canViewProcedures :true</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text650"
        font-size="14.00"
        y="-549.79999"
-       x="1757.61">canViewSettings :boolean</text>
+       x="1757.61">canViewSettings :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text652"
        font-size="14.00"
        y="-533"
-       x="1757.61">canViewParts :boolean</text>
+       x="1757.61">canViewParts :true</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text654"
        font-size="14.00"
        y="-516.20001"
-       x="1757.61">canViewworkingHours :boolean</text>
+       x="1757.61">canViewworkingHours :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text656"
        font-size="14.00"
        y="-499.39999"
-       x="1757.61">canViewStatements :boolean</text>
+       x="1757.61">canViewStatements :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text658"
        font-size="14.00"
        y="-482.60001"
-       x="1757.61">canChangeUsers :boolean</text>
+       x="1757.61">canChangeUsers :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text660"
        font-size="14.00"
        y="-465.79999"
-       x="1757.61">canChangeRoles :boolean</text>
+       x="1757.61">canChangeRoles :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text662"
        font-size="14.00"
        y="-449"
-       x="1757.61">canChangeOrders :boolean</text>
+       x="1757.61">canChangeOrders :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text664"
        font-size="14.00"
        y="-432.20001"
-       x="1757.61">canChangeClients :boolean</text>
+       x="1757.61">canChangeClients :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text666"
        font-size="14.00"
        y="-415.39999"
-       x="1757.61">canChangeVehicles :boolean</text>
+       x="1757.61">canChangeVehicles :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text668"
        font-size="14.00"
        y="-398.60001"
-       x="1757.61">canChangeProcedures :boolean</text>
+       x="1757.61">canChangeProcedures :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text670"
        font-size="14.00"
        y="-381.79999"
-       x="1757.61">canChangeSettings :boolean</text>
+       x="1757.61">canChangeSettings :flase</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text672"
        font-size="14.00"
        y="-365"
-       x="1757.61">canChangeParts :boolean</text>
+       x="1757.61">canChangeParts :true</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text674"
        font-size="14.00"
        y="-348.20001"
-       x="1757.61">canChangeworkingHours :boolean</text>
+       x="1757.61">canChangeworkingHours :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text676"
        font-size="14.00"
        y="-331.39999"
-       x="1757.61">canChangeStatements :boolean</text>
+       x="1757.61">canChangeStatements :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text678"
        font-size="14.00"
        y="-314.60001"
-       x="1757.61">created_at :datetime</text>
+       x="1757.61">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text680"
        font-size="14.00"
        y="-297.79999"
-       x="1757.61">updated_at :datetime</text>
+       x="1757.61">updated_at :721656240</text>
   </g>
   <g
      transform="translate(41.275272,716.89959)"
@@ -1847,73 +1847,73 @@
        id="text705"
        font-size="14.00"
        y="-192.39999"
-       x="2121.75">id :integer</text>
+       x="2121.75">id :2</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text707"
        font-size="14.00"
        y="-175.60001"
-       x="2121.75">nameFirst :string</text>
+       x="2121.75">nameFirst :&quot;Mario&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text709"
        font-size="14.00"
        y="-158.8"
-       x="2121.75">nameLast :string</text>
+       x="2121.75">nameLast :&quot;Kuppa&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text711"
        font-size="14.00"
        y="-142"
-       x="2121.75">loginUsername :string</text>
+       x="2121.75">loginUsername :&quot;trokdor&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text713"
        font-size="14.00"
        y="-125.2"
-       x="2121.75">loginPasswordHash :string</text>
+       x="2121.75">loginPasswordHash :&quot;asd...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text715"
        font-size="14.00"
        y="-108.4"
-       x="2121.75">loginPasswordSalt :string</text>
+       x="2121.75">loginPasswordSalt :&quot;1sdx...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text717"
        font-size="14.00"
        y="-91.599998"
-       x="2121.75">loginAuthToken :string</text>
+       x="2121.75">loginAuthToken :&quot;asSd23...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text719"
        font-size="14.00"
        y="-74.800003"
-       x="2121.75">loginLast :datetime</text>
+       x="2121.75">loginLast :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text721"
        font-size="14.00"
        y="-58"
-       x="2121.75">contactEmail :string</text>
+       x="2121.75">contactEmail :&quot;m.kuppa@...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text723"
        font-size="14.00"
        y="-41.200001"
-       x="2121.75">contactPhone :string</text>
+       x="2121.75">contactPhone :&quot;385213645&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text725"
        font-size="14.00"
        y="-24.4"
-       x="2121.75">created_at :datetime</text>
+       x="2121.75">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text727"
        font-size="14.00"
        y="-7.5999999"
-       x="2121.75">updated_at :datetime</text>
+       x="2121.75">updated_at :721656240</text>
   </g>
   <g
      transform="translate(-1942.4966,1037.8306)"
@@ -1972,43 +1972,43 @@
        id="text761"
        font-size="14.00"
        y="-541.40002"
-       x="1986.77">id :integer</text>
+       x="1986.77">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text763"
        font-size="14.00"
        y="-524.59998"
-       x="1986.77">pageTitle :string</text>
+       x="1986.77">pageTitle :&quot;Mehaničar&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text765"
        font-size="14.00"
        y="-507.79999"
-       x="1986.77">pageDescription :text</text>
+       x="1986.77">pageDescription :&quot;&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text767"
        font-size="14.00"
        y="-491"
-       x="1986.77">pageFavicon_id :integer</text>
+       x="1986.77">pageFavicon_id :null</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text769"
        font-size="14.00"
        y="-474.20001"
-       x="1986.77">pagePreview_id :integer</text>
+       x="1986.77">pagePreview_id :null</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text771"
        font-size="14.00"
        y="-457.39999"
-       x="1986.77">created_at :datetime</text>
+       x="1986.77">created_at :72165620</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text773"
        font-size="14.00"
        y="-440.60001"
-       x="1986.77">updated_at :datetime</text>
+       x="1986.77">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-1653.2253,625.09081)"
@@ -2067,13 +2067,13 @@
        id="text798"
        font-size="14.00"
        y="-533"
-       x="2157.49">id :integer</text>
+       x="2157.49">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text800"
        font-size="14.00"
        y="-516.20001"
-       x="2157.49">type :integer</text>
+       x="2157.49">type :0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text802"
@@ -2085,19 +2085,19 @@
        id="text804"
        font-size="14.00"
        y="-482.60001"
-       x="2157.49">money :float</text>
+       x="2157.49">money :350.00</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text806"
        font-size="14.00"
        y="-465.79999"
-       x="2157.49">created_at :datetime</text>
+       x="2157.49">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text808"
        font-size="14.00"
        y="-449"
-       x="2157.49">updated_at :datetime</text>
+       x="2157.49">updated_at :72165624</text>
   </g>
   <g
      transform="translate(-887.87911,697.80738)"
@@ -2156,37 +2156,37 @@
        id="text833"
        font-size="14.00"
        y="-533"
-       x="2346.9299">id :integer</text>
+       x="2346.9299">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text835"
        font-size="14.00"
        y="-516.20001"
-       x="2346.9299">vehicleModel :string</text>
+       x="2346.9299">vehicleModel :&quot;Audi&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text837"
        font-size="14.00"
        y="-499.39999"
-       x="2346.9299">buildYear :integer</text>
+       x="2346.9299">buildYear :2000</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text839"
        font-size="14.00"
        y="-482.60001"
-       x="2346.9299">vehicleRegistration :string</text>
+       x="2346.9299">vehicleRegistration :&quot;ZG...&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text841"
        font-size="14.00"
        y="-465.79999"
-       x="2346.9299">created_at :datetime</text>
+       x="2346.9299">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text843"
        font-size="14.00"
        y="-449"
-       x="2346.9299">updated_at :datetime</text>
+       x="2346.9299">updated_at :721656240</text>
   </g>
   <g
      transform="translate(-602.40505,612.34699)"
@@ -2245,49 +2245,49 @@
        id="text868"
        font-size="14.00"
        y="-549.79999"
-       x="2529.49">id :integer</text>
+       x="2529.49">id :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text870"
        font-size="14.00"
        y="-533"
-       x="2529.49">day :integer</text>
+       x="2529.49">day :0</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text872"
        font-size="14.00"
        y="-516.20001"
-       x="2529.49">timeStart :time</text>
+       x="2529.49">timeStart :0800</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text874"
        font-size="14.00"
        y="-499.39999"
-       x="2529.49">timeFinish :time</text>
+       x="2529.49">timeFinish :2000</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text876"
        font-size="14.00"
        y="-482.60001"
-       x="2529.49">exception :boolean</text>
+       x="2529.49">exception :false</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text878"
        font-size="14.00"
        y="-465.79999"
-       x="2529.49">exceptiondate :date</text>
+       x="2529.49">exceptiondate :null</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text880"
        font-size="14.00"
        y="-449"
-       x="2529.49">created_at :datetime</text>
+       x="2529.49">created_at :72165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text882"
        font-size="14.00"
        y="-432.20001"
-       x="2529.49">updated_at :datetime</text>
+       x="2529.49">updated_at :72165624</text>
   </g>
   <g
      id="g4214"
@@ -2346,49 +2346,49 @@
        y="-549.79999"
        font-size="14.00"
        id="text4238"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="2529.49"
        y="-533"
        font-size="14.00"
        id="text4240"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">day :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">day :4</text>
     <text
        x="2529.49"
        y="-516.20001"
        font-size="14.00"
        id="text4242"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeStart :time</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeStart :1200</text>
     <text
        x="2529.49"
        y="-499.39999"
        font-size="14.00"
        id="text4244"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeFinish :time</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">timeFinish :1600</text>
     <text
        x="2529.49"
        y="-482.60001"
        font-size="14.00"
        id="text4246"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exception :boolean</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exception :false</text>
     <text
        x="2529.49"
        y="-465.79999"
        font-size="14.00"
        id="text4248"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exceptiondate :date</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">exceptiondate :null</text>
     <text
        x="2529.49"
        y="-449"
        font-size="14.00"
        id="text4250"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165624</text>
     <text
        x="2529.49"
        y="-432.20001"
        font-size="14.00"
        id="text4252"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165624</text>
   </g>
   <g
      id="g4334"
@@ -2447,43 +2447,43 @@
        y="-541.40002"
        font-size="14.00"
        id="text4358"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="334.09698"
        y="-524.59998"
        font-size="14.00"
        id="text4360"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameFirst :&quot;Nemo&quot;</text>
     <text
        x="334.09698"
        y="-507.79999"
        font-size="14.00"
        id="text4362"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">nameLast :&quot;Nihili&quot;</text>
     <text
        x="334.09698"
        y="-491"
        font-size="14.00"
        id="text4364"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactAdress :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactAdress :&quot;Nigdje 2&quot;</text>
     <text
        x="334.09698"
        y="-474.20001"
        font-size="14.00"
        id="text4366"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactTelephone :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">contactTelephone :&quot;&quot;</text>
     <text
        x="334.09698"
        y="-457.39999"
        font-size="14.00"
        id="text4368"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :721656240</text>
     <text
        x="334.09698"
        y="-440.60001"
        font-size="14.00"
        id="text4370"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :721656240</text>
   </g>
   <g
      transform="translate(1379.5485,938.73292)"
@@ -2542,43 +2542,43 @@
        id="text4396"
        font-size="14.00"
        y="-541.40002"
-       x="334.09698">id :integer</text>
+       x="334.09698">id :3</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4398"
        font-size="14.00"
        y="-524.59998"
-       x="334.09698">nameFirst :string</text>
+       x="334.09698">nameFirst :&quot;Đuro&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4400"
        font-size="14.00"
        y="-507.79999"
-       x="334.09698">nameLast :string</text>
+       x="334.09698">nameLast :&quot;Horvat&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4402"
        font-size="14.00"
        y="-491"
-       x="334.09698">contactAdress :string</text>
+       x="334.09698">contactAdress :&quot;Nigdje 3&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4404"
        font-size="14.00"
        y="-474.20001"
-       x="334.09698">contactTelephone :string</text>
+       x="334.09698">contactTelephone :&quot;099..&quot;</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4406"
        font-size="14.00"
        y="-457.39999"
-       x="334.09698">created_at :datetime</text>
+       x="334.09698">created_at :721656240</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4408"
        font-size="14.00"
        y="-440.60001"
-       x="334.09698">updated_at :datetime</text>
+       x="334.09698">updated_at :721656240</text>
   </g>
   <g
      id="g4410"
@@ -2637,37 +2637,37 @@
        y="-533"
        font-size="14.00"
        id="text4434"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="2346.9299"
        y="-516.20001"
        font-size="14.00"
        id="text4436"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleModel :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleModel :&quot;BMW&quot;</text>
     <text
        x="2346.9299"
        y="-499.39999"
        font-size="14.00"
        id="text4438"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">buildYear :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">buildYear :1991</text>
     <text
        x="2346.9299"
        y="-482.60001"
        font-size="14.00"
        id="text4440"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleRegistration :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">vehicleRegistration :&quot;ZG...&quot;</text>
     <text
        x="2346.9299"
        y="-465.79999"
        font-size="14.00"
        id="text4442"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :721656240</text>
     <text
        x="2346.9299"
        y="-449"
        font-size="14.00"
        id="text4444"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :721656240</text>
   </g>
   <g
      id="g4446"
@@ -2726,37 +2726,37 @@
        y="-533"
        font-size="14.00"
        id="text4470"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :1</text>
     <text
        x="958.495"
        y="-516.20001"
        font-size="14.00"
        id="text4472"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">order_id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">order_id :1</text>
     <text
        x="958.495"
        y="-499.39999"
        font-size="14.00"
        id="text4474"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :1</text>
     <text
        x="958.495"
        y="-482.60001"
        font-size="14.00"
        id="text4476"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :float</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :1.0</text>
     <text
        x="958.495"
        y="-465.79999"
        font-size="14.00"
        id="text4478"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165624</text>
     <text
        x="958.495"
        y="-449"
        font-size="14.00"
        id="text4480"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165624</text>
   </g>
   <g
      id="g4482"
@@ -2815,37 +2815,37 @@
        y="-533"
        font-size="14.00"
        id="text4506"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="1260.49"
        y="-516.20001"
        font-size="14.00"
        id="text4508"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :string</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">name :&quot;Šaraf&quot;</text>
     <text
        x="1260.49"
        y="-499.39999"
        font-size="14.00"
        id="text4510"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :300.00</text>
     <text
        x="1260.49"
        y="-482.60001"
        font-size="14.00"
        id="text4512"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">price :float</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">price :0.20</text>
     <text
        x="1260.49"
        y="-465.79999"
        font-size="14.00"
        id="text4514"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165624</text>
     <text
        x="1260.49"
        y="-449"
        font-size="14.00"
        id="text4516"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165624</text>
   </g>
   <g
      id="g4518"
@@ -2904,37 +2904,37 @@
        y="-533"
        font-size="14.00"
        id="text4542"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="1411.9399"
        y="-516.20001"
        font-size="14.00"
        id="text4544"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">part_id :2</text>
     <text
        x="1411.9399"
        y="-499.39999"
        font-size="14.00"
        id="text4546"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">procedure_id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">procedure_id :2</text>
     <text
        x="1411.9399"
        y="-482.60001"
        font-size="14.00"
        id="text4548"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :float</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">quantity :4.0</text>
     <text
        x="1411.9399"
        y="-465.79999"
        font-size="14.00"
        id="text4550"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165624</text>
     <text
        x="1411.9399"
        y="-449"
        font-size="14.00"
        id="text4552"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165624</text>
   </g>
   <g
      id="g4554"
@@ -2993,13 +2993,13 @@
        y="-533"
        font-size="14.00"
        id="text4578"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :2</text>
     <text
        x="2157.49"
        y="-516.20001"
        font-size="14.00"
        id="text4580"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :0</text>
     <text
        x="2157.49"
        y="-499.39999"
@@ -3011,19 +3011,19 @@
        y="-482.60001"
        font-size="14.00"
        id="text4584"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :float</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :0.00</text>
     <text
        x="2157.49"
        y="-465.79999"
        font-size="14.00"
        id="text4586"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :72165800</text>
     <text
        x="2157.49"
        y="-449"
        font-size="14.00"
        id="text4588"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :72165800</text>
   </g>
   <g
      transform="translate(-1330.5055,625.09081)"
@@ -3082,13 +3082,13 @@
        id="text4614"
        font-size="14.00"
        y="-533"
-       x="2157.49">id :integer</text>
+       x="2157.49">id :3</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4616"
        font-size="14.00"
        y="-516.20001"
-       x="2157.49">type :integer</text>
+       x="2157.49">type :1</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4618"
@@ -3100,19 +3100,19 @@
        id="text4620"
        font-size="14.00"
        y="-482.60001"
-       x="2157.49">money :float</text>
+       x="2157.49">money :350.00</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4622"
        font-size="14.00"
        y="-465.79999"
-       x="2157.49">created_at :datetime</text>
+       x="2157.49">created_at :75165624</text>
     <text
        style="font-size:14px;text-anchor:start;font-family:'Times,serif'"
        id="text4624"
        font-size="14.00"
        y="-449"
-       x="2157.49">updated_at :datetime</text>
+       x="2157.49">updated_at :75165624</text>
   </g>
   <g
      id="g4626"
@@ -3171,13 +3171,13 @@
        y="-533"
        font-size="14.00"
        id="text4650"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">id :4</text>
     <text
        x="2157.49"
        y="-516.20001"
        font-size="14.00"
        id="text4652"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :integer</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">type :2</text>
     <text
        x="2157.49"
        y="-499.39999"
@@ -3189,19 +3189,19 @@
        y="-482.60001"
        font-size="14.00"
        id="text4656"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :float</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">money :350.00</text>
     <text
        x="2157.49"
        y="-465.79999"
        font-size="14.00"
        id="text4658"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">created_at :82165624</text>
     <text
        x="2157.49"
        y="-449"
        font-size="14.00"
        id="text4660"
-       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :datetime</text>
+       style="font-size:14px;text-anchor:start;font-family:'Times,serif'">updated_at :82165624</text>
   </g>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
