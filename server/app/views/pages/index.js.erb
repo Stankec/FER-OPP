@@ -1,9 +1,0 @@
-$('.pages').append('<% @page.each do |p| %><div <% if p.slug != nil && p.slug.length != 0 %> id="p_<%= p.slug %>" <% end %> class="pageItem"><% if p.slug != nil && p.slug.length != 0 %><a id="<%= p.slug %>"></a><% end %><% if p.contentPreview != nil && p.contentPreview.length != 0 %><%= j p.contentPreview.html_safe %><% else %><%= j p.content.html_safe %><% end %></div><% end %>');
-<% if @page.next_page %>
-  	$('.pagination').replaceWith('<%= j will_paginate @page,
-				renderer: BootstrapPagination::Rails,
-				previous_label: "<i class='icon-chevron-left'></i>".html_safe, 
-				next_label: "<i class='icon-chevron-right'></i>".html_safe %>');
-<% else %>
-  	$('.pagination').remove();
-<% end %>
