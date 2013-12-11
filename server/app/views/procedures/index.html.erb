@@ -15,14 +15,3 @@
 	<h1>Postupci</h1>
 	<%= render :partial => "index", :locals => {:procedure => @procedure} %>
 </div>
-
-<div>
-	<%= PartProcedure.all.count %>
-	<% PartProcedure.all.each do |u| %>
-		<div>
-			<%= u.part_id %>
-			<%= u.procedure_id %>
-			<%= u.quantity %>
-		</div>
-	<% end %>
-</div>
