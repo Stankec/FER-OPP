@@ -1,0 +1,45 @@
+if (!$('#tempModal').length)
+{
+	$("#content-helper").html  (''+
+								'<div class="modal fade" id="tempModal" tabindex="-1" role="dialog" aria-labelledby="tempModal" aria-hidden="true">'+
+								  	'<div class="modal-dialog">'+
+								  	  	'<div class="modal-content">'+
+								  	  	  	'<div class="modal-header">'+
+								  	  	  	  	'<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>'+
+								  	  	  	  	'<h4 class="modal-title" id="tempModalHeader">Modal title</h4>'+
+								  	  	  	'</div>'+
+								  	  	  	'<div class="modal-body" id="tempModalBody">'+
+								  	  	  	  '	<p>One fine body&hellip;</p>'+
+								  	  	  	'</div>'+
+								  	  	  	'<div class="modal-footer" id="tempModalFooter">'+
+								  	  	  	  	'<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'+
+								  	  	  	'</div>'+
+								  	  	'</div><!-- /.modal-content -->'+
+								  	'</div><!-- /.modal-dialog -->'+
+								'</div><!-- /.modal -->'+
+								'');
+	$('#tempModal').on('hidden', function () {
+		$('#tempModal').remove();
+	});
+}
+
+$('#tempModalHeader').html(	'Edit Category');
+$('#tempModalBody').html(	'<%= j render :partial => "new", :locals => {:category => @category, :remote => true } %>' );
+$('#tempModalFooter').html(	'<button type="button" class="btn btn-default" data-dismiss="modal">'+
+								'<i class="icon-remove"></i> Zatvori'+
+							'</button>'+
+							'<div style="float:right; margin-left:5px;">'+
+								'<%= link_to '<i class="icon-ok"></i> Pohrani'.html_safe, "#", 
+									 :remote => true,
+									 :class => 'btn btn-primary', 
+									 :onclick => '$(".edit_category").submit()' %>'+
+							'</div>'+
+							'<div style="float:right; margin-left:5px;">'+
+								'<%= link_to '<i class="icon-trash"></i> Izbriši'.html_safe, category_path(@category),
+									 :remote => true, 
+									 :class => 'btn btn-danger', 
+									 :method => "delete", 
+									 :confirm => "Jeste li sigurni da želite izbrisati kategoriju \"#{@category.title}\"?" %>'+
+							'</div>' );
+
+$('#tempModal').modal();

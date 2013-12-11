@@ -1,0 +1,11 @@
+<% if @imageType == 1 %>
+	// Favicon
+	$('#faviconPreview').html('');
+	$('#faviconDelete').html('');
+<% elsif @imageType == 2 %>
+	// Preview
+	$('#previewPreview').html('');
+	$('#previewDelete').html('');
+<% else %>
+	// Image
+<% end %>

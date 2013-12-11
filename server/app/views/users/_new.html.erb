@@ -1,0 +1,46 @@
+<%= form_for user do |f| %>
+
+	<div class="row">
+		<div class="page new settings col-md-6">
+			<div class="form-group">
+				<label for="page_title">Ime</label>
+				<%= f.text_field :nameFirst, 
+					:placeholder => "Ivan", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Prezime</label>
+				<%= f.text_field :nameLast, 
+					:placeholder => "Horvat", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_tags">Email</label>
+				<%= f.text_field :contactEmail, 
+					:placeholder => "email@host.com", 
+					:class => "form-control" %>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="form-group">
+				<label for="page_title">Korisničko ime</label>
+				<%= f.text_field :loginUsername, 
+					:placeholder => "Korisničko ime", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Zaporka</label>
+				<%= f.text_field :password, 
+					:class => "form-control" %>
+				<p class="help-block">Napomena: Ako NE želite mjenjati zaporku ostavite ovo polje prazno.</p>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Potvrda Zaporke</label>
+				<%= f.text_field :password_confirmation, 
+					:class => "form-control" %>
+				<p class="help-block">Ponovite zaporku da budemo sigurni da ste unjeli točnu.</p>
+			</div>	
+		</div>
+	</div>
+
+<% end %>

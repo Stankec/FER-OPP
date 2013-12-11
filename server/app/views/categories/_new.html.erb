@@ -1,0 +1,34 @@
+<div class="container">
+
+	<% if !defined?(remote); remote = false; end; %>
+	
+	<%= form_for category, remote: remote do |f| %>
+
+		<div class="row">
+				<div class="form-group">
+					<label for="category_title">Ime Kategorije</label>
+					<%= f.text_field :title, 
+						:placeholder => "Title", 
+						:class => "form-control" %>
+				</div>
+				<div class="form-group">
+					<label for="category_icon">Ikona</label>
+					<%= f.text_field :icon, 
+						:placeholder => "<i class=\"icon-compass\"></i>", 
+						:class => "form-control" %>
+				</div>
+				<div class="form-group">
+					<label for="category_icon">Kategorija Roditelj</label>
+					<div class="clearfix"></div>
+					<select id="category_parent_id" name="category[parent_id]" class="form-control">
+					  	<option value="">Bez Roditelja</option>
+						<% Category.roots.each do |opt|%>
+							<%= render :partial => "categoryItemMenu", :locals => {:item => opt, :original => category.parent } %>
+						<% end %>
+					</select>
+				</div>
+		</div>
+
+	<% end %>
+	
+</div>

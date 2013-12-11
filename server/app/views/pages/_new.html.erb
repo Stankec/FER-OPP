@@ -1,0 +1,82 @@
+<%= form_for page do |f| %>
+	<div class="row"><h2>Page settings</h2></div>
+	<div class="row">
+		<div class="page new settings col-md-6">
+			<div class="form-group">
+				<label for="page_title">Naslov</label>
+				<%= f.text_field :title, :placeholder => "Naslov - npr. 'Najbolja stranica ikada!'", :class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Slug</label>
+				<%= f.text_field :slug, :placeholder => "Slug - npr. 'najbolja-stranica-ikada'", :class => "form-control" %>
+				<p class="help-block">Definira izgled URL, umjesto '/pages/:id' biti će '/pages/:slug'.</p>
+			</div>
+			<div class="form-group">
+				<label for="page_tag_list">Ikona</label>
+				<%= f.text_field :icon,
+					:placeholder => "<i class='file-icon'></i>", 
+					:class => "form-control" %>
+				<p class="help-block">Ikona koja će biti prikazana prije naslova.</p>
+			</div>
+			<div class="form-group">
+				<label for="page_tag_list">Tagovi</label>
+				<%= f.text_field :tag_list,
+					:placeholder => "Tagovi - npr. 'zakon, fora, prekrasno'", 
+					:class => "form-control" %>
+				<p class="help-block">Tagovi odvojeni zarezom. Pomažu tražilici pri pretrazi.</p>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="form-group">
+				<label for="page_title">Kategorija</label>
+				<div class="clearfix"></div>
+				<select id="page_category_id" name="page[category_id]" class="form-control">
+				  	<option value="">Bez Kategorije</option>
+					<% Category.roots.each do |opt|%>
+						<%= render :partial => "categories/categoryItemMenu", :locals => {:item => opt, :original => page.category } %>
+					<% end %>
+				</select>
+				<div class="clearfix"></div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Opcije</label>
+				<div class="clearfix"></div>
+				<div class="btn-group btn-toggle-group" data-toggle="buttons">
+				  	<label class="btn btn-default btn-toggle-group-item">
+				  	  	<%= f.check_box :isPublic %> Javno pristupna
+				  	</label>
+				  	<label class="btn btn-default btn-toggle-group-item">
+				  	  	<%= f.check_box :isHidden %> Sakrivena
+				  	</label>
+				  	<label class="btn btn-default btn-toggle-group-item" id="previewCheckboxLable"
+				  		onclick='if($("#page_hasPreview").prop("checked")){$("#contentPreviewContainer").hide("fast");}else{$("#contentPreviewContainer").show("fast");};'>
+				  	  	<%= f.check_box :hasPreview %> Brzi Pregled
+				  	</label>
+				</div>
+				<p class="help-block">	<u>Javno pristupna</u> određuje dali ne registrirani korisnik može pristupiti stranici.<br>
+										<u>Sakrivena</u> ne prikazuje stranicu ali joj se može javno pristupiti.<br>
+										<u>Brzi Pregled</u> se koristi umjesto pune stranice u popisu stranica.<br>
+			</div>
+			<div class="form-group" id="saveButtonGroup">
+				<button type="submit" class="btn btn-primary btn-large btn-block">
+				    	<i class="icon-ok"></i> Pohrani
+				</button>
+			</div>			
+		</div>
+	</div>
+		
+
+	<div class="clearfix"></div>
+
+	<div id="contentPreviewContainer" style="<% if page.hasPreview != true %>display:none;<% end %>">
+		<h2>Sadržaj Brzog Pregleda</h2>
+		<%= f.cktext_area :contentPreview %>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div>
+		<h2>Sadržaj</h2>
+		<%= f.cktext_area :content %>
+	</div>
+<% end %>
