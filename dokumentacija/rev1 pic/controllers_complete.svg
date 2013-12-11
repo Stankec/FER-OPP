@@ -134,43 +134,43 @@
          y="-703.83197"
          font-size="14.00"
          id="text45"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-authUser()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+authUser()</text>
       <text
          x="533.68103"
          y="-687.03198"
          font-size="14.00"
          id="text47"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-currentUser()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+currentUser()</text>
       <text
          x="533.68103"
          y="-670.23199"
          font-size="14.00"
          id="text49"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-genFaviconTags()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+genFaviconTags()</text>
       <text
          x="533.68103"
          y="-653.43201"
          font-size="14.00"
          id="text51"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-genSocialMediaTags()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+genSocialMediaTags()</text>
       <text
          x="533.68103"
          y="-636.63202"
          font-size="14.00"
          id="text53"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-gravatarUrl()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+gravatarUrl()</text>
       <text
          x="533.68103"
          y="-619.83197"
          font-size="14.00"
          id="text55"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-initial()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+initial()</text>
       <text
          x="533.68103"
          y="-603.03198"
          font-size="14.00"
          id="text57"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-pageTitle()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+pageTitle()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -252,49 +252,49 @@
          y="-924.07098"
          font-size="14.00"
          id="text88"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-category_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+category_params()</text>
       <text
          x="976.55902"
          y="-907.271"
          font-size="14.00"
          id="text90"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="976.55902"
          y="-890.47101"
          font-size="14.00"
          id="text92"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="976.55902"
          y="-873.67102"
          font-size="14.00"
          id="text94"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="976.55902"
          y="-856.87097"
          font-size="14.00"
          id="text96"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="976.55902"
          y="-840.07098"
          font-size="14.00"
          id="text98"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="976.55902"
          y="-823.271"
          font-size="14.00"
          id="text100"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <text
          x="976.55902"
          y="-806.47101"
          font-size="14.00"
          id="text102"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -388,25 +388,25 @@
          y="-106.5"
          font-size="14.00"
          id="text138"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="380.18399"
          y="-89.699997"
          font-size="14.00"
          id="text140"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="380.18399"
          y="-72.900002"
          font-size="14.00"
          id="text142"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="380.18399"
          y="-56.099998"
          font-size="14.00"
          id="text144"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -500,25 +500,25 @@
          y="-1134.11"
          font-size="14.00"
          id="text180"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="253.617"
          y="-1117.3101"
          font-size="14.00"
          id="text182"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="253.617"
          y="-1100.51"
          font-size="14.00"
          id="text184"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-image_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+image_params()</text>
       <text
          x="253.617"
          y="-1083.71"
          font-size="14.00"
          id="text186"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -612,43 +612,43 @@
          y="-1139.84"
          font-size="14.00"
          id="text222"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="667.01202"
          y="-1123.04"
          font-size="14.00"
          id="text224"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="667.01202"
          y="-1106.24"
          font-size="14.00"
          id="text226"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="667.01202"
          y="-1089.4399"
          font-size="14.00"
          id="text228"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="667.01202"
          y="-1072.64"
          font-size="14.00"
          id="text230"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-network_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+network_params()</text>
       <text
          x="667.01202"
          y="-1055.84"
          font-size="14.00"
          id="text232"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="667.01202"
          y="-1039.04"
          font-size="14.00"
          id="text234"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -742,25 +742,25 @@
          y="-951.77802"
          font-size="14.00"
          id="text270"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="127.145"
          y="-934.97803"
          font-size="14.00"
          id="text272"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="127.145"
          y="-918.17798"
          font-size="14.00"
          id="text274"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="127.145"
          y="-901.37799"
          font-size="14.00"
          id="text276"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -854,55 +854,55 @@
          y="-569.04199"
          font-size="14.00"
          id="text312"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="27.396299"
          y="-552.242"
          font-size="14.00"
          id="text314"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="27.396299"
          y="-535.44202"
          font-size="14.00"
          id="text316"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="27.396299"
          y="-518.64203"
          font-size="14.00"
          id="text318"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="27.396299"
          y="-501.84201"
          font-size="14.00"
          id="text320"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="27.396299"
          y="-485.04199"
          font-size="14.00"
          id="text322"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-page_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+page_params()</text>
       <text
          x="27.396299"
          y="-468.242"
          font-size="14.00"
          id="text324"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <text
          x="27.396299"
          y="-451.44199"
          font-size="14.00"
          id="text326"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-unpublished()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+unpublished()</text>
       <text
          x="27.396299"
          y="-434.642"
          font-size="14.00"
          id="text328"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1108,25 +1108,25 @@
          y="-323.509"
          font-size="14.00"
          id="text406"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="129.923"
          y="-306.70901"
          font-size="14.00"
          id="text408"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="129.923"
          y="-289.909"
          font-size="14.00"
          id="text410"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="129.923"
          y="-273.10901"
          font-size="14.00"
          id="text412"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1220,19 +1220,19 @@
          y="-125.625"
          font-size="14.00"
          id="text448"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="752.90399"
          y="-108.825"
          font-size="14.00"
          id="text450"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="752.90399"
          y="-92.025002"
          font-size="14.00"
          id="text452"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1326,19 +1326,19 @@
          y="-291.668"
          font-size="14.00"
          id="text488"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="457.461"
          y="-274.86801"
          font-size="14.00"
          id="text490"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="457.461"
          y="-258.06799"
          font-size="14.00"
          id="text492"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1432,31 +1432,31 @@
          y="-771.26801"
          font-size="14.00"
          id="text528"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="7.8344698"
          y="-754.46802"
          font-size="14.00"
          id="text530"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="7.8344698"
          y="-737.66803"
          font-size="14.00"
          id="text532"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="7.8344698"
          y="-720.86798"
          font-size="14.00"
          id="text534"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-setting_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+setting_params()</text>
       <text
          x="7.8344698"
          y="-704.06799"
          font-size="14.00"
          id="text536"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1550,25 +1550,25 @@
          y="-699.07098"
          font-size="14.00"
          id="text572"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="1091.9301"
          y="-682.271"
          font-size="14.00"
          id="text574"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="1091.9301"
          y="-665.47101"
          font-size="14.00"
          id="text576"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="1091.9301"
          y="-648.67102"
          font-size="14.00"
          id="text578"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1662,49 +1662,49 @@
          y="-1155.85"
          font-size="14.00"
          id="text614"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-create()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+create()</text>
       <text
          x="916.72803"
          y="-1139.05"
          font-size="14.00"
          id="text616"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-destroy()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+destroy()</text>
       <text
          x="916.72803"
          y="-1122.25"
          font-size="14.00"
          id="text618"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="916.72803"
          y="-1105.45"
          font-size="14.00"
          id="text620"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="916.72803"
          y="-1088.65"
          font-size="14.00"
          id="text622"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="916.72803"
          y="-1071.85"
          font-size="14.00"
          id="text624"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <text
          x="916.72803"
          y="-1055.05"
          font-size="14.00"
          id="text626"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-update()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+update()</text>
       <text
          x="916.72803"
          y="-1038.25"
          font-size="14.00"
          id="text628"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-user_params()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+user_params()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1798,25 +1798,25 @@
          y="-1233.96"
          font-size="14.00"
          id="text664"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="480.21201"
          y="-1217.16"
          font-size="14.00"
          id="text666"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="480.21201"
          y="-1200.36"
          font-size="14.00"
          id="text668"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="480.21201"
          y="-1183.5601"
          font-size="14.00"
          id="text670"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
@@ -1910,25 +1910,25 @@
          y="-345.64099"
          font-size="14.00"
          id="text706"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-edit()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+edit()</text>
       <text
          x="842.88202"
          y="-328.841"
          font-size="14.00"
          id="text708"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-index()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+index()</text>
       <text
          x="842.88202"
          y="-312.04099"
          font-size="14.00"
          id="text710"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-new()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+new()</text>
       <text
          x="842.88202"
          y="-295.241"
          font-size="14.00"
          id="text712"
-         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">-show()</text>
+         style="font-size:14px;text-anchor:start;font-family:'Times,serif'">+show()</text>
       <polyline
          fill="none"
          stroke="black"
