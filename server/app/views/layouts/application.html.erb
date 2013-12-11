@@ -35,7 +35,7 @@
 			    	var url;
 			    	url = $('.pagination').find('a[rel=next]').attr('href');
 			    	if (url && $(window).scrollTop() > $(document).height() - $(window).height() - 100) {
-			      		$('.pagination').text("<i class=\"icon-spinner icon-spin icon-large\"></i> Fetching more...");
+			      		$('.pagination').text("<i class=\"fa fa-spinner fa fa-spin fa fa-large\"></i> Fetching more...");
 			      		$.getScript(url);
 			    	}
 			  	});
@@ -52,9 +52,7 @@
 		<div class="navbar-header">
 	      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 	      	  	<span class="sr-only">Togglaj navigaciju</span>
-	      	  	<span class="icon-bar"></span>
-	      	  	<span class="icon-bar"></span>
-	      	  	<span class="icon-bar"></span>
+	      	  	<span class="fa fa-bars"></span>
 	      	</button>
 	      	<a class="navbar-brand" href="<%= root_url %>"><%= pageTitle %></a>
 	    </div>
@@ -72,32 +70,69 @@
 			        	</a>
 			          	<ul class="dropdown-menu">
 			              	<li>
-			              		<%= link_to '<i class="icon-gear"></i> Postavke'.html_safe, 
+			              		<%= link_to '<i class="fa fa-gear"></i> Postavke'.html_safe, 
 			              			edit_setting_path(Setting.first) %>
 			              	</li>
 			              	<li>
-			              		<%= link_to '<i class="icon-sitemap"></i> Mreže'.html_safe, 
+			              		<%= link_to '<i class="fa fa-sitemap"></i> Mreže'.html_safe, 
 			              			networks_path %>
 			              	</li>
+
 			              	<li class="divider"></li>
 			              	<li>
-			              		<%= link_to '<i class="icon-tags"></i> Kategorije'.html_safe, 
+			              		<%= link_to '<i class="fa fa-tags"></i> Kategorije'.html_safe, 
 			              			categories_path, :remote => false %>
 			              	</li>
 			              	<li>
-			              		<%= link_to '<i class="icon-file"></i> Stranice'.html_safe, 
+			              		<%= link_to '<i class="fa fa-file"></i> Stranice'.html_safe, 
 			              			pages_path %>
 			              	</li>
+
 			              	<li class="divider"></li>
 			              	<li>
-			              		<%= link_to '<i class="icon-group"></i> Radnici'.html_safe, 
+			              		<%= link_to '<i class="fa fa-group"></i> Radnici'.html_safe, 
 			              			users_path %>
 			              	</li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-suitcase"></i> Uloge'.html_safe, 
+			              			roles_path %>
+			              	</li>
+
 			              	<li class="divider"></li>
-			              	<li><%= link_to '<i class="icon-user"></i> Korisnički Račun'.html_safe, 
+			              	<li>
+			              		<%= link_to '<i class="fa fa-female"></i> Klijenti'.html_safe, 
+			              			clients_path %>
+			              	</li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-rocket"></i> Vozila'.html_safe, 
+			              			vehicles_path %>
+			              	</li>
+
+			              	<li class="divider"></li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-gears"></i> Dijelovi'.html_safe, 
+			              			parts_path %>
+			              	</li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-wrench"></i> Postupci'.html_safe, 
+			              			procedures_path %>
+			              	</li>
+
+			              	<li class="divider"></li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-bar-chart-o"></i> Obračuni'.html_safe, 
+			              			statements_path %>
+			              	</li>
+			              	<li>
+			              		<%= link_to '<i class="fa fa-clock-o"></i> Radno vrijeme'.html_safe, 
+			              			working_hours_path %>
+			              	</li>
+
+			              	<li class="divider"></li>
+			              	<li><%= link_to '<i class="fa fa-user"></i> Korisnički Račun'.html_safe, 
 			              			edit_user_path(currentUser) %>
 			              	</li>
-			              	<li><%= link_to '<i class="icon-signout"></i> Odjava'.html_safe, 
+			              	<li><%= link_to '<i class="fa fa-sign-out"></i> Odjava'.html_safe, 
 			              			logout_path,
 			              			:confirm => "Jete li sigurni da se želite odjaviti?" %>
 			              	</li>
@@ -109,6 +144,13 @@
 					<% if content_for?(:contextMenu) %>  
 		               	<%= yield :contextMenu %> 
 		            <% end %>
+			    </ul>
+			<% else %>
+				<!-- User login -->
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<%= link_to '<i class="fa fa-sign-in"></i> Prijava'.html_safe, login_path %>
+			        </li>
 			    </ul>
 	    	<% end %>
 
@@ -177,7 +219,7 @@
     					:class=> "btn btn-primary btn-block hiddenSearchButton" %>
 		    <% end %>
 	        <ul class="nav navbar-nav hiddenSearchButtonAlt">
-	            <li><a id="hiddenSearchToggle"><i class="icon-search"></i></a></li>
+	            <li><a id="hiddenSearchToggle"><i class="fa fa-search"></i></a></li>
 	        </ul>
 
 			<ul class="nav navbar-nav navbar-right">
@@ -214,7 +256,9 @@
 	
 	
 
-	<%= yield %>
+	<div class="content" style="padding:10px;">
+		<%= yield %>
+	</div>
 
 </body>
 <footer>

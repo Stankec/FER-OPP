@@ -1,0 +1,43 @@
+<%= form_for workingHour do |f| %>
+	<!-- Regular -->
+	<div>
+		<div class="form-group">
+			<label for="page_title">Dan</label>
+			<%= f.select :day, 
+						 options_for_select([['Ponedjeljak', 0], ['Utorak', 1], ['Srijeda', 2], ['Četvrtak', 3], ['Petak', 4], ['Subota', 5], ['Nedjelja', 6]]) %>
+		</div>
+	</div>
+
+	<!-- Vrijeme -->
+	<div>
+		<div class="form-group">
+			<label for="page_title">Vrijeme početka</label>
+			<%= f.time_select :timeStart, 
+							  :class => "form-control" %>
+		</div>
+	</div>
+	<div>
+		<div class="form-group">
+			<label for="page_title">Vrijeme završetka</label>
+			<%= f.time_select :timeFinish, 
+							  :class => "form-control" %>
+		</div>
+	</div>
+
+	<!-- Exception -->
+	<div>
+		<div>
+			<div class="form-group">
+				<label for="page_title">Izvanredno</label>
+				<%= f.check_box :exception %>
+			</div>
+		</div>
+		<div>
+			<div class="form-group">
+				<label for="page_title">Datum Iznimke</label>
+				<%= f.date_select :exceptiondate, 
+								  :class => "form-control" %>
+			</div>
+		</div>
+	</div>
+<% end %>

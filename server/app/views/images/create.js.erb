@@ -1,20 +1,31 @@
 <% if @image.imageType == 1 %>
 	// Favicon
 	$('#faviconPreview').html('<%= j render :partial => "faviconPreview", :locals => {:image => @image } %>');
-	$('#faviconDelete').html('<%= link_to '<i class="icon-trash"></i> Delete'.html_safe, 
+	$('#faviconDelete').html('<%= link_to '<i class="fa fa-trash"></i> Delete'.html_safe, 
 												image_path(@image), 
 												:method => "delete",
-												:confirm => "Are you sure you want to delete the favicon?",
+												:confirm => "Jeste li sigurni da želite izbrisati favikonu ove stranice?",
 												"data-no-turbolink" => false,
 												:remote => true,
 												:class => "btn btn-danger" %>');
+<% elsif @image.imageType == 11 %>
+	// Parts
+	$('#faviconPreview').html('<%= j render :partial => "previewPreview", :locals => {:image => @image } %>');
+	$('#faviconDelete').html('<%= link_to '<i class="fa fa-trash"></i> Delete'.html_safe, 
+												image_path(@image), 
+												:method => "delete",
+												:confirm => "Jeste li sigurni da želite izbrisati ovu sliku??",
+												"data-no-turbolink" => false,
+												:remote => true,
+												:class => "btn btn-danger" %>');
+	$('#myImageID').val(''+<%= @image.id %>);
 <% elsif @image.imageType == 2 %>
 	// Preview
 	$('#previewPreview').html('<%= j render :partial => "previewPreview", :locals => {:image => @image } %>');
-	$('#previewDelete').html('<%= link_to '<i class="icon-trash"></i> Delete'.html_safe, 
+	$('#previewDelete').html('<%= link_to '<i class="fa fa-trash"></i> Delete'.html_safe, 
 												image_path(@image), 
 												:method => "delete",
-												:confirm => "Are you sure you want to delete the preview?",
+												:confirm => "Jeste li sigurni da želite izbrisati sliku koja se prikazuje na socijalnim medijima?",
 												"data-no-turbolink" => false,
 												:remote => true,
 												:class => "btn btn-danger" %>');

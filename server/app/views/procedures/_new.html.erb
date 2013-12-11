@@ -1,0 +1,43 @@
+<%= form_for procedure do |f| %>
+	<div class="">
+		<div class="form-group">
+			<label for="page_title">Naziv</label>
+			<%= f.text_field :name, 
+				:placeholder => "Zamjena gepufne", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_slug">Broj potrebnih radnika</label>
+			<%= f.text_field :minNumOfWorkers, 
+				:placeholder => "1", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Trajanje</label>
+			<%= f.text_field :duration, 
+				:placeholder => "0.5", 
+				:class => "form-control" %>
+			<p class="help-block">u satima</p>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Cijena čovijek-sata</label>
+			<%= f.text_field :manHour, 
+				:placeholder => "15", 
+				:class => "form-control" %>
+			<p class="help-block">u kunama</p>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Opis</label>
+			<%= f.text_area :description, 
+				:placeholder => "Izvadiš staru gepufnu van i ugradiš novu...", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Potrebni dijelovi</label>
+			<%= f.fields_for :part_procedures do |builder| %>
+			  	<%= render 'part_procedure_fields', f: builder %>
+			<% end %>
+			<%= link_to_add_fields '<i class="fa fa-plus"></i> Dodaj dio'.html_safe, f, :part_procedures, "btn btn-default" %>
+		</div>
+	</div>
+<% end %>

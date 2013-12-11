@@ -1,0 +1,87 @@
+<%= form_for part do |f| %>
+
+	<div class="row">
+		<div class="form-group">
+			<label for="page_title">Naziv</label>
+			<%= f.text_field :name, 
+				:placeholder => "Cinculator", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Cijena</label>
+			<%= f.text_field :price, 
+				:placeholder => "899.99", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_slug">Količina</label>
+			<%= f.text_field :quantity, 
+				:placeholder => "24", 
+				:class => "form-control" %>
+		</div>
+		<div class="form-group">
+			<label for="page_tags">Opis</label>
+			<%= f.text_area :description, 
+				:placeholder => "Mali uređaj skriven u utrobi svakog automobila, ali nitko ne zna čemu on zapravo služi...",
+				:class => "form-control" %>
+		</div>
+	</div>
+	<%= hidden_field_tag :myImageID %>
+
+<% end %>
+
+<% 
+	img = nil
+	if part.id != nil
+		img = Image.where("imageType = 11 AND attachedTo = ?", part.id).first 
+	end
+
+	if img == nil
+		img = Image.new
+	end
+%>
+<%= form_for img, :html => { :name => "preview_image" } do |f| %>
+	<div class="row">
+		<label for="page_tags">Slika</label>
+			<div class="clearfix"></div>
+		<div class="form-group optUpload" id="uploadedFaviconImage">
+			<div class="ddNotice">
+				<div id="faviconMessage">Ubacite sliku ovdje!</div>
+				<div id="faviconProgress" style="display:none;">
+					<div class="progress progress-striped active">
+					  <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" id="faviconProgressBar" style="width: 45%">
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div id="faviconPreview">
+				<% if img != nil && img.id != nil %>
+					<%= render :partial => "images/previewPreview", :locals => {:image => img } %>
+					<br>
+				<% end %>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<span class="btn btn-default fileinput-button submit" style="height:35px;">
+			<p> <i class="fa fa-cloud-upload"></i> Upload Slike </p>
+			<%= f.file_field :path %>
+		</span>
+		<div style="flaot:left; margin-left:25px;" id="faviconDelete">
+			<% if img != nil && img.id != nil %>
+				<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+							image_path(img), 
+							:method => "delete",
+							:confirm => "Jeste li sikurni da želite izbrisati sliku?",
+							"data-no-turbolink" => false,
+							:remote => true,
+							:class => "btn btn-danger" %>
+			<% end %>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	<%= f.hidden_field :imageType, :value => 11 %>
+
+<% end %>

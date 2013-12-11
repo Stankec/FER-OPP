@@ -63,14 +63,11 @@ gem 'friendly_id', '5.0.0.rc2'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
 # Use debugger
 gem 'debugger', group: [:development, :test]
 
-#Generate class diagrams
+# Generate class diagrams
 gem 'railroady'
+
+# Backwards compatibility with Rails 3
+#gem 'protected_attributes'

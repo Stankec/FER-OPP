@@ -68,6 +68,7 @@ ActiveRecord::Schema.define(version: 20131021172108) do
   create_table "images", force: true do |t|
     t.string   "imageName"
     t.integer  "imageType"
+    t.integer  "attachedTo"
     t.string   "path"
     t.boolean  "isHidden"
     t.datetime "created_at"
@@ -146,10 +147,16 @@ ActiveRecord::Schema.define(version: 20131021172108) do
 
   create_table "parts", force: true do |t|
     t.string   "name"
-    t.integer  "quantity"
+    t.float    "quantity"
     t.float    "price"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "parts_procedures", force: true do |t|
+    t.integer "part_id"
+    t.integer "procedure_id"
   end
 
   create_table "procedures", force: true do |t|
@@ -174,6 +181,9 @@ ActiveRecord::Schema.define(version: 20131021172108) do
     t.boolean  "canViewParts"
     t.boolean  "canViewworkingHours"
     t.boolean  "canViewStatements"
+    t.boolean  "canViewNetworks"
+    t.boolean  "canViewPages"
+    t.boolean  "canViewCategories"
     t.boolean  "canChangeUsers"
     t.boolean  "canChangeRoles"
     t.boolean  "canChangeOrders"
@@ -184,6 +194,10 @@ ActiveRecord::Schema.define(version: 20131021172108) do
     t.boolean  "canChangeParts"
     t.boolean  "canChangeworkingHours"
     t.boolean  "canChangeStatements"
+    t.boolean  "canChangeNetworks"
+    t.boolean  "canChangePages"
+    t.boolean  "canChangeCategories"
+    t.boolean  "isntDeleteable"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

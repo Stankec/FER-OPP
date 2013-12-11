@@ -1,2 +1,15 @@
-<h1>Roles#new</h1>
-<p>Find me in app/views/roles/new.html.erb</p>
+<div class="container">
+	<div class="row">
+		<h2>Nova Uloga</h2>
+	</div>
+	<div class="row">
+		<%= render :partial => "new", :locals => {:role => @role } %>
+	</div>
+	<div class="row">
+		<div>
+			<%= link_to '<i class="fa fa-check fa fa-white"></i> Save'.html_safe, "#", 
+				:class => 'btn btn-primary', 
+				:onclick => '$(".new_role").submit()' %>
+		</div>
+	</div>
+</div>

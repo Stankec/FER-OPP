@@ -1,32 +1,40 @@
 Sonja::Application.routes.draw do
+  # Work hours
   get "working_hours/index"
   get "working_hours/show"
   get "working_hours/edit"
   get "working_hours/new"
+  # Statements
   get "statements/index"
   get "statements/show"
   get "statements/edit"
   get "statements/new"
+  # Parts
   get "parts/index"
   get "parts/show"
   get "parts/edit"
   get "parts/new"
+  # Orders
   get "orders/index"
   get "orders/show"
   get "orders/edit"
   get "orders/new"
+  # Procedures
   get "procedures/index"
   get "procedures/show"
   get "procedures/edit"
   get "procedures/new"
+  # Vehicles
   get "vehicles/index"
   get "vehicles/show"
   get "vehicles/edit"
   get "vehicles/new"
+  # Clients
   get "clients/index"
   get "clients/new"
   get "clients/edit"
   get "clients/show"
+  # Roles
   get "roles/index"
   get "roles/new"
   get "roles/edit"
@@ -70,7 +78,14 @@ Sonja::Application.routes.draw do
   resources :sessions
   resources :pages
   resources :users
-
+  resources :roles
+  resources :clients
+  resources :vehicles
+  resources :procedures
+  resources :orders
+  resources :parts
+  resources :statements
+  resources :working_hours
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

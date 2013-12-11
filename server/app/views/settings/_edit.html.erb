@@ -52,12 +52,12 @@
 						</div>
 						<div class="form-group">
 							<span class="btn btn-default fileinput-button submit" style="height:35px;">
-								<p> <i class="icon-cloud-upload"></i> Upload Favikone </p>
+								<p> <i class="fa fa-cloud-upload"></i> Upload Favikone </p>
 								<%= f.file_field :path %>
 							</span>
 							<div style="flaot:left; margin-left:25px;" id="faviconDelete">
 								<% if faviconImage.id != nil %>
-									<%= link_to '<i class="icon-trash"></i> Izbriši'.html_safe, 
+									<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
 												image_path(faviconImage), 
 												:method => "delete",
 												:confirm => "Jeste li sikurni da želite izbrisati favikonu?",
@@ -109,12 +109,12 @@
 						</div>
 						<div class="form-group">
 							<span class="btn btn-default fileinput-button submit" style="height:35px;">
-								<p> <i class="icon-cloud-upload"></i> Upload Slike Stranice </p>
+								<p> <i class="fa fa-cloud-upload"></i> Upload Slike Stranice </p>
 								<%= f.file_field :path %>
 							</span>
 							<div style="flaot:left; margin-left:25px;" id="previewDelete">
 								<% if previewImage.id != nil %>
-									<%= link_to '<i class="icon-trash"></i> Izbriši'.html_safe, 
+									<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
 												image_path(previewImage), 
 												:method => "delete",
 												:confirm => "Jeste li sigurni da želite izbrisati sliku stranice?",

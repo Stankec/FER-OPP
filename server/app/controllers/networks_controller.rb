@@ -20,7 +20,7 @@ class NetworksController < ApplicationController
 	##################
 
 	def network_params
-        params.require(:network).permit(:name, :icon, :link, :hidden, :showName)
+        params.require(:network).permit(:name, :icon, :link, :hidden, :showName, :description)
     end
 	
   	def create

@@ -1,0 +1,61 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Dan</td>
+			<td>Početak</td>
+			<td>Kraj</td>
+			<td>Opcije</td>
+		</tr>
+	</thead>
+	<tbody>	
+		<% workHour.each do |u| %>
+			<tr>
+				<td>
+					<% if u.exceptiondate != nil && u.exception == true %>
+						<%= u.exceptiondate %>
+					<% elsif u.day != nil %>
+						<% if u.day == nil %>
+							??
+						<% elsif u.day == 0 %>
+							Ponedjeljak
+						<% elsif u.day == 1 %>
+							Utorak
+						<% elsif u.day == 2 %>
+							Srijeda
+						<% elsif u.day == 3 %>
+							Četvrtak
+						<% elsif u.day == 4 %>
+							Petak
+						<% elsif u.day == 5 %>
+							Subota
+						<% elsif u.day == 6 %>
+							Nedjelja
+						<% end %>
+					<% else %>
+							<%= u.day %>
+					<% end %>
+				</td>
+				<td>
+					<%= u.timeStart.to_s(:time) %>
+				</td>
+				<td>
+					<%= u.timeFinish.to_formatted_s(:time) %>
+				</td>
+				<td>
+					<div style="float:left;">
+						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+						        	edit_working_hour_path(u),
+						        	:class => "btn btn-default" %>
+					</div>
+					<div style="float:left; margin-left:10px;">
+						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+						        	working_hour_path(u),
+						        	:method => "delete",
+						        	:confirm => "Jeste li sigurni da želite izbrisati radno vrijeme?",
+						        	:class => "btn btn-danger" %>
+					</div>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

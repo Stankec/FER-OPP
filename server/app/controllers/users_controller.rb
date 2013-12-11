@@ -3,29 +3,29 @@ class UsersController < ApplicationController
   	def index
   		authUser
       	@user = User.all
-  	end
+  	end # index
 	
   	def show
   		authUser
       	@user = User.find_by id: params[:id]
-  	end
+  	end # show
 	
   	def new
   		authUser
       	@user = User.new
-  	end
+  	end # new
 	
   	def edit
   		authUser
       	@user = User.find_by id: params[:id]
-  	end
+  	end # edit
 	
   	##################
   	### Rails CRUD ###
   	##################
 
     def user_params
-        params.require(:user).permit(:nameFirst, :nameLast, :loginUsername, :password, :contactEmail, :contactPhone)
+        params.require(:user).permit(:nameFirst, :nameLast, :loginUsername, :password, :contactEmail, :contactPhone, {:role_ids => []})
     end
 	
   	def create

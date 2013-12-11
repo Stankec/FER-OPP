@@ -1,0 +1,191 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Naziv</td>
+			<td>Smije vidjeti</td>
+			<td>Smije mjenjati</td>
+			<td>Opcije</td>
+		</tr>
+	</thead>
+	<tbody>	
+		<% role.each do |u| %>
+			<tr>
+				<td><%= u.name %></td>
+				<td>
+					<!-- Users -->
+					<% if u.canViewUsers %>
+						<i class="fa fa-group fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Roles -->
+					<% if u.canViewRoles %>
+						<i class="fa fa-suitcase fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Orders -->
+					<% if u.canViewOrders %>
+						<i class="fa fa-file-text-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Clents -->
+					<% if u.canViewClients %>
+						<i class="fa fa-female fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Vehicles -->
+					<% if u.canViewVehicles %>
+						<i class="fa fa-rocket fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Procedures -->
+					<% if u.canViewProcedures %>
+						<i class="fa fa-wrench fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Parts -->
+					<% if u.canViewParts %>
+						<i class="fa fa-gears fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Statements -->
+					<% if u.canViewStatements %>
+						<i class="fa fa-barchart-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Working Hours -->
+					<% if u.canViewworkingHours %>
+						<i class="fa fa-clock-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Networks -->
+					<% if u.canViewNetworks %>
+						<i class="fa fa-sitemap fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Pages -->
+					<% if u.canViewPages %>
+						<i class="fa fa-file fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Categories -->
+					<% if u.canViewCategories %>
+						<i class="fa fa-tags fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Settings -->
+					<% if u.canViewSettings %>
+						<i class="fa fa-gear fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+				</td>
+				<td>
+					<!-- Users -->
+					<% if u.canChangeUsers %>
+						<i class="fa fa-group fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Roles -->
+					<% if u.canChangeRoles %>
+						<i class="fa fa-suitcase fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Orders -->
+					<% if u.canChangeOrders %>
+						<i class="fa fa-file-text-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Clents -->
+					<% if u.canChangeClients %>
+						<i class="fa fa-female fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Vehicles -->
+					<% if u.canChangeVehicles %>
+						<i class="fa fa-rocket fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Procedures -->
+					<% if u.canChangeProcedures %>
+						<i class="fa fa-wrench fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Parts -->
+					<% if u.canChangeParts %>
+						<i class="fa fa-gears fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Statements -->
+					<% if u.canChangeStatements %>
+						<i class="fa fa-barchart-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Working Hours -->
+					<% if u.canChangeworkingHours %>
+						<i class="fa fa-clock-o fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Networks -->
+					<% if u.canChangeNetworks %>
+						<i class="fa fa-sitemap fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Pages -->
+					<% if u.canChangePages %>
+						<i class="fa fa-file fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Categories -->
+					<% if u.canChangeCategories %>
+						<i class="fa fa-tags fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+					<!-- Settings -->
+					<% if u.canChangeSettings %>
+						<i class="fa fa-gear fa-lg"></i>
+					<% else %>
+						<i class="fa fa-square-o fa-lg"></i>
+					<% end %>
+				</td>
+				<td>
+					<div style="float:left;">
+						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+						        	edit_role_path(u),
+						        	:class => "btn btn-default" %>
+					</div>
+					<div style="float:left; margin-left:10px;">
+						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+						        	role_path(u),
+						        	:method => "delete",
+						        	:confirm => "Jeste li sigurni da želite izbrisati ulogu #{u.name}? \n Svi radnici s tom ulogom će izgubiti pravo pristupa podacima!",
+						        	:class => "btn btn-danger" %>
+					</div>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

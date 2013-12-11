@@ -1,0 +1,48 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>id</td>
+			<td>Slika</td>
+			<td>Naziv</td>
+			<td>Količina</td>
+			<td>Cijena</td>
+			<td>Opcije</td>
+		</tr>
+	</thead>
+	<tbody>	
+		<% part.each do |u| %>
+			<tr>
+				<td><%= u.id %></td>
+				<td>
+					<% img = Image.where("imageType = 11 AND attachedTo = ?", u.id).first %>
+					<% if img != nil && img.path != nil %>
+						<%= image_tag img.path_url(:favicon114) %>
+					<% end %>
+				</td>
+				<td>
+					<%= u.name %>
+				</td>
+				<td>
+					<%= u.quantity %>
+				</td>
+				<td>
+					<%= u.price %>
+				</td>
+				<td>
+					<div style="float:left;">
+						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+						        	edit_part_path(u),
+						        	:class => "btn btn-default" %>
+					</div>
+					<div style="float:left; margin-left:10px;">
+						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+						        	part_path(u),
+						        	:method => "delete",
+						        	:confirm => "Jeste li sigurni da želite izbrisati ove dijelove?",
+						        	:class => "btn btn-danger" %>
+					</div>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

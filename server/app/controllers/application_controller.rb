@@ -10,9 +10,174 @@ class ApplicationController < ActionController::Base
     helper_method :pageTitle
     helper_method :genFaviconTags
     helper_method :genSocialMediaTags
+    helper_method :cleanup
 	
   	def initial
-  		if User.first == nil
+      if Setting.first == nil
+        settings = Setting.new
+        settings.pageTitle = "Mehaničar"
+        settings.pageDescription = "Popravljamo sve od gepufne do cinculatora"
+        settings.save
+      end
+
+      if Role.first == nil
+        role = Role.new
+        role.name = "Admin"
+          role.canViewUsers = true
+          role.canViewRoles = true
+          role.canViewOrders = true
+          role.canViewClients = true
+          role.canViewVehicles = true
+          role.canViewProcedures = true
+          role.canViewSettings = true
+          role.canViewParts = true
+          role.canViewworkingHours = true
+          role.canViewStatements = true
+          role.canViewNetworks = true
+          role.canViewPages = true
+          role.canViewCategories = true
+          #
+          role.canChangeUsers = true
+          role.canChangeRoles = true
+          role.canChangeOrders = true
+          role.canChangeClients = true
+          role.canChangeVehicles = true
+          role.canChangeProcedures = true
+          role.canChangeSettings = true
+          role.canChangeParts = true
+          role.canChangeworkingHours = true
+          role.canChangeStatements = true
+          role.canChangeNetworks = true
+          role.canChangePages = true
+          role.canChangeCategories = true
+        role.save
+
+        role = Role.new
+        role.name = "Mehaničar"
+          role.canViewUsers = true
+          role.canViewRoles = true
+          role.canViewOrders = true
+          role.canViewClients = true
+          role.canViewVehicles = true
+          role.canViewProcedures = true
+          role.canViewSettings = true
+          role.canViewParts = true
+          role.canViewworkingHours = true
+          role.canViewStatements = true
+          role.canViewNetworks = true
+          role.canViewPages = true
+          role.canViewCategories = true
+          #
+          role.canChangeUsers = true
+          role.canChangeRoles = true
+          role.canChangeOrders = true
+          role.canChangeClients = true
+          role.canChangeVehicles = true
+          role.canChangeProcedures = true
+          role.canChangeSettings = true
+          role.canChangeParts = false
+          role.canChangeworkingHours = true
+          role.canChangeStatements = true
+          role.canChangeNetworks = true
+          role.canChangePages = true
+          role.canChangeCategories = true
+        role.save
+
+        role = Role.new
+        role.name = "Električar"
+          role.canViewUsers = true
+          role.canViewRoles = true
+          role.canViewOrders = true
+          role.canViewClients = true
+          role.canViewVehicles = true
+          role.canViewProcedures = true
+          role.canViewSettings = true
+          role.canViewParts = true
+          role.canViewworkingHours = true
+          role.canViewStatements = true
+          role.canViewNetworks = true
+          role.canViewPages = true
+          role.canViewCategories = true
+          #
+          role.canChangeUsers = true
+          role.canChangeRoles = true
+          role.canChangeOrders = true
+          role.canChangeClients = true
+          role.canChangeVehicles = true
+          role.canChangeProcedures = true
+          role.canChangeSettings = true
+          role.canChangeParts = false
+          role.canChangeworkingHours = true
+          role.canChangeStatements = true
+          role.canChangeNetworks = true
+          role.canChangePages = true
+          role.canChangeCategories = true
+        role.save
+
+        role = Role.new
+        role.name = "Voditelj Servisa"
+          role.canViewUsers = true
+          role.canViewRoles = true
+          role.canViewOrders = true
+          role.canViewClients = true
+          role.canViewVehicles = true
+          role.canViewProcedures = true
+          role.canViewSettings = true
+          role.canViewParts = true
+          role.canViewworkingHours = true
+          role.canViewStatements = true
+          role.canViewNetworks = true
+          role.canViewPages = true
+          role.canViewCategories = true
+          #
+          role.canChangeUsers = true
+          role.canChangeRoles = true
+          role.canChangeOrders = true
+          role.canChangeClients = true
+          role.canChangeVehicles = true
+          role.canChangeProcedures = true
+          role.canChangeSettings = true
+          role.canChangeParts = true
+          role.canChangeworkingHours = true
+          role.canChangeStatements = true
+          role.canChangeNetworks = true
+          role.canChangePages = true
+          role.canChangeCategories = true
+        role.save
+
+        role = Role.new
+        role.name = "Direktor"
+          role.canViewUsers = true
+          role.canViewRoles = true
+          role.canViewOrders = true
+          role.canViewClients = true
+          role.canViewVehicles = true
+          role.canViewProcedures = true
+          role.canViewSettings = true
+          role.canViewParts = false
+          role.canViewworkingHours = true
+          role.canViewStatements = true
+          role.canViewNetworks = true
+          role.canViewPages = true
+          role.canViewCategories = true
+          #
+          role.canChangeUsers = true
+          role.canChangeRoles = true
+          role.canChangeOrders = true
+          role.canChangeClients = true
+          role.canChangeVehicles = true
+          role.canChangeProcedures = true
+          role.canChangeSettings = true
+          role.canChangeParts = false
+          role.canChangeworkingHours = true
+          role.canChangeStatements = true
+          role.canChangeNetworks = true
+          role.canChangePages = true
+          role.canChangeCategories = true
+        role.save
+      end
+  		
+      if User.first == nil
   			user = User.new
   			user.nameFirst = "Nemo"
   			user.nameLast  = "Nihili"
@@ -20,18 +185,46 @@ class ApplicationController < ActionController::Base
   			user.password 		= "admin"
   			user.save
   		end
-      if Setting.first == nil
-        settings = Setting.new
-        settings.pageTitle = "Mehaničar"
-        settings.pageDescription = "Popravljamo sve od gepufne do cinculatora"
-        settings.save
+
+      if WorkingHour.first == nil
+        wh = WorkingHour.new
+          wh.day = 0
+          wh.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
+          wh.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)
+          wh.exception = false
+        wh.save
+        wh = WorkingHour.new
+          wh.day = 1
+          wh.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
+          wh.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)
+          wh.exception = false
+        wh.save
+        wh = WorkingHour.new
+          wh.day = 2
+          wh.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
+          wh.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)
+          wh.exception = false
+        wh.save
+        wh = WorkingHour.new
+          wh.day = 3
+          wh.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
+          wh.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)
+          wh.exception = false
+        wh.save
+        wh = WorkingHour.new
+          wh.day = 4
+          wh.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
+          wh.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)
+          wh.exception = false
+        wh.save
       end
-  	end # initial
-	
-	def currentUser
-  		@currentUser = nil
-  		if cookies[:loginAuthToken] == nil
-  			return nil
+
+    end # initial
+  
+  def currentUser
+      @currentUser = nil
+      if cookies[:loginAuthToken] == nil
+        return nil
   		end
 		@currentUser = User.find_by loginAuthToken: cookies[:loginAuthToken]
   	end # currentUser
@@ -91,5 +284,14 @@ class ApplicationController < ActionController::Base
 
     return tags
   end # genSocialMediaTags
+
+  def cleanup
+    # Remove orphaned images
+    if currentUser != nil
+      Image.where("imageType = 11 AND attachedTo IS NULL AND imageOwner = ?", currentUser.id ).each do |i|
+        i.destroy
+      end
+    end
+  end # cleanup
 
 end

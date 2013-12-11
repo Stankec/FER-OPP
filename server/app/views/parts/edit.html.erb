@@ -1,2 +1,53 @@
-<h1>Parts#edit</h1>
-<p>Find me in app/views/parts/edit.html.erb</p>
+<div class="container">
+	<div class="row">
+		<h1>Izmjeni Dijelove</h1>
+	</div>
+	<div>
+		<%= render :partial => "new", :locals => {:part => @part} %>
+	</div>
+	<div class="row">
+		<div>
+			<%= link_to '<i class="fa fa-check fa fa-white"></i> Pohrani'.html_safe, "#", 
+				:class => 'btn btn-primary', 
+				:onclick => '$(".edit_part").submit()' %>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	//if ($("form[name='preview_image']").length > 0) console.log("test");
+	//Drag and drop upload
+	jQuery(function() {
+	  	return $("form[name='preview_image']").fileupload({
+		    dataType: "script",
+	  		dropZone: $('#uploadedFaviconImage'),
+		    add: function(e, data) {
+
+		      	var file, types;
+		      	types = /(\.|\/)(gif|jpe?g|png)$/i;
+		      	file = data.files[0];
+
+
+		      	if (types.test(file.type) || types.test(file.name)) {
+		      		$('#faviconProgressBar').css('width', '0%');
+		    		$('#faviconProgress').show();
+		    		$('#faviconMessage').html('Šaljem na server, molim Vas da se strpite...');
+		      		data.submit();
+		      	} else {
+		        	return alert("Slika \"" + file.name + "\" nije u gif, jpeg ili png formatu!");
+		      	}
+		    },
+		    progress: function (e, data) {
+		    	//Animated progress
+		        var progress = parseInt(data.loaded / data.total * 100, 10);
+		        $('#faviconProgressBar').css('width', progress + '%');
+		        if( progress == 100 ) 
+		        {
+		        	$('#faviconProgress').hide();
+		        	$('#faviconProgressBar').css('width', '0%');
+		        	$('#faviconMessage').html('Ubacite sliku ovdje!');
+		        }
+		    }
+		});
+	});
+</script>

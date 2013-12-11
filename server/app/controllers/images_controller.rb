@@ -6,11 +6,15 @@ class ImagesController < ApplicationController
 	##################
 
 	def image_params
-        params.require(:image).permit(:imageName, :imageType, :path, :isHidden)
+        params.require(:image).permit(:imageName, :imageType, :path, :isHidden, :attachedTo, :imageOwner)
     end
 	
   	def create
   		@image = Image.new(image_params)
+
+      if currentUser != nil
+        @image.imageOwner = currentUser.id
+      end
 
   		if @image.save
   	  		if @image.imageType == 1
