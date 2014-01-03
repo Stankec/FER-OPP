@@ -1,0 +1,35 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Ime</td>
+			<td>Prezime</td>
+			<td>Adresa</td>
+			<td>Telefon</td>
+			<td style="width:25%">Opcije</td>
+		</tr>
+	</thead>
+	<tbody>	
+		<% client.each do |u| %>
+			<tr>
+				<td><%= u.nameFirst %></td>
+				<td><%= u.nameLast %></td>
+				<td><%= u.contactAdress %></td>
+				<td><%= u.contactTelephone %></td>
+				<td>
+					<div style="float:left;">
+						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+						        	edit_client_path(u),
+						        	:class => "btn btn-default" %>
+					</div>
+					<div style="float:left; margin-left:10px;">
+						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+						        	client_path(u),
+						        	:method => "delete",
+						        	:confirm => "Jeste li sigurni da želite izbrisati klijenta #{u.nameFirst} #{u.nameLast}?",
+						        	:class => "btn btn-danger" %>
+					</div>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

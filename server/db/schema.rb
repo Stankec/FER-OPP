@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131021172108) do
+ActiveRecord::Schema.define(version: 20131212112758) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -37,6 +37,16 @@ ActiveRecord::Schema.define(version: 20131021172108) do
 
   add_index "ckeditor_assets", ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable"
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type"
+
+  create_table "client_vehicles", force: true do |t|
+    t.integer  "vehicle_id"
+    t.integer  "client_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "client_vehicles", ["client_id"], name: "index_client_vehicles_on_client_id"
+  add_index "client_vehicles", ["vehicle_id"], name: "index_client_vehicles_on_vehicle_id"
 
   create_table "clients", force: true do |t|
     t.string   "nameFirst"

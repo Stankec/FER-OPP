@@ -1,0 +1,36 @@
+<%= form_for vehicle do |f| %>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="page_title">Registracija</label>
+				<%= f.text_field :vehicleRegistration, 
+					:placeholder => "ST 1950 B", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Model</label>
+				<%= f.text_field :vehicleModel, 
+					:placeholder => "Aston Martin Vanquish", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_tags">Godina izgadnje</label>
+				<%= f.text_field :buildYear, 
+					:placeholder => "2006", 
+					:class => "form-control" %>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="page_tags">Klijenti</label>
+				<%= f.fields_for :client_vehicles do |builder| %>
+				  	<%= render 'client_vehicle_fields', f: builder %>
+				<% end %>
+				<%= link_to_add_fields '<i class="fa fa-plus"></i> Dodaj klijenta'.html_safe, f, :client_vehicles, "btn btn-default" %>
+			</div>
+		</div>
+	</div>
+<% end %>

@@ -1,0 +1,17 @@
+<fieldset>
+	<div class="form-group clearfix">
+		<% 
+			options = ""
+			Vehicle.all.each do |p|
+				sel = ""
+				if f.object.vehicle_id == p.id
+					sel = "selected"
+				end
+				options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.vehicleRegistration+' - '+p.vehicleModel+' - '+p.buildYear.to_s+'</option>'
+			end
+		%>
+		<%= f.select :vehicle_id, options.html_safe, {}, {:class => "form-control", :style => "width:70%; float:left; margin-right:5px;"} %>
+		<%= f.hidden_field :_destroy %>
+		<%= link_to '<i class="fa fa-trash-o"></i> Ukloni'.html_safe, '#', :class => "remove_fields btn btn-danger" %>
+	</div>
+</fieldset>

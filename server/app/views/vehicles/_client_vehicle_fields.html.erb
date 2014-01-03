@@ -1,0 +1,17 @@
+<fieldset>
+	<div class="form-group clearfix">
+		<% 
+			options = ""
+			Client.all.each do |p|
+				sel = ""
+				if f.object.client_id == p.id
+					sel = "selected"
+				end
+				options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.nameFirst+' '+p.nameLast+' - '+p.contactAdress+' - '+p.contactTelephone+'</option>'
+			end
+		%>
+		<%= f.select :client_id, options.html_safe, {}, {:class => "form-control", :style => "width:70%; float:left; margin-right:5px;"} %>
+		<%= f.hidden_field :_destroy %>
+		<%= link_to '<i class="fa fa-trash-o"></i> Ukloni'.html_safe, '#', :class => "remove_fields btn btn-danger" %>
+	</div>
+</fieldset>

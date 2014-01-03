@@ -1,0 +1,93 @@
+<%= form_for order do |f| %>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Voditelj</label>
+				<% 
+					options = ""
+					User.all.each do |p|
+						sel = ""
+						if order.user != nil && order.user.id == p.id
+							sel = "selected"
+						end
+						options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.nameFirst+' '+p.nameLast+' - '+p.loginUsername+'</option>'
+					end
+				%>
+				<%= f.select :user_id, options.html_safe, {}, 
+							{:class => "form-control"} %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Klijent</label>
+				<% 
+					options = ""
+					Client.all.each do |p|
+						sel = ""
+						if order.client != nil && order.client.id == p.id
+							sel = "selected"
+						end
+						options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.nameFirst+' '+p.nameLast+' - '+p.contactAdress+' - '+p.contactTelephone+'</option>'
+					end
+				%>
+				<%= f.select :client_id, options.html_safe, {}, 
+							{:class => "form-control"} %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Vozilo</label>
+				<% 
+					options = "<option>Odaberite Klijenta</option>"
+					if order.client != nil && Client.find_by(id: order.client.id) != nil
+						options = ""
+						Client.find_by(id: order.client.id).client_vehicles.all.each do |p|
+							vehicle = Vehicle.find_by(id: p.vehicle_id)
+							if vehicle != nil
+								sel = ""
+								if order.vehicle != nil && order.vehicle.id == vehicle.id
+									sel = "selected"
+								end
+								options += '<option value="'+vehicle.id.to_s+'" '+sel+'>'+vehicle.vehicleRegistration+' - '+vehicle.vehicleModel+' - '+vehicle.buildYear.to_s+'</option>'
+							end
+						end
+					end
+				%>
+				<%= f.select :vehicle_id, options.html_safe, {}, 
+							{:class => "form-control"} %>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Vrijeme početka</label>
+				<div>
+					<%= f.datetime_select :timeStart, :class => "form-control" %>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Vrijeme završetka</label>
+				<div>
+					<%= f.datetime_select :timeFinish, :class => "form-control" %>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Status</label>
+				<div>
+					<%= f.select :status, 
+							[["Otvoren", 1],["Storniran", 2],["Zatvoren", 3]], 
+							{}, 
+							{:class => "form-control"} %>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="page_tags">Opis radova</label>
+				<%= f.text_area :description, 
+					:placeholder => "Čini se da se gepufna izvinula te da je cinculator puknuo...", 
+					:class => "form-control" %>
+			</div>
+		</div>
+	</div>
+
+<% end %>

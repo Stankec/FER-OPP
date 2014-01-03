@@ -1,46 +1,50 @@
 class ClientsController < ApplicationController
- 	def index
- 	end
-
- 	def new
- 	end
-
- 	def edit
- 	end
-
- 	def show
- 	end
+	  def index
+      	@client = Client.all
+  	end # index
+	
+  	def show
+      	@client = Client.find_by id: params[:id]
+  	end # show
+	
+  	def new
+      	@client = Client.new
+  	end # new
+	
+  	def edit
+      	@client = Client.find_by id: params[:id]
+  	end # edit
 
   	##################
   	### Rails CRUD ###
   	##################
 
-    def user_params
-        params.require(:client).permit(:nameFirst, :nameLast, :contactAdress, :contactTelephone, {:vehicle_ids => []})
+    def client_params
+        params.require(:client).permit(:nameFirst, :nameLast, :contactAdress, :contactTelephone, {:vehicle_ids => []}, client_vehicles_attributes: [:vehicle_id, :id, :_destroy])
     end
 	
   	def create
-  		@user = User.new(user_params)
-  		if @user.save
-  			redirect_to users_path()
+  		@client = Client.new(client_params)
+  		if @client.save
+  			redirect_to clients_path()
   		else
   			render "new"
   		end
   	end # create
 	
   	def update
-  		@user = User.find_by id: params[:id]
-  		if @user.update_attributes(user_params)
-  			redirect_to users_path()
+  		@client = Client.find_by id: params[:id]
+  		if @client.update_attributes(client_params)
+  			redirect_to clients_path()
   		else
   			render "edit"
   		end
   	end # update
 	
   	def destroy
-  		@user = User.find_by id: params[:id]
-  		if @user.destroy
-  			redirect_to users_path
+  		@client = Client.find_by id: params[:id]
+  		if @client.destroy
+  			redirect_to clients_path
   		else
   			redirect_to :back
   		end

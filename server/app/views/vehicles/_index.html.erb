@@ -1,0 +1,33 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Registracija</td>
+			<td>Model</td>
+			<td>Godina gradnje</td>
+			<td style="width:25%">Opcije</td>
+		</tr>
+	</thead>
+	<tbody>	
+		<% vehicle.each do |u| %>
+			<tr>
+				<td><%= u.vehicleRegistration %></td>
+				<td><%= u.vehicleModel %></td>
+				<td><%= u.buildYear %></td>
+				<td>
+					<div style="float:left;">
+						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+						        	edit_vehicle_path(u),
+						        	:class => "btn btn-default" %>
+					</div>
+					<div style="float:left; margin-left:10px;">
+						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+						        	vehicle_path(u),
+						        	:method => "delete",
+						        	:confirm => "Jeste li sigurni da želite izbrisati vozilo #{u.vehicleRegistration} - #{u.vehicleModel}?",
+						        	:class => "btn btn-danger" %>
+					</div>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

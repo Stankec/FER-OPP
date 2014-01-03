@@ -1,0 +1,46 @@
+<%= form_for client do |f| %>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Ime</label>
+				<%= f.text_field :nameFirst, 
+					:placeholder => "Ivan", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Prezime</label>
+				<%= f.text_field :nameLast, 
+					:placeholder => "Horvat", 
+					:class => "form-control" %>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Adresa</label>
+				<%= f.text_field :contactAdress, 
+					:placeholder => "Ilica 122, Zagreb", 
+					:class => "form-control" %>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Telefon</label>
+				<%= f.text_field :contactTelephone, 
+					:placeholder => "+385 1 1234 567", 
+					:class => "form-control" %>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="page_tags">Vozila</label>
+				<%= f.fields_for :client_vehicles do |builder| %>
+				  	<%= render 'client_vehicle_fields', f: builder %>
+				<% end %>
+				<%= link_to_add_fields '<i class="fa fa-plus"></i> Dodaj vozilo'.html_safe, f, :client_vehicles, "btn btn-default" %>
+			</div>
+		</div>
+	</div>
+
+<% end %>
