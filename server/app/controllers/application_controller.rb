@@ -219,6 +219,113 @@ class ApplicationController < ActionController::Base
         wh.save
       end
 
+      if Vehicle.first == nil
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Renault Clio"
+        vehicle.buildYear           = 1990
+        vehicle.vehicleRegistration = "ZG 0001 VP"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Ford Fiesta"
+        vehicle.buildYear           = 2008
+        vehicle.vehicleRegistration = "ZG 0002 SK"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Aston Martin Vanquish"
+        vehicle.buildYear           = 2005
+        vehicle.vehicleRegistration = "ZG 0003 MP"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Rolls Royce"
+        vehicle.buildYear           = 1989
+        vehicle.vehicleRegistration = "ZG 0004 MP"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Volvo S60"
+        vehicle.buildYear           = 2013
+        vehicle.vehicleRegistration = "ZG 0005 MS"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Volkswagen Golf"
+        vehicle.buildYear           = 1990
+        vehicle.vehicleRegistration = "ZG 0006 MS"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Lamborgini Avantador"
+        vehicle.buildYear           = 2012
+        vehicle.vehicleRegistration = "ZG 0007 MS"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Smart fortwo cupe"
+        vehicle.buildYear           = 2004
+        vehicle.vehicleRegistration = "ZG 0008 ZL"
+        vehicle.save
+
+        vehicle = Vehicle.new
+        vehicle.vehicleModel        = "Tesla Roadster"
+        vehicle.buildYear           = 2011
+        vehicle.vehicleRegistration = "ZG 0009 ZL"
+        vehicle.save
+      end
+
+      if Client.first == nil
+        client = Client.new
+        client.nameFirst        = "Vlaho"
+        client.nameLast         = "Poluta"
+        client.contactAdress    = "Gundulićeva 56a"
+        client.contactTelephone = "00385 1 1234 561"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Stanko"
+        client.nameLast         = "Krtalić Rusendić"
+        client.contactAdress    = "Ilica 122"
+        client.contactTelephone = "00385 1 1234 562"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Marin"
+        client.nameLast         = "Pogančić"
+        client.contactAdress    = "Radićeva 16"
+        client.contactTelephone = "00385 1 1234 563"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Martin"
+        client.nameLast         = "Sertić"
+        client.contactAdress    = "Vukovarska 23a"
+        client.contactTelephone = "00385 1 1234 563"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Mateja"
+        client.nameLast         = "Škriljak"
+        client.contactAdress    = "Petrova 73"
+        client.contactTelephone = "00385 1 1234 564"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Mirjam"
+        client.nameLast         = "Škarica"
+        client.contactAdress    = "Vlaška 43b"
+        client.contactTelephone = "00385 1 1234 565"
+        client.save
+
+        client = Client.new
+        client.nameFirst        = "Zrinka"
+        client.nameLast         = "Lekić"
+        client.contactAdress    = "Draškovićeva 3"
+        client.contactTelephone = "00385 1 1234 565"
+        client.save
+      end
+
     end # initial
   
   def currentUser

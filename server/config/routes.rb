@@ -34,6 +34,7 @@ Sonja::Application.routes.draw do
   get "clients/new"
   get "clients/edit"
   get "clients/show"
+  get "clients/vehiclesFor"
   # Roles
   get "roles/index"
   get "roles/new"

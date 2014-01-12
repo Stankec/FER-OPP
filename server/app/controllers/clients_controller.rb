@@ -15,6 +15,15 @@ class ClientsController < ApplicationController
       	@client = Client.find_by id: params[:id]
   	end # edit
 
+    def vehiclesFor
+        client = Client.find_by id: params[:client_id]
+        vehicles = Array.new
+        client.client_vehicles.each do |cv|
+          vehicles << cv.vehicle
+        end
+        render json: vehicles
+    end # vehiclesFor
+
   	##################
   	### Rails CRUD ###
   	##################

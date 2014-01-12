@@ -79,6 +79,7 @@ ActiveRecord::Schema.define(version: 20131212112758) do
     t.string   "imageName"
     t.integer  "imageType"
     t.integer  "attachedTo"
+    t.integer  "imageOwner"
     t.string   "path"
     t.boolean  "isHidden"
     t.datetime "created_at"
@@ -167,6 +168,7 @@ ActiveRecord::Schema.define(version: 20131212112758) do
   create_table "parts_procedures", force: true do |t|
     t.integer "part_id"
     t.integer "procedure_id"
+    t.float   "quantity"
   end
 
   create_table "procedures", force: true do |t|

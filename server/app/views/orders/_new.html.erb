@@ -91,3 +91,40 @@
 	</div>
 
 <% end %>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var clientId = parseInt($('#order_client_id option:selected').val());
+		getVehicles(clientId);
+
+		$('#order_client_id').change(function() {
+			clientId = parseInt($('#order_client_id option:selected').val());
+			getVehicles(clientId);
+		});
+	});
+
+	function getVehicles(clientID) {
+		$.ajax({
+		  	url: "/clients/vehiclesFor?client_id="+clientID,
+		  	dataType: 'json',
+		  	success: function(result){
+		  	  	//alert("token recieved: " + result.token);
+		  	},
+		  	error: function(request, textStatus, errorThrown) {
+		  	  	$('#order_vehicle_id').html('<option selected>Došlo je do greške... Molim odaberite drugog korisnika.</option>');
+		  	},
+		  	complete: function(request, textStatus) { //for additional info
+		  	  	$('#order_vehicle_id').html('');
+		  	  	var json = $.parseJSON(request.responseText);
+		  	  	var myhtml = "";
+				if (json.length === 0) 
+					myhtml = "<option selected> Korisnik ne posjeduje vozilo! </option>";
+		  	  	else
+		  	  		$.each(json, function(i, obj) {
+					  	myhtml += "<option value=\""+obj.id+"\">"+obj.vehicleRegistration+" - "+obj.vehicleModel+" - "+obj.buildYear+"</option>";
+					});
+				$('#order_vehicle_id').html(myhtml);
+		  	}
+		});		
+	}
+</script>
