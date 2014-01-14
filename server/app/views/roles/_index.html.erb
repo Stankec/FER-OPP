@@ -172,7 +172,7 @@
 					<% end %>
 				</td>
 				<td>
-					<% if currentUser.canEdit("Roles") %>
+					<% if currentUser != nil && currentUser.canEdit("Roles") %>
 						<% if u.isDeleteable != false %>
 							<div style="float:left;">
 								<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 

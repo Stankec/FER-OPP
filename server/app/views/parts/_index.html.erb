@@ -20,7 +20,7 @@
 					<%= u.price %>
 				</td>
 				<td>
-					<% if currentUser.canEdit("Parts") %>
+					<% if currentUser != nil && currentUser.canEdit("Parts") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_part_path(u),

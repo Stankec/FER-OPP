@@ -69,13 +69,13 @@
 			        	 	<b class="caret"></b>
 			        	</a>
 			          	<ul class="dropdown-menu">
-			          		<% if currentUser.canView("Settings") %>
+			          		<% if currentUser != nil && currentUser.canView("Settings") %>
 				              	<li>
 				              		<%= link_to '<i class="fa fa-gear"></i> Postavke'.html_safe, 
 				              			edit_setting_path(Setting.first) %>
 				              	</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Networks") %>
+			              	<% if currentUser != nil && currentUser.canView("Networks") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-sitemap"></i> Mreže'.html_safe, 
 			              				networks_path %>
@@ -89,13 +89,13 @@
 			              		<li class="divider"></li>
 			              	<% end %>
 
-			              	<% if currentUser.canView("Categories") %>
+			              	<% if currentUser != nil && currentUser.canView("Categories") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-tags"></i> Kategorije'.html_safe, 
 			              				categories_path, :remote => false %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Pages") %>
+			              	<% if currentUser != nil && currentUser.canView("Pages") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-file"></i> Stranice'.html_safe, 
 			              				pages_path %>
@@ -109,13 +109,13 @@
 			              		<li class="divider"></li>
 			              	<% end %>
 
-			              	<% if currentUser.canView("Users") %>
+			              	<% if currentUser != nil && currentUser.canView("Users") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-group"></i> Radnici'.html_safe, 
 			              				users_path %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Roles") %>
+			              	<% if currentUser != nil && currentUser.canView("Roles") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-suitcase"></i> Uloge'.html_safe, 
 			              				roles_path %>
@@ -129,19 +129,19 @@
 			              		<li class="divider"></li>
 			              	<% end %>
 
-			              	<% if currentUser.canView("Orders") %>
+			              	<% if currentUser != nil && currentUser.canView("Orders") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-file-text-o"></i> Radni nalozi'.html_safe, 
 			              				orders_path %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Clients") %>
+			              	<% if currentUser != nil && currentUser.canView("Clients") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-female"></i> Klijenti'.html_safe, 
 			              				clients_path %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Vehicles") %>
+			              	<% if currentUser != nil && currentUser.canView("Vehicles") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-rocket"></i> Vozila'.html_safe, 
 			              				vehicles_path %>
@@ -156,13 +156,13 @@
 			              		<li class="divider"></li>
 			              	<% end %>
 
-			              	<% if currentUser.canView("Parts") %>
+			              	<% if currentUser != nil && currentUser.canView("Parts") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-gears"></i> Dijelovi'.html_safe, 
 			              				parts_path %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("Procedures") %>
+			              	<% if currentUser != nil && currentUser.canView("Procedures") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-wrench"></i> Postupci'.html_safe, 
 			              				procedures_path %>
@@ -176,13 +176,13 @@
 			              		<li class="divider"></li>
 			              	<% end %>
 
-			              	<% if currentUser.canView("Statements") %>
+			              	<% if currentUser != nil && currentUser.canView("Statements") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-bar-chart-o"></i> Obračuni'.html_safe, 
 			              				statements_path %>
 			              		</li>
 			              	<% end %>
-			              	<% if currentUser.canView("WorkingHours") %>
+			              	<% if currentUser != nil && currentUser.canView("WorkingHours") %>
 			              		<li>
 			              			<%= link_to '<i class="fa fa-clock-o"></i> Radno vrijeme'.html_safe, 
 			              				working_hours_path %>

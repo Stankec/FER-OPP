@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class WorkingHoursController < ApplicationController
  	 def index
     authUserFor("WorkingHours")

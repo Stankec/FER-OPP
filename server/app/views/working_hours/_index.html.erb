@@ -42,7 +42,7 @@
 					<%= u.timeFinish.to_formatted_s(:time) %>
 				</td>
 				<td>
-					<% if currentUser.canEdit("WorkingHours") %>
+					<% if currentUser != nil && currentUser.canEdit("WorkingHours") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_working_hour_path(u),

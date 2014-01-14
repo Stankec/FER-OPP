@@ -1,6 +1,6 @@
 <% if !defined?(remote); remote = false; end; %>
 <div class="row" style="margin-left:<%= category.depth %>%;">
-	<% if currentUser.canEdit("Categories") %>
+	<% if currentUser != nil && currentUser.canEdit("Categories") %>
 		<%= link_to category.title, edit_category_path(category), :remote => remote %>
 	<% else %>
 		<%= category.title %>

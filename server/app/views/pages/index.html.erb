@@ -1,16 +1,16 @@
 <% content_for :contextMenu do %>
-	<% if currentUser.canEdit("Pages") || currentUser.canView("Pages") %>
+	<% if currentUser != nil && (currentUser.canEdit("Pages") || currentUser.canView("Pages")) %>
 		<li class="dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 		      	<i class="fa fa-bars fa fa-large"></i>
 			</a>
 		  	<ul class="dropdown-menu">
-		  		<% if currentUser.canEdit("Pages") %>
+		  		<% if currentUser != nil && currentUser.canEdit("Pages") %>
 		      		<li>
 		      			<%= link_to '<i class="fa fa-plus"></i> Dodaj Stranicu'.html_safe, new_page_path, "data-no-turbolink" => true %>
 		      		</li>
 		      	<% end %>
-		      	<% if currentUser.canView("Pages") %>
+		      	<% if currentUser != nil && currentUser.canView("Pages") %>
 			      	<li>
 			      		<%= link_to '<i class="fa fa-eye-close"></i> Prikaži Sakrivene'.html_safe, pages_unpublished_path %>
 			      	</li>
@@ -57,7 +57,7 @@
 	<div class="content">
 		<div class="col-md-6 col-md-offset-3">
 			<center>
-				<h1>Trenutaćno nemamo stranica.</h1>
+				<h1>Trenutačno nemamo stranica.</h1>
 				<p>Molimo Vas da dođete kasnije...</p>
 			</center>		
 		</div>

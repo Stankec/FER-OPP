@@ -6,7 +6,7 @@
 		<%= render :partial => "edit", :locals => {:setting => @setting } %>
 	</div>
 	<div class="row">
-		<% if currentUser.canEdit("Settings") %>
+		<% if currentUser != nil && currentUser.canEdit("Settings") %>
 			<div>
 				<%= link_to '<i class="fa fa-check fa fa-white"></i> Pohrani'.html_safe, "#", 
 					:class => 'btn btn-primary', 

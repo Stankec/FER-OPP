@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class VehiclesController < ApplicationController
 	def index
         authUserFor("Vehicles")

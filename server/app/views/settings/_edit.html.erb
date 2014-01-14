@@ -5,7 +5,7 @@
 				<%= form_for setting do |f| %>
 					<div class="form-group">
 						<label for="page_title">Naslov Stranice</label>
-						<% if currentUser.canEdit("Settings") %>
+						<% if currentUser != nil && currentUser.canEdit("Settings") %>
 							<%= f.text_field :pageTitle, 
 								:placeholder => "My awesome portofolio", 
 								:class => "form-control" %>
@@ -15,7 +15,7 @@
 					</div>
 					<div class="form-group">
 						<label for="page_slug">Podnaslov Stranice</label>
-						<% if currentUser.canEdit("Settings") %>
+						<% if currentUser != nil && currentUser.canEdit("Settings") %>
 							<%= f.text_area :pageDescription, 
 								:placeholder => "The best portofolio you have ever seen!", 
 								:class => "form-control" %>
@@ -41,7 +41,7 @@
 					end 
 					%>
 
-					<% if currentUser.canEdit("Settings") %>
+					<% if currentUser != nil && currentUser.canEdit("Settings") %>
 						<%= form_for faviconImage, :html => { :name => "favicon_image" } do |f| %>
 							<div class="form-group optUpload" id="uploadedFaviconImage">
 								<div class="ddNotice">
@@ -107,7 +107,7 @@
 					end
 					%>
 
-					<% if currentUser.canEdit("Settings") %>
+					<% if currentUser != nil && currentUser.canEdit("Settings") %>
 						<%= form_for previewImage, :html => { :name => "preview_image" } do |f| %>
 							<div class="form-group optUpload" id="uploadedPreviewImage">
 								<div class="ddNotice">

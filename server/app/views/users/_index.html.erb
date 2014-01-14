@@ -14,7 +14,7 @@
 				<td><%= u.nameFirst %></td>
 				<td><%= u.nameLast %></td>
 				<td>
-					<% if currentUser.canEdit("Users") %>
+					<% if currentUser != nil && currentUser.canEdit("Users") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_user_path(u),

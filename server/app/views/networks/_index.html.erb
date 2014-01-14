@@ -15,7 +15,7 @@
 						<%= link_to u.name, u.link %>
 					</td>
 					<td>
-						<% if currentUser.canEdit("Networks") %>
+						<% if currentUser != nil && currentUser.canEdit("Networks") %>
 							<div style="float:left;">
 								<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 								        	edit_network_path(u),

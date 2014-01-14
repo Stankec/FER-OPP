@@ -20,7 +20,7 @@
 					:placeholder => "email@host.com", 
 					:class => "form-control" %>
 			</div>
-			<% if currentUser.canEdit("Users") %>
+			<% if currentUser != nil && currentUser.canEdit("Users") %>
 				<div class="form-group">
 					<label for="page_tags" id="roleAnchor">Uloge</label>
 					<% if user.isDeleteable != false %>

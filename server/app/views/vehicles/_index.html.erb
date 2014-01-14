@@ -14,7 +14,7 @@
 				<td><%= u.vehicleModel %></td>
 				<td><%= u.buildYear %></td>
 				<td>
-					<% if currentUser.canEdit("Vehicles") %>
+					<% if currentUser != nil && currentUser.canEdit("Vehicles") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_vehicle_path(u),

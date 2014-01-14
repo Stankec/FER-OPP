@@ -16,7 +16,7 @@
 				<td><%= u.contactAdress %></td>
 				<td><%= u.contactTelephone %></td>
 				<td>
-					<% if currentUser.canEdit("Clients") %>
+					<% if currentUser != nil && currentUser.canEdit("Clients") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_client_path(u),

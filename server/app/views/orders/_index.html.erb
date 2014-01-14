@@ -18,7 +18,7 @@
 				<td><%= u.timeStart %></td>
 				<td><%= u.timeFinish %></td>
 				<td>
-					<% if currentUser.canEdit("Orders") %>
+					<% if currentUser != nil && currentUser.canEdit("Orders") %>
 						<div style="float:left;">
 							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
 							        	edit_order_path(u),

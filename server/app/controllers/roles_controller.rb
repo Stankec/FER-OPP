@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class RolesController < ApplicationController
   def index
     authUserFor("Roles")

@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class StatementsController < ApplicationController
   	def index
       authUserFor("Statements")

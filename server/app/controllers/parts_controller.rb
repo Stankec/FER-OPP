@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class PartsController < ApplicationController
   	def index
       authUserFor("Parts")
