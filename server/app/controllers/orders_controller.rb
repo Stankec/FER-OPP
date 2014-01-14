@@ -101,14 +101,6 @@ class OrdersController < ApplicationController
 			end
 		end if  params[:order][:order_procedures_attributes]
 
-		puts "****************************"
-		puts "****************************"
-		puts "****************************"
-		puts updatedParts
-		puts "****************************"
-		puts oldParts
-		puts "****************************"
-
 		# Delta parts
 		oldParts.keys.each do |key|
 			oldParts[key] *= -1
@@ -120,11 +112,6 @@ class OrdersController < ApplicationController
 				oldParts[key] += updatedParts[key]
 			end
 		end
-		
-		puts oldParts
-		puts "****************************"
-		puts "****************************"
-		puts "****************************"
 
 		# Do we have enough parts?
 		oldParts.keys.each do |key|
