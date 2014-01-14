@@ -1,6 +1,10 @@
 <% if !defined?(remote); remote = false; end; %>
 <div class="row" style="margin-left:<%= category.depth %>%;">
-	<%= link_to category.title, edit_category_path(category), :remote => remote %>
+	<% if currentUser.canEdit("Categories") %>
+		<%= link_to category.title, edit_category_path(category), :remote => remote %>
+	<% else %>
+		<%= category.title %>
+	<% end %>
 	<% category.children.each do |c| %>
 		<%= render :partial => "categoryItemTable", :locals => {:category => c } %>
 	<% end %>	

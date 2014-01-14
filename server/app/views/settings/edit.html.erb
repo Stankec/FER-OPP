@@ -6,11 +6,13 @@
 		<%= render :partial => "edit", :locals => {:setting => @setting } %>
 	</div>
 	<div class="row">
-		<div>
-			<%= link_to '<i class="fa fa-check fa fa-white"></i> Pohrani'.html_safe, "#", 
-				:class => 'btn btn-primary', 
-				:onclick => '$(".edit_setting").submit()' %>
-		</div>
+		<% if currentUser.canEdit("Settings") %>
+			<div>
+				<%= link_to '<i class="fa fa-check fa fa-white"></i> Pohrani'.html_safe, "#", 
+					:class => 'btn btn-primary', 
+					:onclick => '$(".edit_setting").submit()' %>
+			</div>
+		<% end %>
 	</div>
 </div>
 <br>

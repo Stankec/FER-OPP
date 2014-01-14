@@ -172,21 +172,23 @@
 					<% end %>
 				</td>
 				<td>
-					<% if u.isDeleteable != false %>
-						<div style="float:left;">
-							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
-							        	edit_role_path(u),
-							        	:class => "btn btn-default" %>
-						</div>
-						<div style="float:left; margin-left:10px;">
-							<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
-							        	role_path(u),
-							        	:method => "delete",
-							        	:confirm => "Jeste li sigurni da želite izbrisati ulogu #{u.name}? \n Svi radnici s tom ulogom će izgubiti pravo pristupa podacima!",
-							        	:class => "btn btn-danger" %>
-						</div>
-					<% else %>
-						Nepromjenjivo
+					<% if currentUser.canEdit("Roles") %>
+						<% if u.isDeleteable != false %>
+							<div style="float:left;">
+								<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+								        	edit_role_path(u),
+								        	:class => "btn btn-default" %>
+							</div>
+							<div style="float:left; margin-left:10px;">
+								<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+								        	role_path(u),
+								        	:method => "delete",
+								        	:confirm => "Jeste li sigurni da želite izbrisati ulogu #{u.name}? \n Svi radnici s tom ulogom će izgubiti pravo pristupa podacima!",
+								        	:class => "btn btn-danger" %>
+							</div>
+						<% else %>
+							Nepromjenjivo
+						<% end %>
 					<% end %>
 				</td>
 			</tr>

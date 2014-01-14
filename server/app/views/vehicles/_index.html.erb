@@ -14,18 +14,20 @@
 				<td><%= u.vehicleModel %></td>
 				<td><%= u.buildYear %></td>
 				<td>
-					<div style="float:left;">
-						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
-						        	edit_vehicle_path(u),
-						        	:class => "btn btn-default" %>
-					</div>
-					<div style="float:left; margin-left:10px;">
-						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
-						        	vehicle_path(u),
-						        	:method => "delete",
-						        	:confirm => "Jeste li sigurni da želite izbrisati vozilo #{u.vehicleRegistration} - #{u.vehicleModel}?",
-						        	:class => "btn btn-danger" %>
-					</div>
+					<% if currentUser.canEdit("Vehicles") %>
+						<div style="float:left;">
+							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+							        	edit_vehicle_path(u),
+							        	:class => "btn btn-default" %>
+						</div>
+						<div style="float:left; margin-left:10px;">
+							<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+							        	vehicle_path(u),
+							        	:method => "delete",
+							        	:confirm => "Jeste li sigurni da želite izbrisati vozilo #{u.vehicleRegistration} - #{u.vehicleModel}?",
+							        	:class => "btn btn-danger" %>
+						</div>
+					<% end %>
 				</td>
 			</tr>
 		<% end %>
