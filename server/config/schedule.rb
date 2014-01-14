@@ -23,6 +23,6 @@ set :output, "#{path}/log/cron.log"
 set :environment, ENV['RAILS_ENV']
 
 every 1.hours do
-  runner "WorkingHour.checkSchedual"
+  runner "Statement.calculateStatements"
   puts ENV['RAILS_ENV']
 end
