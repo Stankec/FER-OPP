@@ -80,12 +80,34 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-4">
 			<div class="form-group">
 				<label for="page_tags">Opis radova</label>
 				<%= f.text_area :description, 
 					:placeholder => "Čini se da se gepufna izvinula te da je cinculator puknuo...", 
 					:class => "form-control" %>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+				<label for="page_tags">Postupci</label>
+				<%= f.fields_for :order_procedures do |builder| %>
+				  	<%= render 'order_procedure_fields', f: builder %>
+				<% end %>
+				<div>
+					<%= link_to_add_fields '<i class="fa fa-plus"></i> Dodaj postupak'.html_safe, f, :order_procedures, "btn btn-default" %>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+				<label for="page_tags">Dijelovi</label>
+				<%= f.fields_for :order_parts do |builder| %>
+				  	<%= render 'order_part_fields', f: builder %>
+				<% end %>
+				<div>
+					<%= link_to_add_fields '<i class="fa fa-plus"></i> Dodaj djelove'.html_safe, f, :order_parts, "btn btn-default" %>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -127,4 +149,18 @@
 		  	}
 		});		
 	}
+	jQuery(function() {
+	  $('form').on('click', '.remove_fields', function(event) {
+	    $(this).prev('input[type=hidden]').val('1');
+	    $(this).closest('fieldset').hide("fast");
+	    return event.preventDefault();
+	  });
+	  return $('form').on('click', '.add_fields', function(event) {
+	    var regexp, time;
+	    time = new Date().getTime();
+	    regexp = new RegExp($(this).data('id'), 'g');
+	    $(this).before($(this).data('fields').replace(regexp, time));
+	    return event.preventDefault();
+	  });
+	});
 </script>

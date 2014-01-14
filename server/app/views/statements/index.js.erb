@@ -1,0 +1,9 @@
+$('#statementTable').append('<% @statement.each do |u| %> <tr><td><% if u.statemnetType == 0 %><%= u.statementDate %><% elsif u.statemnetType == 1 %><%= u.statementDate.strftime("%Y-%m") %><% elsif u.statemnetType == 2 %><%= u.statementDate.strftime("%Y") %><% end %></td><td><%= u.money %></td></tr> <% end %>');
+<% if @statement.next_page %>
+  	$('.pagination').replaceWith('<%= j will_paginate @statement,
+				renderer: BootstrapPagination::Rails,
+				previous_label: "<i class='fa fa-chevron-left'></i>".html_safe, 
+				next_label: "<i class='fa fa-chevron-right'></i>".html_safe %>');
+<% else %>
+  	$('.pagination').remove();
+<% end %>

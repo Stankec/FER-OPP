@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131212112758) do
+ActiveRecord::Schema.define(version: 20140115080758) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -107,6 +107,16 @@ ActiveRecord::Schema.define(version: 20131212112758) do
   add_index "order_parts", ["order_id"], name: "index_order_parts_on_order_id"
   add_index "order_parts", ["part_id"], name: "index_order_parts_on_part_id"
 
+  create_table "order_procedures", force: true do |t|
+    t.integer  "order_id"
+    t.integer  "procedure_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "order_procedures", ["order_id"], name: "index_order_procedures_on_order_id"
+  add_index "order_procedures", ["procedure_id"], name: "index_order_procedures_on_procedure_id"
+
   create_table "orders", force: true do |t|
     t.integer  "client_id"
     t.integer  "vehicle_id"
@@ -191,7 +201,7 @@ ActiveRecord::Schema.define(version: 20131212112758) do
     t.boolean  "canViewProcedures"
     t.boolean  "canViewSettings"
     t.boolean  "canViewParts"
-    t.boolean  "canViewworkingHours"
+    t.boolean  "canViewWorkingHours"
     t.boolean  "canViewStatements"
     t.boolean  "canViewNetworks"
     t.boolean  "canViewPages"
@@ -204,12 +214,12 @@ ActiveRecord::Schema.define(version: 20131212112758) do
     t.boolean  "canChangeProcedures"
     t.boolean  "canChangeSettings"
     t.boolean  "canChangeParts"
-    t.boolean  "canChangeworkingHours"
+    t.boolean  "canChangeWorkingHours"
     t.boolean  "canChangeStatements"
     t.boolean  "canChangeNetworks"
     t.boolean  "canChangePages"
     t.boolean  "canChangeCategories"
-    t.boolean  "isntDeleteable"
+    t.boolean  "isDeleteable"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -229,7 +239,7 @@ ActiveRecord::Schema.define(version: 20131212112758) do
   end
 
   create_table "statements", force: true do |t|
-    t.integer  "type"
+    t.integer  "statemnetType"
     t.date     "statementDate"
     t.float    "money"
     t.datetime "created_at"
@@ -265,6 +275,7 @@ ActiveRecord::Schema.define(version: 20131212112758) do
     t.string   "contactPhone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "isDeleteable"
   end
 
   create_table "vehicles", force: true do |t|

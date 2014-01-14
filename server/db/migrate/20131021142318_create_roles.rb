@@ -11,7 +11,7 @@ class CreateRoles < ActiveRecord::Migration
       t.boolean :canViewProcedures
       t.boolean :canViewSettings
       t.boolean :canViewParts
-      t.boolean :canViewworkingHours
+      t.boolean :canViewWorkingHours
       t.boolean :canViewStatements
       t.boolean :canViewNetworks
       t.boolean :canViewPages
@@ -25,13 +25,13 @@ class CreateRoles < ActiveRecord::Migration
       t.boolean :canChangeProcedures
       t.boolean :canChangeSettings
       t.boolean :canChangeParts
-      t.boolean :canChangeworkingHours
+      t.boolean :canChangeWorkingHours
       t.boolean :canChangeStatements
       t.boolean :canChangeNetworks
       t.boolean :canChangePages
       t.boolean :canChangeCategories
 
-      t.boolean :isntDeleteable
+      t.boolean :isDeleteable
 
       t.timestamps
     end

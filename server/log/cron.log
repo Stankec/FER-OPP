@@ -1,0 +1,95 @@
+Hello World!
+Hello World!
+Hello World!-4712-01-01
+/Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval': /Users/bubi/Documents/Ruby-on-Rails/OPP/server/app/models/working_hour.rb:23: syntax error, unexpected $end, expecting keyword_end (SyntaxError)
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:423:in `block in load_file'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:615:in `new_constants_in'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:422:in `load_file'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:323:in `require_or_load'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:462:in `load_missing_constant'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/dependencies.rb:183:in `const_missing'
+	from (eval):1:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `require'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+Hello World!-4712-01-01
+0
+TEST: Hello World! -> 2014-01-13
+29954.24
+TEST: Hello World! -> 2014-01-13
+29870.0
+TEST: Hello World! -> 2014-01-13
+50.0
+TEST: Hello World! -> 2014-01-13
+1000.0
+TEST: Hello World! -> 2014-01-13
+200.0
+TEST: Hello World! -> 2014-01-13
+0
+TEST: Hello World! -> 2014-01-13
+0
+TEST: Hello World! -> 2014-01-13
+0
+TEST: Hello World! -> 2014-01-13
+5147.73
+TEST: Hello World! -> 2014-01-13
+/Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval': The single-table inheritance mechanism failed to locate the subclass: '0'. This error is raised because the column 'type' is reserved for storing the class in case of inheritance. Please rename this column if you didn't intend it to be used for storing the inheritance class or overwrite Statement.inheritance_column to use another column for that information. (ActiveRecord::SubclassNotFound)
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/inheritance.rb:147:in `find_sti_class'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/inheritance.rb:136:in `discriminate_class_for_record'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/persistence.rb:53:in `instantiate'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/querying.rb:45:in `block in find_by_sql'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/result.rb:21:in `block in each'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/result.rb:21:in `each'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/result.rb:21:in `each'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/querying.rb:45:in `map'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/querying.rb:45:in `find_by_sql'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:585:in `exec_queries'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:471:in `load'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:220:in `to_a'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation/finder_methods.rb:327:in `find_first'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation/finder_methods.rb:90:in `first'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/relation.rb:129:in `first'
+	from /Users/bubi/Documents/Ruby-on-Rails/OPP/server/app/models/working_hour.rb:75:in `checkSchedual'
+	from (eval):1:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `require'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+TEST: Hello World! -> 2014-01-13
+Statement DAY
+/Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval': SQLite3::SQLException: no such column: type: SELECT  "statements".* FROM "statements"  WHERE (type = 0)  ORDER BY statementDate DESC LIMIT 1 (ActiveRecord::StatementInvalid)
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/sqlite3-1.3.8/lib/sqlite3/database.rb:91:in `new'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/sqlite3-1.3.8/lib/sqlite3/database.rb:91:in `prepare'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:296:in `block in exec_query'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract_adapter.rb:425:in `block in log'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract_adapter.rb:420:in `log'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:292:in `exec_query'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:504:in `select'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/querying.rb:36:in `find_by_sql'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:585:in `exec_queries'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:471:in `load'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation.rb:220:in `to_a'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation/finder_methods.rb:327:in `find_first'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-4.0.0/lib/active_record/relation/finder_methods.rb:90:in `first'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/relation.rb:129:in `first'
+	from /Users/bubi/Documents/Ruby-on-Rails/OPP/server/app/models/working_hour.rb:76:in `checkSchedual'
+	from (eval):1:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `eval'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands/runner.rb:53:in `<top (required)>'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `require'
+	from /Users/bubi/.rvm/gems/ruby-1.9.3-p327/gems/railties-4.0.0/lib/rails/commands.rb:86:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+TEST: Hello World! -> 2014-01-13
+Statement DAY
+TEST: Hello World! -> 2014-01-13
+Statement DAY
+TEST: Hello World! -> 2014-01-13

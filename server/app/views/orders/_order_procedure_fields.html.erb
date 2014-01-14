@@ -1,0 +1,17 @@
+<fieldset>
+	<div class="form-group clearfix">
+		<% 
+			options = ""
+			Procedure.all.each do |p|
+				sel = ""
+				if f.object.procedure_id == p.id
+					sel = "selected"
+				end
+				options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.name+'</option>'
+			end
+		%>
+		<%= f.select :procedure_id, options.html_safe, {}, {:class => "form-control", :style => "width:70%; float:left; margin-right:1%;"} %>
+		<%= f.hidden_field :_destroy %>
+		<%= link_to '<i class="fa fa-trash-o"></i> Ukloni'.html_safe, '#', :class => "remove_fields btn btn-danger" %>
+	</div>
+</fieldset>

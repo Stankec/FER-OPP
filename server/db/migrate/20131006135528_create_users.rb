@@ -10,6 +10,7 @@ class CreateUsers < ActiveRecord::Migration
       t.datetime :loginLast
       t.string :contactEmail
       t.string :contactPhone
+      t.boolean :isDeleteable
 
       t.timestamps
     end

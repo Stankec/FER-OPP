@@ -31,7 +31,7 @@ class ApplicationController < ActionController::Base
           role.canViewProcedures = true
           role.canViewSettings = true
           role.canViewParts = true
-          role.canViewworkingHours = true
+          role.canViewWorkingHours = true
           role.canViewStatements = true
           role.canViewNetworks = true
           role.canViewPages = true
@@ -45,11 +45,13 @@ class ApplicationController < ActionController::Base
           role.canChangeProcedures = true
           role.canChangeSettings = true
           role.canChangeParts = true
-          role.canChangeworkingHours = true
+          role.canChangeWorkingHours = true
           role.canChangeStatements = true
           role.canChangeNetworks = true
           role.canChangePages = true
           role.canChangeCategories = true
+          #
+          role.isDeleteable = false;
         role.save
 
         role = Role.new
@@ -62,7 +64,7 @@ class ApplicationController < ActionController::Base
           role.canViewProcedures = true
           role.canViewSettings = true
           role.canViewParts = true
-          role.canViewworkingHours = true
+          role.canViewWorkingHours = true
           role.canViewStatements = true
           role.canViewNetworks = true
           role.canViewPages = true
@@ -76,7 +78,7 @@ class ApplicationController < ActionController::Base
           role.canChangeProcedures = true
           role.canChangeSettings = true
           role.canChangeParts = false
-          role.canChangeworkingHours = true
+          role.canChangeWorkingHours = true
           role.canChangeStatements = true
           role.canChangeNetworks = true
           role.canChangePages = true
@@ -93,7 +95,7 @@ class ApplicationController < ActionController::Base
           role.canViewProcedures = true
           role.canViewSettings = true
           role.canViewParts = true
-          role.canViewworkingHours = true
+          role.canViewWorkingHours = true
           role.canViewStatements = true
           role.canViewNetworks = true
           role.canViewPages = true
@@ -107,7 +109,7 @@ class ApplicationController < ActionController::Base
           role.canChangeProcedures = true
           role.canChangeSettings = true
           role.canChangeParts = false
-          role.canChangeworkingHours = true
+          role.canChangeWorkingHours = true
           role.canChangeStatements = true
           role.canChangeNetworks = true
           role.canChangePages = true
@@ -124,7 +126,7 @@ class ApplicationController < ActionController::Base
           role.canViewProcedures = true
           role.canViewSettings = true
           role.canViewParts = true
-          role.canViewworkingHours = true
+          role.canViewWorkingHours = true
           role.canViewStatements = true
           role.canViewNetworks = true
           role.canViewPages = true
@@ -138,7 +140,7 @@ class ApplicationController < ActionController::Base
           role.canChangeProcedures = true
           role.canChangeSettings = true
           role.canChangeParts = true
-          role.canChangeworkingHours = true
+          role.canChangeWorkingHours = true
           role.canChangeStatements = true
           role.canChangeNetworks = true
           role.canChangePages = true
@@ -155,7 +157,7 @@ class ApplicationController < ActionController::Base
           role.canViewProcedures = true
           role.canViewSettings = true
           role.canViewParts = false
-          role.canViewworkingHours = true
+          role.canViewWorkingHours = true
           role.canViewStatements = true
           role.canViewNetworks = true
           role.canViewPages = true
@@ -169,7 +171,7 @@ class ApplicationController < ActionController::Base
           role.canChangeProcedures = true
           role.canChangeSettings = true
           role.canChangeParts = false
-          role.canChangeworkingHours = true
+          role.canChangeWorkingHours = true
           role.canChangeStatements = true
           role.canChangeNetworks = true
           role.canChangePages = true
@@ -183,6 +185,8 @@ class ApplicationController < ActionController::Base
   			user.nameLast  = "Nihili"
   			user.loginUsername 	= "admin"
   			user.password 		= "admin"
+        user.roles << Role.where(:name => "Admin").first
+        user.isDeleteable = false
   			user.save
   		end
 
@@ -324,6 +328,133 @@ class ApplicationController < ActionController::Base
         client.contactAdress    = "Draškovićeva 3"
         client.contactTelephone = "00385 1 1234 565"
         client.save
+      end
+
+      if Part.first == nil
+        part = Part.new
+        part.name        = "Mineralno ulje"
+        part.quantity    = 46.3
+        part.price       = 42.60
+        part.description = "Ulje za motore"
+        part.save
+
+        part = Part.new
+        part.name        = "Ljetne gume"
+        part.quantity    = 14.0
+        part.price       = 200.00
+        part.description = "Ljetne gume"
+        part.save
+
+        part = Part.new
+        part.name        = "Zimske gume"
+        part.quantity    = 61.0
+        part.price       = 236.00
+        part.description = "Zimske gume"
+        part.save
+
+        part = Part.new
+        part.name        = "Zupčasti remen"
+        part.quantity    = 361.00
+        part.price       = 39.99
+        part.description = "Zupčasti remen"
+        part.save
+
+        part = Part.new
+        part.name        = "Akumulator"
+        part.quantity    = 18.00
+        part.price       = 289.50
+        part.description = "Akumulator 12V 5600Ah"
+        part.save
+
+        part = Part.new
+        part.name        = "Klip"
+        part.quantity    = 2.00
+        part.price       = 460.50
+        part.description = "Motorni klip"
+        part.save
+
+        part = Part.new
+        part.name        = "Ispušna cijev"
+        part.quantity    = 56.00
+        part.price       = 86.99
+        part.description = "Auspuh"
+        part.save
+      end
+
+      if Procedure.first == nil
+        procedure = Procedure.new
+        procedure.name            = "Zamjena ulja"
+        procedure.description     = "Izvadi staro ulje van, ulij novo unutra..."
+        procedure.minNumOfWorkers = 1
+        procedure.duration        = 1.0
+        procedure.manHour         = 32.0
+        procedure.save
+
+        procedure = Procedure.new
+        procedure.name            = "Postavljanje zimskih guma"
+        procedure.description     = "Skini stare gume, uzmi 4 nove zimske i montiraj ih..."
+        procedure.minNumOfWorkers = 1
+        procedure.duration        = 0.5
+        procedure.manHour         = 32.0
+        procedure.save
+
+        procedure = Procedure.new
+        procedure.name            = "Postavljanje ljetnih guma"
+        procedure.description     = "Skini stare gume, uzmi 4 nove ljetne i montiraj ih..."
+        procedure.minNumOfWorkers = 1
+        procedure.duration        = 0.5
+        procedure.manHour         = 32.0
+        procedure.save
+
+        procedure = Procedure.new
+        procedure.name            = "Popravak motora"
+        procedure.description     = "Zamjeni zupčasti remen i 6 klipova"
+        procedure.minNumOfWorkers = 4
+        procedure.duration        = 6.0
+        procedure.manHour         = 80.0
+        procedure.save
+
+        procedure = Procedure.new
+        procedure.name            = "Zamjena akumulatora"
+        procedure.description     = "Baci stari i ugradi novi"
+        procedure.minNumOfWorkers = 1
+        procedure.duration        = 0.1
+        procedure.manHour         = 10.0
+        procedure.save
+
+        procedure = Procedure.new
+        procedure.name            = "Zamjena auspuha"
+        procedure.description     = "Nisam siguran niti ja..."
+        procedure.minNumOfWorkers = 2
+        procedure.duration        = 2.0
+        procedure.manHour         = 50.0
+        procedure.save
+      end
+
+      if Statement.first == nil
+        from_date = Date.new(2012, 1, 1)
+        to_date   = Date.yesterday
+        h_month   = from_date.month
+        h_year    = from_date.year
+        (from_date..to_date).each { |d| 
+          type = 0
+          if d.month > h_month && d.year == h_year
+            type = 1
+            h_month = d.month
+            d = d.last_month
+          end
+          if d.year > h_year
+            type = 2
+            h_year = d.year
+            h_month = d.month
+            d = d.last_year
+          end
+          statement = Statement.new
+          statement.statemnetType = type
+          statement.statementDate = d
+          statement.money = 1000 + rand(9999)
+          statement.save
+        }
       end
 
     end # initial

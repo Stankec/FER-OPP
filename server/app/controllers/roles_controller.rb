@@ -17,7 +17,6 @@ class RolesController < ApplicationController
 
   def role_params
         params.require(:role).permit(	:name,
-        								
         								:canViewUsers,
 										:canViewRoles,
 										:canViewOrders,
@@ -26,12 +25,12 @@ class RolesController < ApplicationController
 										:canViewProcedures,
 										:canViewSettings,
 										:canViewParts,
-										:canViewworkingHours,
+										:canViewWorkingHours,
 										:canViewStatements,
 										:canViewNetworks,
 										:canViewPages,
 										:canViewCategories,
-
+    
 										:canChangeUsers,
 										:canChangeRoles,
 										:canChangeOrders,
@@ -40,7 +39,7 @@ class RolesController < ApplicationController
 										:canChangeProcedures,
 										:canChangeSettings,
 										:canChangeParts,
-										:canChangeworkingHours,
+										:canChangeWorkingHours,
 										:canChangeStatements,
 										:canChangeNetworks,
 										:canChangePages,

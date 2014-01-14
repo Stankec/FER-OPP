@@ -61,7 +61,7 @@
 						<i class="fa fa-square-o fa-lg"></i>
 					<% end %>
 					<!-- Working Hours -->
-					<% if u.canViewworkingHours %>
+					<% if u.canViewWorkingHours %>
 						<i class="fa fa-clock-o fa-lg"></i>
 					<% else %>
 						<i class="fa fa-square-o fa-lg"></i>
@@ -141,7 +141,7 @@
 						<i class="fa fa-square-o fa-lg"></i>
 					<% end %>
 					<!-- Working Hours -->
-					<% if u.canChangeworkingHours %>
+					<% if u.canChangeWorkingHours %>
 						<i class="fa fa-clock-o fa-lg"></i>
 					<% else %>
 						<i class="fa fa-square-o fa-lg"></i>
@@ -172,18 +172,22 @@
 					<% end %>
 				</td>
 				<td>
-					<div style="float:left;">
-						<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
-						        	edit_role_path(u),
-						        	:class => "btn btn-default" %>
-					</div>
-					<div style="float:left; margin-left:10px;">
-						<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
-						        	role_path(u),
-						        	:method => "delete",
-						        	:confirm => "Jeste li sigurni da želite izbrisati ulogu #{u.name}? \n Svi radnici s tom ulogom će izgubiti pravo pristupa podacima!",
-						        	:class => "btn btn-danger" %>
-					</div>
+					<% if u.isDeleteable != false %>
+						<div style="float:left;">
+							<%= link_to '<i class="fa fa-edit"></i> Izmjeni'.html_safe, 
+							        	edit_role_path(u),
+							        	:class => "btn btn-default" %>
+						</div>
+						<div style="float:left; margin-left:10px;">
+							<%= link_to '<i class="fa fa-trash"></i> Izbriši'.html_safe, 
+							        	role_path(u),
+							        	:method => "delete",
+							        	:confirm => "Jeste li sigurni da želite izbrisati ulogu #{u.name}? \n Svi radnici s tom ulogom će izgubiti pravo pristupa podacima!",
+							        	:class => "btn btn-danger" %>
+						</div>
+					<% else %>
+						Nepromjenjivo
+					<% end %>
 				</td>
 			</tr>
 		<% end %>

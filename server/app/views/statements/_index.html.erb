@@ -1,0 +1,24 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Datum</td>
+			<td>Bilanca</td>
+		</tr>
+	</thead>
+	<tbody id="statementTable">	
+		<% statement.each do |u| %>
+			<tr>
+				<td>
+					<% if u.statemnetType == 0 %>
+						<%= u.statementDate %>
+					<% elsif u.statemnetType == 1 %>
+						<%= u.statementDate.strftime("%Y-%m") %>
+					<% elsif u.statemnetType == 2 %>
+						<%= u.statementDate.strftime("%Y") %>
+					<% end %>
+				</td>
+				<td><%= u.money %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

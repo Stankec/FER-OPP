@@ -69,5 +69,8 @@ gem 'debugger', group: [:development, :test]
 # Generate class diagrams
 gem 'railroady'
 
+# Schedualed events
+gem 'whenever', :require => false
+
 # Backwards compatibility with Rails 3
 #gem 'protected_attributes'

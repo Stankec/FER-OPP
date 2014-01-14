@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
 	  	else
 	  	  	return nil
 	  	end
-	end
+	end # authenticate
   
   	# Encrypt password
 	def encrypt_password
@@ -33,13 +33,28 @@ class User < ActiveRecord::Base
 	    	self.loginPasswordSalt = BCrypt::Engine.generate_salt
 	    	self.loginPasswordHash = BCrypt::Engine.hash_secret(password, loginPasswordSalt)
 	  end
-	end
+	end # encrypt_password
 
 	# generate authentification token
   	def generate_token(column)
 	  	begin
 	    	self[column] = SecureRandom.urlsafe_base64
 	  	end while User.exists?(column => self[column])
-	end
+	end # generate_token
+
+	# check permissions
+	def canView(controllerName)
+		symbol1 = "canView" + controllerName
+		symbol1 = symbol1.parameterize.underscore.to_sym
+		symbol2 = "canChange" + controllerName
+		symbol2 = symbol2.parameterize.underscore.to_sym
+		return self.roles.where(symbol1 => true).any? || self.roles.where(symbol2 => true).any?
+	end # canView
+
+	def canEdit(controllerName)
+		symbol1 = "canChange" + controllerName
+		symbol1 = symbol1.parameterize.underscore.to_sym
+		return self.roles.where(symbol1 => true).any?
+	end # canEdit
 
 end
