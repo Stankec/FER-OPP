@@ -1,8 +1,10 @@
 # encoding: UTF-8
 class ApplicationController < ActionController::Base
+	include ActionView::Helpers::TagHelper
   	# Prevent CSRF attacks by raising an exception.
   	# For APIs, you may want to use :null_session instead.
   	protect_from_forgery with: :exception
+  	helper_method :flash_display
   	helper_method :initial
   	helper_method :currentUser
   	helper_method :authUser
@@ -12,6 +14,15 @@ class ApplicationController < ActionController::Base
     helper_method :genFaviconTags
     helper_method :genSocialMediaTags
     helper_method :cleanup
+
+	def flash_display
+  		response = ""
+  		flash.each do |name, msg|
+  		    response = response + content_tag(:div, msg.html_safe, :id => "flash_#{name}")
+  		end
+  		flash.discard
+  		response
+  	end # flash_display
 	
   	def initial
       if Setting.first == nil

@@ -38,7 +38,7 @@ class OrdersController < ApplicationController
 
       	# Check if there are enough parts
       	if !enoughParts(@order)
-      	  flash[:error] = "Nedovoljno dijelova na lageru!"
+      	  flash.now.alert = "Nedovoljno dijelova na lageru!"
       	  render "new"
       	  return
       	end
@@ -118,7 +118,7 @@ class OrdersController < ApplicationController
 			part = Part.find_by id: key
 			if part == nil; next; end;
 			if part.quantity - oldParts[key] < 0
-				flash[:error] = "Nedovoljno dijelova na lageru!"
+				flash.now.alert = "Nedovoljno dijelova na lageru!"
 				render "edit"
 				return
 			end
