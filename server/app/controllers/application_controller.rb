@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
   	helper_method :initial
   	helper_method :currentUser
   	helper_method :authUser
+  	helper_method :authUserFor
   	helper_method :gravatarUrl
     helper_method :pageTitle
     helper_method :genFaviconTags
@@ -472,6 +473,16 @@ class ApplicationController < ActionController::Base
 			render "sessions/new"
 		end
 	end # authUser
+
+	def authUserFor(controllerName, editOrView="view")
+		authUser
+		if currentUser != nil && editOrView == "edit" && currentUser.canEdit(controllerName) == false
+			render "sessions/new"
+		end
+		if currentUser != nil && editOrView == "view" && currentUser.canView(controllerName) == false
+			render "sessions/new"
+		end
+	end # authUserFor
 	
   	def gravatarUrl(user, size)
   		if (user.contactEmail == nil || user.contactEmail.length < 5); return nil; end;

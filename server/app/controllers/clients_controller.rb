@@ -1,21 +1,26 @@
 class ClientsController < ApplicationController
-	  def index
+	def index
+      	authUserFor("Clients")
       	@client = Client.all
   	end # index
 	
   	def show
+  		authUserFor("Clients")
       	@client = Client.find_by id: params[:id]
   	end # show
 	
   	def new
+  		authUserFor("Clients", "edit")
       	@client = Client.new
   	end # new
 	
   	def edit
+  		authUserFor("Clients", "edit")
       	@client = Client.find_by id: params[:id]
   	end # edit
 
     def vehiclesFor
+    	authUserFor("Clients", "edit")
         client = Client.find_by id: params[:client_id]
         vehicles = Array.new
         client.client_vehicles.each do |cv|

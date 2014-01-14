@@ -1,2 +1,44 @@
-<h1>Parts#show</h1>
-<p>Find me in app/views/parts/show.html.erb</p>
+<% content_for :contextMenu do %>
+	<% if currentUser.canEdit("Parts") %>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      	<i class="fa fa-bars fa fa-large"></i>
+			</a>
+		  	<ul class="dropdown-menu">
+		      	<li>
+		      		<%= link_to '<i class="fa fa-edit"></i> Izmijeni'.html_safe, edit_part_path(@part), "data-no-turbolink" => false %>
+		      	</li>
+			</ul>
+		</li>
+	<% end %>
+<% end %>
+
+<div class="container">
+	<h1><%= @part.name %></h1>
+	<div class="row">
+		<center>
+			<% img = Image.where("imageType = 11 AND attachedTo = ?", @part.id).first %>
+			<% if img != nil && img.path != nil %>
+				<%= image_tag img.path_url(:preview) %>
+			<% end %>
+		</center>
+	</div>
+	<div class="row">
+		<table class="table table-striped">
+			<tbody>	
+				<tr>
+					<td>Jedinična cijena</td>
+					<td><%= @part.price %> kn</td>
+				</tr>
+				<tr>
+					<td>Količina na lageru</td>
+					<td><%= @part.quantity %></td>
+				</tr>
+				<tr>
+					<td>Opis</td>
+					<td><%= @part.description %></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

@@ -1,17 +1,21 @@
 class ProceduresController < ApplicationController
 	def index
+    authUserFor("Procedures")
 		@procedure = Procedure.all
 	end # index
 
 	def show
+    authUserFor("Procedures")
 		@procedure = Procedure.find_by id: params[:id]
 	end # show
 
 	def edit
+    authUserFor("Procedures", "edit")
 		@procedure = Procedure.find_by id: params[:id]
 	end # edit
 
 	def new
+    authUserFor("Procedures", "edit")
 		@procedure = Procedure.new
 	end # new
 

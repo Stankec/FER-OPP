@@ -1,7 +1,7 @@
 # encoding: UTF-8
 class CategoriesController < ApplicationController
   	def index
-      	authUser
+      	authUserFor("Categories")
   		@category = Category.roots
   	end # index
 
@@ -11,12 +11,12 @@ class CategoriesController < ApplicationController
     end # show
 	
   	def new
-      	authUser
+      	authUserFor("Categories", "edit")
   		@category = Category.new
   	end # new
 	
   	def edit
-      	authUser
+      	authUserFor("Categories", "edit")
   		@category = Category.friendly.find params[:id]
   	end # edit
 

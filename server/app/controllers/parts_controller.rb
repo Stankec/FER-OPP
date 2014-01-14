@@ -1,17 +1,21 @@
 class PartsController < ApplicationController
   	def index
+      authUserFor("Parts")
   		@part = Part.all
   	end
 	
   	def show
+      authUserFor("Parts")
   		@part = Part.find_by id: params[:id]
   	end
 	
   	def edit
+      authUserFor("Parts", "edit")
   		@part = Part.find_by id: params[:id]
   	end
 	
   	def new
+      authUserFor("Parts", "edit")
   		@part = Part.new
   	end
 

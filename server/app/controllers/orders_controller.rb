@@ -3,18 +3,22 @@ class OrdersController < ApplicationController
   helper_method :updateParts
 
 	def index
+        authUserFor("Orders")
       	@order = Order.all
   	end # index
 	
   	def show
+        authUserFor("Orders", "edit")
       	@order = Order.find_by id: params[:id]
   	end # show
 	
   	def new
+        authUserFor("Orders", "edit")
       	@order = Order.new
   	end # new
 	
   	def edit
+        authUserFor("Orders", "edit")
       	@order = Order.find_by id: params[:id]
   	end # edit
 

@@ -1,17 +1,21 @@
 class VehiclesController < ApplicationController
 	def index
+        authUserFor("Vehicles")
       	@vehicle = Vehicle.all
   	end # index
 	
   	def show
+        authUserFor("Vehicles")
       	@vehicle = Vehicle.find_by id: params[:id]
   	end # show
 	
   	def new
+        authUserFor("Vehicles", "edit")
       	@vehicle = Vehicle.new
   	end # new
 	
   	def edit
+        authUserFor("Vehicles", "edit")
       	@vehicle = Vehicle.find_by id: params[:id]
   	end # edit
 

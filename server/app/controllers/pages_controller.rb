@@ -16,7 +16,7 @@ class PagesController < ApplicationController
   	end # index
 	
   	def unpublished
-  		authUser
+  		authUserFor("Pages")
   		@page = Page.where.not(:isPublic => true) + Page.where(:isHidden => true)
       	if !params[:page]; params[:page] = 1; end;
       	@page = @page.uniq.paginate(:page => params[:page].to_i, :per_page => 5)
@@ -31,12 +31,12 @@ class PagesController < ApplicationController
   	end # show
 	
   	def edit
-  		authUser
+  		authUserFor("Pages", "edit")
   		@page = Page.friendly.find params[:id]
   	end # edit
 	
   	def new
-  		authUser
+  		authUserFor("Pages", "edit")
   		@page = Page.new
   	end # new
 	

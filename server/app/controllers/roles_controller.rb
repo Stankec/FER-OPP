@@ -1,13 +1,16 @@
 class RolesController < ApplicationController
   def index
+    authUserFor("Roles")
   	@role = Role.all
   end
 
   def new
+    authUserFor("Roles", "edit")
   	@role = Role.new
   end
 
   def edit
+    authUserFor("Roles", "edit")
   	@role = Role.find_by id: params[:id]
   end
 

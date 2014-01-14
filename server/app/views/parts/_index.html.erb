@@ -1,8 +1,6 @@
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<td>id</td>
-			<td>Slika</td>
 			<td>Naziv</td>
 			<td>Količina</td>
 			<td>Cijena</td>
@@ -12,15 +10,8 @@
 	<tbody>	
 		<% part.each do |u| %>
 			<tr>
-				<td><%= u.id %></td>
 				<td>
-					<% img = Image.where("imageType = 11 AND attachedTo = ?", u.id).first %>
-					<% if img != nil && img.path != nil %>
-						<%= image_tag img.path_url(:favicon114) %>
-					<% end %>
-				</td>
-				<td>
-					<%= u.name %>
+					<%= link_to u.name, part_path(u) %>
 				</td>
 				<td>
 					<%= u.quantity %>

@@ -1,17 +1,17 @@
 # encoding: UTF-8
 class NetworksController < ApplicationController
 	def index
-		authUser
+		authUserFor("Networks")
 		@network = Network.all
 	end # index
 
 	def new
-		authUser
+		authUserFor("Networks", "edit")
 		@network = Network.new
 	end # new
 
 	def edit 
-		authUser
+		authUserFor("Networks", "edit")
 		@network = Network.find_by id: params[:id]
 	end # edit
 

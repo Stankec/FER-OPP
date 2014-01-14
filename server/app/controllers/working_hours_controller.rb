@@ -1,14 +1,17 @@
 class WorkingHoursController < ApplicationController
  	 def index
+    authUserFor("WorkingHours")
  	 	@wh = WorkingHour.where.not(:exception =>  true).order('day')
  	 	@whe = WorkingHour.where(:exception =>  true).order('exceptiondate')
  	 end
 	
  	 def edit
+    authUserFor("WorkingHours", "edit")
  	 	@workingHour = WorkingHour.find_by id: params[:id]
  	 end
 	
  	 def new
+    authUserFor("WorkingHours", "edit")
  	 	@workingHour = WorkingHour.new
  	 	@workingHour.timeStart = Time.now.in_time_zone('London').change(:hour => 8, :min => 0)
  	   @workingHour.timeFinish = Time.now.in_time_zone('London').change(:hour => 16, :min => 0)

@@ -1,22 +1,22 @@
 # encoding: utf-8
 class UsersController < ApplicationController
   	def index
-  		authUser
+  		authUserFor("Users")
       	@user = User.all
   	end # index
 	
   	def show
-  		authUser
+  		authUserFor("Users")
       	@user = User.find_by id: params[:id]
   	end # show
 	
   	def new
-  		authUser
+  		authUserFor("Users", "edit")
       	@user = User.new
   	end # new
 	
   	def edit
-  		authUser
+  		authUserFor("Users", "edit")
       	@user = User.find_by id: params[:id]
   	end # edit
 	
