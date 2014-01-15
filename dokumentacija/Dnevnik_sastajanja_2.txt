@@ -1,0 +1,39 @@
+﻿4. sastanak: Petak, 6.12.2013., 17:30 - 18:00
+
+Prisutni: Stanko Krtalić Rusendić, Zrinka Lekić, Marin Pogančić, Vlaho Poluta, Martin Sertić, Mirjam Škarica, Mateja Škriljak
+
+Sadržaj sastanka: Razgovor o dijelovima dokumentacije koji nisu u potpunosti zadovoljili zahtjeve. Uvodni dogovor o zaduženjima na drugom dijelu dokumenta.
+
+Rezultat: Plan popravka dijagrama i ostalih dijelova dokumentacija koje je potrebno mijenjati. Primarna zaduženja za drugi dio dokumentacije.
+
+
+5. sastanak: Četvrtak, 12.12.2013., 19:00 - 20:00
+
+Prisutni: Stanko Krtalić Rusendić, Zrinka Lekić, Marin Pogančić, Vlaho Poluta, Martin Sertić, Mirjam Škarica, Mateja Škriljak
+
+Sadržaj sastanka: Plan i program provedbe zaduženja za drugi dio dokumentacije.
+
+Rezultat: Raspodjela poslova:
+Stanko Krtalić Rusendić - implementacija, korištene tehnologije i alati, upute za instalaciju
+Zrinka Lekić - komunikacijski dijagram, zaključak, reference
+Marin Pogančić - dijagram stanja, ispitivanje programskog rješenja
+Vlaho Poluta - dijagram aktivnosti, isječak koda
+Martin Sertić - komponentni dijagram, dijagram razašiljanja
+Mirjam Škarica - korisničke upute
+Mateja Škriljak - korisničke upute, dnevnik sastajanja
+
+
+6. sastanak: Četvrtak, 19.12.2013., 19:00 - 19:30
+
+Prisutni: Stanko Krtalić Rusendić, Zrinka Lekić, Marin Pogančić, Vlaho Poluta, Martin Sertić, Mirjam Škarica, Mateja Škriljak
+
+Sadržaj sastanka: Razješnjavanje nejasnoća vezanih uz dijagrame i pojedine zadatke. Objašnjenje dosad razvijenog dijela programskog rješenja.
+
+
+7. sastanak: 10.01.2014., 19:00 - 20:00
+
+Prisutni: Stanko Krtalić Rusendić, Zrinka Lekić, Marin Pogančić, Vlaho Poluta, Martin Sertić, Mirjam Škarica, Mateja Škriljak
+
+Sadržaj sastanka: Konzultacije oko nadopuna i ispravaka provedbe pojedinih zadataka. Međusobna pomoć i pojašnjenje vezanog gradiva. Objašnjenje programskog koda i simulacija programskog rješenja.
+
+Rezultat: Isplanirani ispravci i dodaci u dokumentaciji. Upoznavanje tima sa svim dijelovima programskog rješenja.
