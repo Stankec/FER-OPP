@@ -64,44 +64,48 @@ class OrdersController < ApplicationController
       	oldParts = {}
 
       	# Updated parts
-      	params[:order][:order_parts_attributes].values.each do |item|
-      		if item["_destroy"] != "false"; next; end;
-      		if updatedParts[item["part_id"].to_i] == nil
-				updatedParts[item["part_id"].to_i] = item["quantity"].to_f
-			else
-				updatedParts[item["part_id"].to_i] += item["quantity"].to_f
-			end
-		end if params[:order][:order_parts_attributes]
-		params[:order][:order_procedures_attributes].values.each do |item|
-			if item["_destroy"] != "false"; next; end;
-			item = Procedure.find_by id: item["procedure_id"]
-			item.part_procedures.each do |pp|
-	      		if updatedParts[pp.part_id] == nil
-					updatedParts[pp.part_id] = pp.quantity
+      	if params[:order][:status].to_i != 2
+	      	params[:order][:order_parts_attributes].values.each do |item|
+	      		if item["_destroy"] != "false"; next; end;
+	      		if updatedParts[item["part_id"].to_i] == nil
+					updatedParts[item["part_id"].to_i] = item["quantity"].to_f
 				else
-					updatedParts[pp.part_id] += pp.quantity
+					updatedParts[item["part_id"].to_i] += item["quantity"].to_f
 				end
-			end
-		end if  params[:order][:order_procedures_attributes]
+			end if params[:order][:order_parts_attributes]
+			params[:order][:order_procedures_attributes].values.each do |item|
+				if item["_destroy"] != "false"; next; end;
+				item = Procedure.find_by id: item["procedure_id"]
+				item.part_procedures.each do |pp|
+		      		if updatedParts[pp.part_id] == nil
+						updatedParts[pp.part_id] = pp.quantity
+					else
+						updatedParts[pp.part_id] += pp.quantity
+					end
+				end
+			end if  params[:order][:order_procedures_attributes]      		
+      	end
 
 		# Old parts
-		@order.order_parts.each do |op|
-			if oldParts[op.part_id] == nil
-				oldParts[op.part_id] = op.quantity
-			else
-				oldParts[op.part_id] += op.quantity
-			end
-		end
-		@order.order_procedures.each do |op|
-			op = op.procedure
-			op.part_procedures.each do |pp|
-	      		if oldParts[pp.part_id] == nil
-					oldParts[pp.part_id] = pp.quantity
+		if @order.status != 2 && params[:order][:status].to_i == 2
+			@order.order_parts.each do |op|
+				if oldParts[op.part_id] == nil
+					oldParts[op.part_id] = op.quantity
 				else
-					oldParts[pp.part_id] += pp.quantity
+					oldParts[op.part_id] += op.quantity
 				end
 			end
-		end if  params[:order][:order_procedures_attributes]
+			@order.order_procedures.each do |op|
+				op = op.procedure
+				op.part_procedures.each do |pp|
+		      		if oldParts[pp.part_id] == nil
+						oldParts[pp.part_id] = pp.quantity
+					else
+						oldParts[pp.part_id] += pp.quantity
+					end
+				end
+			end
+		end
 
 		# Delta parts
 		oldParts.keys.each do |key|

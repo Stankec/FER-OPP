@@ -1,86 +1,91 @@
 <div class="container">
-	
-	<div class="row">
-		<div class="col-md-6">
-			<div class="form-group">
-				<label for="page_title">Servisni savjetnik</label>
-				<br>
-				<%= @order.user.nameFirst %> <%= @order.user.nameLast %>
-			</div>
-			<div class="form-group">
-				<label for="page_slug">Klijent</label>
-				<br>
-				<%= @order.client.nameFirst %> <%= @order.client.nameLast %>
-				<br>
-				<%= @order.client.contactAdress %>
-				<br>
-				<%= @order.client.contactTelephone %>
-			</div>
-			<div class="form-group">
-				<label for="page_slug">Vozilo</label>
-				<br>
-				<%= @order.vehicle.vehicleRegistration %> - <%= @order.vehicle.buildYear.to_s %> - <%= @order.vehicle.vehicleModel %>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="form-group">
-				<label for="page_title">Vrijeme početka</label>
-				<div>
-					<%= @order.timeStart.to_s %>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="page_title">Vrijeme završetka</label>
-				<div>
-					<%= @order.timeFinish.to_s %>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="page_title">Status</label>
-				<div>
+	<table class="table table-striped">
+		<thead>
+		</thead>
+		<tbody>	
+			<tr>
+				<td>Servisni savjetnik</td>
+				<td><%= @order.user.nameFirst %> <%= @order.user.nameLast %> (<%= @order.user.loginUsername %>)</td>
+			</tr>
+			<tr>
+				<td>Vrijeme početka</td>
+				<td><%= @order.timeStart.to_s %></td>
+			</tr>
+			<tr>
+				<td>Vrijeme završetka</td>
+				<td><%= @order.timeFinish.to_s %></td>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td>
 					<% if @order.status == 1 %>
-						<br>
 						Otvoren
 					<% elsif @order.status == 2 %>
-						<br>
 						Storniran
 					<% else %>
-						<br>
 						Zatvoren
 					<% end %>
-						
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-4">
-			<div class="form-group">
-				<label for="page_tags">Opis radova</label>
-				<br>
-				<%= @order.description %>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="form-group">
-				<label for="page_tags">Postupci</label>
-				<ul>
+				</td>
+			</tr>
+		</tbody>
+		<tbody>	
+			<tr>
+				<td colspan=2><b>Klijent</b></td>
+			</tr>
+			<tr>
+				<td>Ime</td>
+				<td><%= @order.client.nameFirst %> <%= @order.client.nameLast %></td>
+			</tr>
+			<tr>
+				<td>Adresa</td>
+				<td><%= @order.client.contactAdress %></td>
+			</tr>
+			<tr>
+				<td>Telefon</td>
+				<td><%= @order.client.contactTelephone %></td>
+			</tr>
+		</tbody>
+		<tbody>	
+			<tr>
+				<td colspan=2><b>Vozilo</b></td>
+			</tr>
+			<tr>
+				<td>Model</td>
+				<td><%= @order.vehicle.vehicleModel %></td>
+			</tr>
+			<tr>
+				<td>Godina Izgradnje</td>
+				<td><%= @order.vehicle.buildYear.to_s %></td>
+			</tr>
+			<tr>
+				<td>Registracija</td>
+				<td><%= @order.vehicle.vehicleRegistration %></td>
+			</tr>
+		</tbody>
+		<tbody>	
+			<tr>
+				<td colspan=2><b>Radovi</b></td>
+			</tr>
+			<tr>
+				<td>Opis radova</td>
+				<td><%= @order.description %></td>
+			</tr>
+			<tr>
+				<td>Postupci</td>
+				<td>
 					<% @order.order_procedures.each do |op| %>
 						<li><%= op.procedure.name %></li>
 					<% end %>
-				</ul>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="form-group">
-				<label for="page_tags">Dijelovi</label>
-				<ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Dodatni dijelovi</td>
+				<td>
 					<% @order.order_parts.each do |op| %>
 						<li><%= op.part.name %> - <%= op.quantity %></li>
 					<% end %>
-				</ul>
-			</div>
-		</div>
-	</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
