@@ -67,9 +67,9 @@
 				<label for="page_title">Vrijeme završetka</label>
 				<div>
 					<% 
-						if order.status == 1
+						if order.status != nil && order.status == 1
 							order.timeFinish = Time.now - 5*60
-						elsif order.timeStart >= order.timeFinish
+						elsif order.timeStart != nil && order.timeFinish != nil && order.timeStart >= order.timeFinish
 							order.timeFinish = order.timeStart + 3*60*60
 						end
 					%>
