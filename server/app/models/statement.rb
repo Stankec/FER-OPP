@@ -1,9 +1,9 @@
 class Statement < ActiveRecord::Base
 	def self.calculateStatements
-		puts "Starting statement calculation @ " + Time.now.to_s
+		puts "Starting statement calculation @ " + Time.now.utc.to_s
 
 		# Is there a statement for today?
-		if Statement.where(:statementDate => Date.today).any?
+		if Statement.where(:statementDate => Date.today, :statemnetType => 0).any?
 			return
 		end
 
@@ -32,7 +32,7 @@ class Statement < ActiveRecord::Base
 		end
 
 		# Has enough time passed?
-		if Time.now.hour < statementTime.hour && Time.now.min < statementTime.min
+		if !(Time.now.utc.hour > statementTime.hour)
 			return
 		end
 

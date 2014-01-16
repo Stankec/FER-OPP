@@ -71,6 +71,9 @@
 							order.timeFinish = Time.now - 5*60
 						elsif order.timeStart != nil && order.timeFinish != nil && order.timeStart >= order.timeFinish
 							order.timeFinish = order.timeStart + 3*60*60
+						else
+							order.timeStart = Time.now
+							order.timeFinish = order.timeStart + 3*60*60
 						end
 					%>
 					<%= f.datetime_select :timeFinish, :class => "form-control" %>

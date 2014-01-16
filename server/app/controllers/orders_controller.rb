@@ -37,14 +37,16 @@ class OrdersController < ApplicationController
   		@order = Order.new(order_params)
 
       	# Check if there are enough parts
-      	if !enoughParts(@order)
+      	if !enoughParts(@order) && @order.status != 2
       	  flash.now.alert = "Nedovoljno dijelova na lageru!"
       	  render "new"
       	  return
       	end
 
   		if @order.save
-        	takeParts(@order)
+  			if @order.status != 2
+        		takeParts(@order)
+        	end
   			redirect_to orders_path()
   		else
   			displayErrors(@order)
@@ -150,7 +152,7 @@ class OrdersController < ApplicationController
   		@order = Order.find_by id: params[:id]
 
 	    # If the order is closed delete it, else return the parts to storage
-	    if @order.status != 3
+	    if @order.status == 1 
 	      	returnParts(@order)
 	    end
 
