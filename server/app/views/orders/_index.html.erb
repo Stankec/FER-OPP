@@ -16,7 +16,13 @@
 				<td><%= u.vehicle.vehicleRegistration %></td>
 				<td><%= u.vehicle.vehicleModel %></td>
 				<td><%= u.timeStart %></td>
-				<td><%= u.timeFinish %></td>
+				<td>
+					<% if u.status != 1 %>
+						<%= u.timeFinish %>
+					<% else %>
+						U tijeku
+					<% end %>
+				</td>
 				<td>
 					<% if currentUser != nil && currentUser.canEdit("Orders") %>
 						<div style="float:left;">

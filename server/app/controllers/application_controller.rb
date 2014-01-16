@@ -37,6 +37,7 @@ class ApplicationController < ActionController::Base
     		"order_parts.quantity" => "Količina dijelova",
     		"price" => "Cijena",
     		"quantity" => "Količina",
+    		"timeFinish" => "Vrijeme Završetka",
     		# messages
     		"can't be blank" => "Polje ne smije biti prazno",
     		"is not a number" => "Mora biti broj",

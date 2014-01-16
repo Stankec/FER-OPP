@@ -47,7 +47,6 @@ class OrdersController < ApplicationController
         	takeParts(@order)
   			redirect_to orders_path()
   		else
-  			flash.now.alert = "Provjerite dali ste dodali barem jedan postupak i/ili dali svi pridruženi dijelovim imaju definiranu količinu<br>"
   			displayErrors(@order)
   			render "new"
   		end
@@ -142,7 +141,6 @@ class OrdersController < ApplicationController
       		# Redirect
   			redirect_to orders_path()
   		else
-  			flash.now.alert = "Provjerite dali ste dodali barem jedan postupak i/ili dali svi pridruženi dijelovim imaju definiranu količinu<br>"
   			displayErrors(@order)
   			render "edit"
   		end

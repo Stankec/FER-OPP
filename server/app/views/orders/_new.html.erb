@@ -66,6 +66,13 @@
 			<div class="form-group">
 				<label for="page_title">Vrijeme završetka</label>
 				<div>
+					<% 
+						if order.status == 1
+							order.timeFinish = Time.now - 5*60
+						elsif order.timeStart >= order.timeFinish
+							order.timeFinish = order.timeStart + 3*60*60
+						end
+					%>
 					<%= f.datetime_select :timeFinish, :class => "form-control" %>
 				</div>
 			</div>
@@ -151,7 +158,7 @@
 		  	}
 		});		
 	}
-	
+
 	jQuery(function() {
 	  $('form').on('click', '.remove_fields', function(event) {
 	    $(this).prev('input[type=hidden]').val('1');
