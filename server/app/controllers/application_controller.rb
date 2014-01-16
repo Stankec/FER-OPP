@@ -32,11 +32,14 @@ class ApplicationController < ActionController::Base
     		"password_confirmation" => "Potvrda zaporke",
     		"loginUsername" => "Korisničko ime",
     		"orderProcedures" => "Postupci",
+    		"order_parts" => "Dijelovi",
+    		"order_parts.quantity" => "Količina dijelova",
     		# messages
     		"can't be blank" => "Polje ne smije biti prazno",
     		"is not a number" => "Mora biti broj",
     		"doesn't match Password" => "Mora biti ista kao i zaporka",
-    		"is too short (minimum is 1 characters)" => "Premalo (minimum je 1 postupak)"
+    		"is too short (minimum is 1 characters)" => "Premalo (minimum je 1 postupak)",
+    		"is invalid" => "Nije valjana"
     	}
     	if object.errors.messages == nil
     		return
