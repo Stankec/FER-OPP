@@ -33,6 +33,7 @@ class VehiclesController < ApplicationController
   		if @vehicle.save
   			redirect_to vehicles_path()
   		else
+  			displayErrors(@vehicle)
   			render "new"
   		end
   	end # create
@@ -42,6 +43,7 @@ class VehiclesController < ApplicationController
   		if @vehicle.update_attributes(vehicle_params)
   			redirect_to vehicles_path()
   		else
+  			displayErrors(@vehicle)
   			render "edit"
   		end
   	end # update

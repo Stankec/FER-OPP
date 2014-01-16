@@ -6,12 +6,14 @@
 				<label for="page_title">Voditelj</label>
 				<% 
 					options = ""
-					User.all.each do |p|
-						sel = ""
-						if order.user != nil && order.user.id == p.id
-							sel = "selected"
+					Role.where(:canChangeOrders => true).each do |role|
+						role.users.each do |p|
+							sel = ""
+							if order.user != nil && order.user.id == p.id
+								sel = "selected"
+							end
+							options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.nameFirst+' '+p.nameLast+' - '+p.loginUsername+'</option>'
 						end
-						options += '<option value="'+p.id.to_s+'" '+sel+'>'+p.nameFirst+' '+p.nameLast+' - '+p.loginUsername+'</option>'
 					end
 				%>
 				<%= f.select :user_id, options.html_safe, {}, 

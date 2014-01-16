@@ -25,7 +25,7 @@ class UsersController < ApplicationController
   	##################
 
     def user_params
-        params.require(:user).permit(:nameFirst, :nameLast, :loginUsername, :password, :contactEmail, :contactPhone, {:role_ids => []})
+        params.require(:user).permit(:nameFirst, :nameLast, :loginUsername, :password, :password_confirmation, :contactEmail, :contactPhone, {:role_ids => []})
     end
 	
   	def create
@@ -33,6 +33,7 @@ class UsersController < ApplicationController
   		if @user.save
   			redirect_to users_path()
   		else
+  			displayErrors(@user)
   			render "new"
   		end
   	end # create
@@ -42,6 +43,7 @@ class UsersController < ApplicationController
   		if @user.update_attributes(user_params)
   			redirect_to users_path()
   		else
+  			displayErrors(@user)
   			render "edit"
   		end
   	end # update

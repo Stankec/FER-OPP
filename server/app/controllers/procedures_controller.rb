@@ -33,6 +33,7 @@ class ProceduresController < ApplicationController
   		if @procedure.save
   			redirect_to procedures_path()
   		else
+  			displayErrors(@procedure)
   			render "new"
   		end
   	end # create
@@ -42,6 +43,7 @@ class ProceduresController < ApplicationController
   		if @procedure.update_attributes(procedure_params)
   			redirect_to procedures_path()
   		else
+  			displayErrors(@procedure)
   			render "edit"
   		end
   	end # update

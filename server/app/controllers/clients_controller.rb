@@ -43,6 +43,7 @@ class ClientsController < ApplicationController
   		if @client.save
   			redirect_to clients_path()
   		else
+  			displayErrors(@client)
   			render "new"
   		end
   	end # create
@@ -52,6 +53,7 @@ class ClientsController < ApplicationController
   		if @client.update_attributes(client_params)
   			redirect_to clients_path()
   		else
+  			displayErrors(@client)
   			render "edit"
   		end
   	end # update

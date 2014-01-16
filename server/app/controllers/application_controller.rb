@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   	# Prevent CSRF attacks by raising an exception.
   	# For APIs, you may want to use :null_session instead.
   	protect_from_forgery with: :exception
+    helper_method :displayErrors
   	helper_method :flash_display
   	helper_method :initial
   	helper_method :currentUser
@@ -14,6 +15,52 @@ class ApplicationController < ActionController::Base
     helper_method :genFaviconTags
     helper_method :genSocialMediaTags
     helper_method :cleanup
+
+    def displayErrors(object)
+    	translate = {
+    		"buildYear" => "Godina Izgradnje",
+    		"vehicleRegistration" => "Registracija",
+    		"vehicleModel" => "Model",
+    		"name" => "Naziv",
+    		"duration" => "Trajanje",
+    		"manHour" => "Cijena čovijek-sata",
+    		"minNumOfWorkers" => "Broj potrebnih radnika",
+    		"nameFirst" => "Ime",
+    		"nameLast" => "Prezime",
+    		"contactTelephone" => "Telefon",
+    		"password" => "Zaporka",
+    		"password_confirmation" => "Potvrda zaporke",
+    		"loginUsername" => "Korisničko ime",
+    		# messages
+    		"can't be blank" => "Polje ne smije biti prazno",
+    		"is not a number" => "Mora biti broj",
+    		"doesn't match Password" => "Mora biti ista kao i zaporka"
+    	}
+    	if object.errors.messages == nil
+    		return
+    	end
+    	if flash[:alert] == nil
+    		flash[:alert] = ""
+    	end
+    	object.errors.messages.each do |name, errors|
+    		error = name.to_s.titleize + ": "
+    		if translate[name.to_s] != nil
+    			error = translate[name.to_s] + ": "
+    		end
+    		messages = ""
+    		errors.each do |message|
+    			if messages.length != 0
+    				messages += ", "
+    			end
+    			if translate[message] == nil
+    				messages += message
+    			else
+    				messages += translate[message]
+    			end
+    		end
+    		flash[:alert] += "<br>" + error + messages
+    	end
+    end
 
 	def flash_display
   		response = ""
