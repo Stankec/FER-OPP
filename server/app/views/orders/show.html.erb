@@ -1,2 +1,86 @@
-<h1>Orders#show</h1>
-<p>Find me in app/views/orders/show.html.erb</p>
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Servisni savjetnik</label>
+				<br>
+				<%= @order.user.nameFirst %> <%= @order.user.nameLast %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Klijent</label>
+				<br>
+				<%= @order.client.nameFirst %> <%= @order.client.nameLast %>
+				<br>
+				<%= @order.client.contactAdress %>
+				<br>
+				<%= @order.client.contactTelephone %>
+			</div>
+			<div class="form-group">
+				<label for="page_slug">Vozilo</label>
+				<br>
+				<%= @order.vehicle.vehicleRegistration %> - <%= @order.vehicle.buildYear.to_s %> - <%= @order.vehicle.vehicleModel %>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="page_title">Vrijeme početka</label>
+				<div>
+					<%= @order.timeStart.to_s %>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Vrijeme završetka</label>
+				<div>
+					<%= @order.timeFinish.to_s %>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="page_title">Status</label>
+				<div>
+					<% if @order.status == 1 %>
+						<br>
+						Otvoren
+					<% elsif @order.status == 2 %>
+						<br>
+						Storniran
+					<% else %>
+						<br>
+						Zatvoren
+					<% end %>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<div class="form-group">
+				<label for="page_tags">Opis radova</label>
+				<br>
+				<%= @order.description %>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+				<label for="page_tags">Postupci</label>
+				<ul>
+					<% @order.order_procedures.each do |op| %>
+						<li><%= op.procedure.name %></li>
+					<% end %>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+				<label for="page_tags">Dijelovi</label>
+				<ul>
+					<% @order.order_parts.each do |op| %>
+						<li><%= op.part.name %> - <%= op.quantity %></li>
+					<% end %>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

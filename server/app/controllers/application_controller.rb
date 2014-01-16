@@ -32,8 +32,11 @@ class ApplicationController < ActionController::Base
     		"password_confirmation" => "Potvrda zaporke",
     		"loginUsername" => "Korisničko ime",
     		"orderProcedures" => "Postupci",
+    		"order_procedures" => "Postupci",
     		"order_parts" => "Dijelovi",
     		"order_parts.quantity" => "Količina dijelova",
+    		"price" => "Cijena",
+    		"quantity" => "Količina",
     		# messages
     		"can't be blank" => "Polje ne smije biti prazno",
     		"is not a number" => "Mora biti broj",

@@ -9,7 +9,7 @@ class OrdersController < ApplicationController
   	end # index
 	
   	def show
-        authUserFor("Orders", "edit")
+        authUserFor("Orders")
       	@order = Order.find_by id: params[:id]
   	end # show
 	
@@ -181,7 +181,7 @@ class OrdersController < ApplicationController
 
       allParts.keys.sort.each do |key|
         part = Part.find_by id: key
-        if part.quantity < allParts[key]
+        if allParts[key] != nil && part.quantity < allParts[key].to_f
           return false
         end
       end

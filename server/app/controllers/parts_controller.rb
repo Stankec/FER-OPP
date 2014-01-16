@@ -41,6 +41,7 @@ class PartsController < ApplicationController
 	  		end
   			redirect_to parts_path
   		else
+  			displayErrors(@part)
   			render "new"
   		end
   	end # create
@@ -55,6 +56,7 @@ class PartsController < ApplicationController
 	  		end
   			redirect_to parts_path
   		else
+  			displayErrors(@part)
   			render "edit"
   		end
   	end # update

@@ -22,7 +22,7 @@ class SessionsController < ApplicationController
     		@user.save
     		redirect_to root_path
     	else
-    	    flash.now.alert = "Incorrect <u>username</u> ili <u>password</u>"
+    	    flash.now.alert = "Krivo <u>korisničko ime</u> ili <u>lozinka</u>"
 	   	   	render "new"
     	end
     end # create

@@ -3,10 +3,10 @@
 	<div class="row">
 		<div class="col-md-6">
 			<div class="form-group">
-				<label for="page_title">Voditelj</label>
+				<label for="page_title">Servisni savjetnik</label>
 				<% 
 					options = ""
-					Role.where(:canChangeOrders => true).each do |role|
+					Role.where(:canChangeOrders => false, :canViewOrders => true).each do |role|
 						role.users.each do |p|
 							sel = ""
 							if order.user != nil && order.user.id == p.id

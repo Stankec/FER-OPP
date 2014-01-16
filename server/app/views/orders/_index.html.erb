@@ -6,7 +6,7 @@
 			<td>Model</td>
 			<td>Započeto</td>
 			<td>Završeno</td>
-			<td style="width:25%">Opcije</td>
+			<td>Opcije</td>
 		</tr>
 	</thead>
 	<tbody>	
@@ -30,6 +30,13 @@
 							        	:method => "delete",
 							        	:confirm => "Jeste li sigurni da želite izbrisati radni nalog?",
 							        	:class => "btn btn-danger" %>
+						</div>
+					<% end %>
+					<% if currentUser != nil && currentUser.canView("Orders") %>
+						<div style="float:left; margin-left:10px;">
+							<%= link_to '<i class="fa fa-eye"></i> Pogledaj'.html_safe, 
+							        	order_path(u),
+							        	:class => "btn btn-info" %>
 						</div>
 					<% end %>
 				</td>
