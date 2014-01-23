@@ -63,6 +63,8 @@ class Statement < ActiveRecord::Base
 			totalBalance += sumParts + sumProcedure + sumProcedureParts
 		end
 
+		latestStatement = Statement.where("statemnetType = 0").order("statementDate DESC").first
+		
 		# Create statement
 		statement = Statement.new
 		statement.statemnetType = 0
@@ -73,7 +75,6 @@ class Statement < ActiveRecord::Base
 		puts "Created DAILY statement @ " + Time.now.to_s
 
 		# Create monthly statement
-		latestStatement = Statement.where("statemnetType = 0").order("statementDate DESC").first
 		if latestStatement == nil
 			return
 		end

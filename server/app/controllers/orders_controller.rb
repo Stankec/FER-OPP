@@ -168,73 +168,85 @@ class OrdersController < ApplicationController
     ###   Helpers   ###
     ###################
     def enoughParts(order)
-      allParts = {}
-
-      order.order_procedures.each do |oproc|
-        oproc.procedure.part_procedures.each do |ppar|
-          allParts[ppar.part_id] = ppar.quantity
-        end
-      end
-      order.order_parts.each do |opar|
-      	if allParts[opar.part_id] != nil
-        	allParts[opar.part_id] += opar.quantity
-        else
-        	allParts[opar.part_id] = opar.quantity
-        end
-      end
-
-      allParts.keys.sort.each do |key|
-        part = Part.find_by id: key
-        if allParts[key] != nil && part.quantity < allParts[key].to_f
-          return false
-        end
-      end
+      	allParts = {}
+	
+      	order.order_procedures.each do |oproc|
+      	  	oproc.procedure.part_procedures.each do |ppar|
+      	  		if allParts[ppar.part_id] != nil
+      	  	  		allParts[ppar.part_id] += ppar.quantity
+      	  	  	else
+      	  	  		allParts[ppar.part_id] = ppar.quantity
+      	  	  	end
+      	  	end
+      	end
+      	order.order_parts.each do |opar|
+      		if allParts[opar.part_id] != nil
+      	  		allParts[opar.part_id] += opar.quantity
+      	  	else
+      	  		allParts[opar.part_id] = opar.quantity
+      	  	end
+      	end
+	
+      	allParts.keys.sort.each do |key|
+      	  	part = Part.find_by id: key
+      	  	if allParts[key] != nil && part.quantity < allParts[key].to_f
+      	  	  	return false
+      	  	end
+      	end
       return true
     end
 
     def takeParts(order)
-      allParts = {}
-
-      order.order_procedures.each do |oproc|
-        oproc.procedure.part_procedures.each do |ppar|
-          allParts[ppar.part_id] = ppar.quantity
-        end
-      end
-      order.order_parts.each do |opar|
-        if allParts[opar.part_id] != nil
-        	allParts[opar.part_id] += opar.quantity
-        else
-        	allParts[opar.part_id] = opar.quantity
-        end
-      end
-
-      allParts.keys.sort.each do |key|
-        part = Part.find_by id: key
-        part.quantity -= allParts[key].to_f
-        part.save
-      end
+      	allParts = {}
+	
+      	order.order_procedures.each do |oproc|
+      	  	oproc.procedure.part_procedures.each do |ppar|
+      	  		if allParts[ppar.part_id] != nil
+      	  	  		allParts[ppar.part_id] += ppar.quantity
+      	  	  	else
+      	  	  		allParts[ppar.part_id] = ppar.quantity
+      	  	  	end
+      	  	end
+      	end
+      	order.order_parts.each do |opar|
+      	  	if allParts[opar.part_id] != nil
+      	  		allParts[opar.part_id] += opar.quantity
+      	  	else
+      	  		allParts[opar.part_id] = opar.quantity
+      	  	end
+      	end
+	
+      	allParts.keys.sort.each do |key|
+      	  	part = Part.find_by id: key
+      	  	part.quantity -= allParts[key].to_f
+      	  	part.save
+      	end
     end
 
     def returnParts(order)
-      allParts = {}
-
-      order.order_procedures.each do |oproc|
-        oproc.procedure.part_procedures.each do |ppar|
-          allParts[ppar.part_id] = ppar.quantity
-        end
-      end
-      order.order_parts.each do |opar|
-        if allParts[opar.part_id] != nil
-        	allParts[opar.part_id] += opar.quantity
-        else
-        	allParts[opar.part_id] = opar.quantity
-        end
-      end
-
-      allParts.keys.sort.each do |key|
-        part = Part.find_by id: key
-        part.quantity += allParts[key].to_f
-        part.save
-      end
+      	allParts = {}
+	
+      	order.order_procedures.each do |oproc|
+      	  	oproc.procedure.part_procedures.each do |ppar|
+      	  		if allParts[ppar.part_id] != nil
+      	  			allParts[ppar.part_id] += ppar.quantity
+      	  		else
+      	  	  		allParts[ppar.part_id] = ppar.quantity
+      	  	  	end
+      	  	end
+      	end
+      	order.order_parts.each do |opar|
+      	  	if allParts[opar.part_id] != nil
+      	  		allParts[opar.part_id] += opar.quantity
+      	  	else
+      	  		allParts[opar.part_id] = opar.quantity
+      	  	end
+      	end
+	
+      	allParts.keys.sort.each do |key|
+      	  	part = Part.find_by id: key
+      	  	part.quantity += allParts[key].to_f
+      	  	part.save
+      	end
     end
 end
