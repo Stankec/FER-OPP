@@ -1,0 +1,147 @@
+Organizacija Baze Podataka:
+===
+ - Users
+     - nameFirst              : String
+     - nameLast               : String
+     - loginUsername          : String
+     - loginPasswordHash      : String
+     - loginPasswordSalt      : String
+     - loginAuthToken         : String
+     - loginLast              : String
+     - contactEmail           : String
+     - contactPhone           : String
+     - isDeleteable           : Boolean
+ - Pages
+     - title                  : String 
+     - slug                   : String 
+     - ancestry               : String 
+     - icon                   : String 
+     - content                : String   
+     - contentPreview         : String   
+     - isPublic               : Boolean
+     - isHidden               : Boolean
+     - hasPreview             : Boolean
+     - category               : Integer
+ - Categories       
+     - title                  : String 
+     - slug                   : String 
+     - icon                   : String 
+     - ancestry               : String      
+ - Settings         
+     - pageTitle              : String      
+     - pageDescription        : String           
+     - pageFavicon            : Integer      
+     - pagePreview            : Integer      
+ - Images      
+     - imageName              : String     
+     - imageType              : Integer      
+     - attachedTo             : Integer      
+     - imageOwner             : Integer      
+     - path                   : String 
+     - isHidden               : Boolean      
+ - Networks         
+     - name                   : String 
+     - icon                   : String 
+     - link                   : String 
+     - hidden                 : Boolean 
+     - showName               : Boolean      
+ - Roles
+     - name                   : String 
+     - canViewUsers           : Boolean      
+     - canViewRoles           : Boolean      
+     - canViewOrders          : Boolean           
+     - canViewClients         : Boolean           
+     - canViewVehicles        : Boolean           
+     - canViewProcedures      : Boolean           
+     - canViewSettings        : Boolean           
+     - canViewParts           : Boolean      
+     - canViewWorkingHours    : Boolean                
+     - canViewStatements      : Boolean           
+     - canViewNetworks        : Boolean           
+     - canViewPages           : Boolean      
+     - canViewCategories      : Boolean           
+     - canChangeUsers         : Boolean           
+     - canChangeRoles         : Boolean           
+     - canChangeOrders        : Boolean           
+     - canChangeClients       : Boolean           
+     - canChangeVehicles      : Boolean           
+     - canChangeProcedures    : Boolean                
+     - canChangeSettings      : Boolean           
+     - canChangeParts         : Boolean           
+     - canChangeWorkingHours  : Boolean                
+     - canChangeStatements    : Boolean                
+     - canChangeNetworks      : Boolean           
+     - canChangePages         : Boolean           
+     - canChangeCategories    : Boolean                
+     - isDeleteable           : Boolean      
+ - Role_User   
+     - role                   : Integer
+     - user                   : Integer
+ - Clients          
+     - nameFirst              : String
+     - nameLast               : String
+     - contactAdress          : String     
+     - contactTelephone       : String     
+ - Vehicles    
+     - vehicleModel           : String
+     - buildYear              : Integer
+     - vehicleRegistration    : String          
+ - Client_Vehicle
+     - client                 : Integer
+     - vehicle                : Integer
+ - Procedures
+     - name                   : String
+     - description            : String     
+     - minNumOfWorkers        : Integer          
+     - duration               : Float
+     - manHour                : Float
+ - Orders
+     - client                 : Integer
+     - vehicle                : Integer
+     - user                   : Integer
+     - description            : String
+     - status                 : Integer
+     - timeStart              : DateTime (Integer)
+     - timeFinish             : DateTime (Integer)
+ - Oredr_Procedure             
+     - order                  : Integer
+     - procedure              : Integer     
+ - Parts
+     - name                   : String     
+     - quantity               : Float          
+     - price                  : Float     
+     - description            : String          
+ - Part_Procedure
+     - part                   : Integer
+     - procedure              : Integer     
+     - quantity               : Float     
+ - Statements
+     - type                   : Integer    
+     - statementDate          : DateTime (Integer)              
+     - money                  : Float    
+ - Working_Hours
+     - day                    : Integer
+     - timeStart              : DateTime (Integer)     
+     - timeFinish             : DateTime (Integer)     
+     - exception              : boolean     
+     - exceptiondate          : DateTime (Integer)          
+ - Order_Parts
+     - order                  : Integer
+     - part                   : Integer
+     - quantity               : Float     
+ - Part_Procedures
+     - part                   : Integer
+     - procedure              : Integer     
+     - quantity               : Float     
+ - Client_Vehicles
+     - vehicle                : Integer
+     - client                 : Integer
+ - Order_Procedures
+     - order                  : Integer
+     - procedure              : Integer    
+
+Napomene:
+===
+U projektu se populacija baze izvodi u metodi `initial` iz `ApplicationController` koja se poziva pri renderanju `layout.html.erb`.
+To se smatra lošom praksom i bilo bi pametnije taj isti kod preseliti u `seeds.rb` file.
+U tom slućaju bi nakon izvođenja naredbe `rake db:migrate` bilo potrebno izvesti naredbu `rake db:seed`.

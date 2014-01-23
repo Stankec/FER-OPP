@@ -40,39 +40,4 @@ Zadatak projekta:
  Kroz sučelje samo direktor može imati uvid u dnevni, mjesečni i godišnji promet, odnosnu bilancu 
  servisa. Svi korisnici računalnog sustava logiraju se sa svojim korisničkim imenom i jedinstvenom 
  šifrom, te se korisničko sučelje prilagođava njihovim pravima pristupa podacima i dozvoljenim 
- funkcijama. 
-
- 
-Korištene tehnologije:
-===
-  - Frontend Servera
-     - HTML
-     - CSS
-     - JavaScript
-     - Coffee
-     - jQuery
-     - NProgress
-     - Turbolinks
-     - CKEditor
-  - Backend Servera
-     - Ruby
-     - Ruby on Rails
-     - Carierwave
-     - Node.js
-     - bcrypt
-     - Image Magic
-     - RMagick
-     - MiniMagick
-     - acts-as-taggable-on
-     - FriendlyID
-     - will_paginate
-     - MySQL (fallback)
-     - Postgress SQL
-  
-Organizacija Baze Podataka:
-===
- - 
- 
-Na ovom projektu su radili:
-===
- - Stanko, Vlaho
+ funkcijama.
