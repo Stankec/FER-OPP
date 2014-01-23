@@ -63,6 +63,7 @@ class OrdersController < ApplicationController
 
       	updatedParts = {}
       	oldParts = {}
+      	closed = false
 
       	# Updated parts
       	if params[:order][:status].to_i != 2
@@ -131,6 +132,11 @@ class OrdersController < ApplicationController
 			end
 		end
 
+		# Was the order closed?
+      	if @order.status != 3 && params[:order][:status].to_i == 3
+      		closed = true
+      	end
+
   		# Sucess!
       	if @order.update_attributes(order_params)
       		# Update parts
@@ -141,7 +147,11 @@ class OrdersController < ApplicationController
 				part.save
 			end
       		# Redirect
-  			redirect_to orders_path()
+      		if closed
+  				redirect_to orders_path(:closed => @order.id)
+  			else
+  				redirect_to orders_path()
+  			end
   		else
   			displayErrors(@order)
   			render "edit"

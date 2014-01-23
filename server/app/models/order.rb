@@ -15,5 +15,33 @@ class Order < ActiveRecord::Base
 	def start_must_be_before_end_time
     	errors.add(:timeFinish, "Mora biti poslje početnog vremena") unless
        		self.timeStart < self.timeFinish
-  	end 
+  	end # start_must_be_before_end_time
+
+  	def price
+  		allParts = {}
+  		price = 0.0
+      	self.order_procedures.each do |oproc|
+      	  	oproc.procedure.part_procedures.each do |ppar|
+      	  		if allParts[ppar.part_id] != nil
+      	  	  		allParts[ppar.part_id] += ppar.quantity
+      	  	  	else
+      	  	  		allParts[ppar.part_id] = ppar.quantity
+      	  	  	end
+      	  	end
+      	  	price += oproc.procedure.minNumOfWorkers * oproc.procedure.duration * oproc.procedure.manHour
+      	end
+      	self.order_parts.each do |opar|
+      		if allParts[opar.part_id] != nil
+      	  		allParts[opar.part_id] += opar.quantity
+      	  	else
+      	  		allParts[opar.part_id] = opar.quantity
+      	  	end
+      	end
+      	allParts.keys.each do |key|
+      		if Part.where(:id => key).any?
+      			price += allParts[key] * Part.where(:id => key).first.price
+      		end
+      	end
+      	return price
+  	end # price
 end

@@ -1,0 +1,52 @@
+<div class="row">
+	<h3>Za platiti:</h3>
+	<center>
+		<h2>
+			<%= order.price %> kn
+		</h2>
+	</center>
+</div>
+<div class="row">
+	<table class="table table-striped">
+		<thead>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Klijent</td>
+				<td><%= order.client.nameFirst %> <%= order.client.nameLast %></td>
+			</tr>
+			<tr>
+				<td>Vozilo</td>
+				<td><%= order.vehicle.vehicleRegistration %> - <%= order.vehicle.vehicleModel %> - <%= order.vehicle.buildYear.to_s %></td>
+			</tr>
+			<tr>
+				<td>Servisni savjetnik</td>
+				<td><%= order.user.nameFirst %> <%= order.user.nameLast %> ("<%= order.user.loginUsername %>")</td>
+			</tr>
+			<tr>
+				<td>Postupci</td>
+				<td>
+					<ul>
+						<% order.order_procedures.each do |oproc| %>
+					    	<li>
+					    		<%= oproc.procedure.name %>
+					    	</li>
+				      	<% end %>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Dijelovi</td>
+				<td>
+					<ul>
+						<% order.order_parts.each do |oproc| %>
+					    	<li>
+					    		<%= oproc.part.name %> (kol. <%= oproc.quantity.to_s %>)
+					    	</li>
+				      	<% end %>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
