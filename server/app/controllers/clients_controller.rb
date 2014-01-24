@@ -21,7 +21,7 @@ class ClientsController < ApplicationController
   	end # edit
 
     def vehiclesFor
-    	authUserFor("Clients", "edit")
+    	authUserFor("Clients")
         client = Client.find_by id: params[:client_id]
         vehicles = Array.new
         client.client_vehicles.each do |cv|
