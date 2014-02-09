@@ -2,7 +2,7 @@ Pokretanje:
 ===
 Aplikaciju je moguće pokrenuti sa bilokojeg računala na kojemu je instaliran Ruby 1.9.3 ili novije, te Rails 4.0 ili novije.
 Za pokretanje potrebno se pomaknuti naredbom `cd put/do/projekta/server`, te od tamo izvršiti redom naredbe
-`bundle`, `rake db:migrate` i `rails s`.
+`bundle`, `rake db:drop`, `rake db:migrate`, `rake db:seed` i `rails s`.
 Potom je moguće koristit aplikaciju iz bilokojeg web browsera na adresi `localhost:3000` ili `127.0.0.1:3000`.
 
 Organizacija:

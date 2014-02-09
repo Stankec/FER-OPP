@@ -1,75 +1,75 @@
 # encoding: UTF-8
 class OrdersController < ApplicationController
-  helper_method :enoughParts
-  helper_method :takeParts
+	helper_method :enoughParts
+	helper_method :takeParts
 
 	def index
-        authUserFor("Orders")
-      	@order = Order.all
-  	end # index
+		authUserFor("Orders")
+		@order = Order.all
+	end # index
 	
-  	def show
-        authUserFor("Orders")
-      	@order = Order.find_by id: params[:id]
-  	end # show
+	def show
+		authUserFor("Orders")
+		@order = Order.find_by id: params[:id]
+	end # show
 	
-  	def new
-        authUserFor("Orders", "edit")
-      	@order = Order.new
-  	end # new
+	def new
+		authUserFor("Orders", "edit")
+		@order = Order.new
+	end # new
 	
-  	def edit
-        authUserFor("Orders", "edit")
-      	@order = Order.find_by id: params[:id]
-  	end # edit
+	def edit
+		authUserFor("Orders", "edit")
+		@order = Order.find_by id: params[:id]
+	end # edit
 
-  	##################
-  	### Rails CRUD ###
-  	##################
+	##################
+	### Rails CRUD ###
+	##################
 
-    def order_params
-        params.require(:order).permit(:description, :status, :timeStart, :timeFinish, :client_id, :vehicle_id, :user_id,
-                                      order_procedures_attributes: [:procedure_id, :id, :_destroy],
-                                      order_parts_attributes: [:part_id, :id, :_destroy, :quantity])
-    end
+	def order_params
+		params.require(:order).permit(:description, :status, :timeStart, :timeFinish, :client_id, :vehicle_id, :user_id,
+										order_procedures_attributes: [:procedure_id, :id, :_destroy],
+										order_parts_attributes: [:part_id, :id, :_destroy, :quantity])
+	end
 	
-  	def create
-  		@order = Order.new(order_params)
+	def create
+		@order = Order.new(order_params)
 
-      	# Check if there are enough parts
-      	if !enoughParts(@order) && @order.status != 2
-      	  flash.now.alert = "Nedovoljno dijelova na lageru!"
-      	  render "new"
-      	  return
-      	end
+		# Check if there are enough parts
+		if !enoughParts(@order) && @order.status != 2
+			flash.now.alert = "Nedovoljno dijelova na lageru!"
+			render "new"
+			return
+		end
 
-  		if @order.save
-  			if @order.status != 2
-        		takeParts(@order)
-        	end
-  			redirect_to orders_path()
-  		else
-  			displayErrors(@order)
-  			render "new"
-  		end
-  	end # create
+		if @order.save
+			if @order.status != 2
+				takeParts(@order)
+			end
+			redirect_to orders_path()
+		else
+			displayErrors(@order)
+			render "new"
+		end
+	end # create
 	
-  	def update
-      	@order = Order.find_by id: params[:id]
+	def update
+		@order = Order.find_by id: params[:id]
 
-      	if @order == nil 
-      		return
-      	end
+		if @order == nil 
+			return
+		end
 
-      	updatedParts = {}
-      	oldParts = {}
-      	closed = false
+		updatedParts = {}
+		oldParts = {}
+		closed = false
 
-      	# Updated parts
-      	if params[:order][:status].to_i != 2
-	      	params[:order][:order_parts_attributes].values.each do |item|
-	      		if item["_destroy"] != "false"; next; end;
-	      		if updatedParts[item["part_id"].to_i] == nil
+		# Updated parts
+		if params[:order][:status].to_i != 2
+			params[:order][:order_parts_attributes].values.each do |item|
+				if item["_destroy"] != "false"; next; end;
+				if updatedParts[item["part_id"].to_i] == nil
 					updatedParts[item["part_id"].to_i] = item["quantity"].to_f
 				else
 					updatedParts[item["part_id"].to_i] += item["quantity"].to_f
@@ -79,14 +79,14 @@ class OrdersController < ApplicationController
 				if item["_destroy"] != "false"; next; end;
 				item = Procedure.find_by id: item["procedure_id"]
 				item.part_procedures.each do |pp|
-		      		if updatedParts[pp.part_id] == nil
+					if updatedParts[pp.part_id] == nil
 						updatedParts[pp.part_id] = pp.quantity
 					else
 						updatedParts[pp.part_id] += pp.quantity
 					end
 				end
 			end if  params[:order][:order_procedures_attributes]      		
-      	end
+		end
 
 		# Old parts
 		if @order.status != 2 && params[:order][:status].to_i == 2
@@ -100,7 +100,7 @@ class OrdersController < ApplicationController
 			@order.order_procedures.each do |op|
 				op = op.procedure
 				op.part_procedures.each do |pp|
-		      		if oldParts[pp.part_id] == nil
+					if oldParts[pp.part_id] == nil
 						oldParts[pp.part_id] = pp.quantity
 					else
 						oldParts[pp.part_id] += pp.quantity
@@ -133,130 +133,130 @@ class OrdersController < ApplicationController
 		end
 
 		# Was the order closed?
-      	if @order.status != 3 && params[:order][:status].to_i == 3
-      		closed = true
-      	end
+		if @order.status != 3 && params[:order][:status].to_i == 3
+			closed = true
+		end
 
-  		# Sucess!
-      	if @order.update_attributes(order_params)
-      		# Update parts
-      		oldParts.keys.each do |key|
+		# Sucess!
+		if @order.update_attributes(order_params)
+			# Update parts
+			oldParts.keys.each do |key|
 				part = Part.find_by id: key
 				if part == nil; next; end;
 				part.quantity -= oldParts[key]
 				part.save
 			end
-      		# Redirect
-      		if closed
-  				redirect_to orders_path(:closed => @order.id)
-  			else
-  				redirect_to orders_path()
-  			end
-  		else
-  			displayErrors(@order)
-  			render "edit"
-  		end
-  	end # update
+			# Redirect
+			if closed
+				redirect_to orders_path(:closed => @order.id)
+			else
+				redirect_to orders_path()
+			end
+		else
+			displayErrors(@order)
+			render "edit"
+		end
+	end # update
 	
-  	def destroy
-  		@order = Order.find_by id: params[:id]
+	def destroy
+		@order = Order.find_by id: params[:id]
 
-	    # If the order is closed delete it, else return the parts to storage
-	    if @order.status == 1 
-	      	returnParts(@order)
-	    end
+		# If the order is closed delete it, else return the parts to storage
+		if @order.status == 1 
+		  	returnParts(@order)
+		end
 
-  		if @order.destroy
-	      	# Redirect to all orders
-  			redirect_to orders_path
-  		else
-  			redirect_to :back
-  		end
-  	end # delete
+		if @order.destroy
+		  	# Redirect to all orders
+			redirect_to orders_path
+		else
+			redirect_to :back
+		end
+	end # delete
 
-    ###################
-    ###   Helpers   ###
-    ###################
-    def enoughParts(order)
-      	allParts = {}
+	###################
+	###   Helpers   ###
+	###################
+	def enoughParts(order)
+		allParts = {}
 	
-      	order.order_procedures.each do |oproc|
-      	  	oproc.procedure.part_procedures.each do |ppar|
-      	  		if allParts[ppar.part_id] != nil
-      	  	  		allParts[ppar.part_id] += ppar.quantity
-      	  	  	else
-      	  	  		allParts[ppar.part_id] = ppar.quantity
-      	  	  	end
-      	  	end
-      	end
-      	order.order_parts.each do |opar|
-      		if allParts[opar.part_id] != nil
-      	  		allParts[opar.part_id] += opar.quantity
-      	  	else
-      	  		allParts[opar.part_id] = opar.quantity
-      	  	end
-      	end
+		order.order_procedures.each do |oproc|
+			oproc.procedure.part_procedures.each do |ppar|
+				if allParts[ppar.part_id] != nil
+					allParts[ppar.part_id] += ppar.quantity
+				else
+					allParts[ppar.part_id] = ppar.quantity
+				end
+			end
+		end
+		order.order_parts.each do |opar|
+			if allParts[opar.part_id] != nil
+		  		allParts[opar.part_id] += opar.quantity
+		  	else
+		  		allParts[opar.part_id] = opar.quantity
+		  	end
+		end
 	
-      	allParts.keys.sort.each do |key|
-      	  	part = Part.find_by id: key
-      	  	if allParts[key] != nil && part.quantity < allParts[key].to_f
-      	  	  	return false
-      	  	end
-      	end
-      return true
-    end
+		allParts.keys.sort.each do |key|
+		  	part = Part.find_by id: key
+		  	if allParts[key] != nil && part.quantity < allParts[key].to_f
+		  	  	return false
+		  	end
+		end
+		return true
+	end
 
-    def takeParts(order)
-      	allParts = {}
+	def takeParts(order)
+		allParts = {}
 	
-      	order.order_procedures.each do |oproc|
-      	  	oproc.procedure.part_procedures.each do |ppar|
-      	  		if allParts[ppar.part_id] != nil
-      	  	  		allParts[ppar.part_id] += ppar.quantity
-      	  	  	else
-      	  	  		allParts[ppar.part_id] = ppar.quantity
-      	  	  	end
-      	  	end
-      	end
-      	order.order_parts.each do |opar|
-      	  	if allParts[opar.part_id] != nil
-      	  		allParts[opar.part_id] += opar.quantity
-      	  	else
-      	  		allParts[opar.part_id] = opar.quantity
-      	  	end
-      	end
+		order.order_procedures.each do |oproc|
+			oproc.procedure.part_procedures.each do |ppar|
+				if allParts[ppar.part_id] != nil
+					allParts[ppar.part_id] += ppar.quantity
+				else
+					allParts[ppar.part_id] = ppar.quantity
+				end
+			end
+		end
+		order.order_parts.each do |opar|
+			if allParts[opar.part_id] != nil
+				allParts[opar.part_id] += opar.quantity
+			else
+				allParts[opar.part_id] = opar.quantity
+			end
+		end
 	
-      	allParts.keys.sort.each do |key|
-      	  	part = Part.find_by id: key
-      	  	part.quantity -= allParts[key].to_f
-      	  	part.save
-      	end
-    end
+		allParts.keys.sort.each do |key|
+			part = Part.find_by id: key
+			part.quantity -= allParts[key].to_f
+			part.save
+		end
+	end
 
-    def returnParts(order)
-      	allParts = {}
+	def returnParts(order)
+		allParts = {}
 	
-      	order.order_procedures.each do |oproc|
-      	  	oproc.procedure.part_procedures.each do |ppar|
-      	  		if allParts[ppar.part_id] != nil
-      	  			allParts[ppar.part_id] += ppar.quantity
-      	  		else
-      	  	  		allParts[ppar.part_id] = ppar.quantity
-      	  	  	end
-      	  	end
-      	end
-      	order.order_parts.each do |opar|
-      	  	if allParts[opar.part_id] != nil
-      	  		allParts[opar.part_id] += opar.quantity
-      	  	else
-      	  		allParts[opar.part_id] = opar.quantity
-      	  	end
-      	end
+		order.order_procedures.each do |oproc|
+			oproc.procedure.part_procedures.each do |ppar|
+				if allParts[ppar.part_id] != nil
+					allParts[ppar.part_id] += ppar.quantity
+				else
+					allParts[ppar.part_id] = ppar.quantity
+				end
+			end
+		end
+		order.order_parts.each do |opar|
+			if allParts[opar.part_id] != nil
+				allParts[opar.part_id] += opar.quantity
+			else
+				allParts[opar.part_id] = opar.quantity
+			end
+		end
 	
-      	allParts.keys.sort.each do |key|
-      	  	part = Part.find_by id: key
-      	  	part.quantity += allParts[key].to_f
-      	  	part.save
-      	end
-    end
+		allParts.keys.sort.each do |key|
+			part = Part.find_by id: key
+			part.quantity += allParts[key].to_f
+			part.save
+		end
+	end
 end

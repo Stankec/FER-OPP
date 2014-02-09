@@ -14,32 +14,31 @@ class User < ActiveRecord::Base
 	validates_uniqueness_of :loginUsername
 
 	before_create { generate_token(:loginAuthToken) }
-  
-  	# Methods
 
+  	# Methods
   	# Decrypt password and check it
 	def authenticate(name, password)
-	  	user = User.find_by loginUsername: name
-	  	if user && user.loginPasswordHash == BCrypt::Engine.hash_secret(password, user.loginPasswordSalt)
-	  	  	return user
-	  	else
-	  	  	return nil
-	  	end
+		user = User.find_by loginUsername: name
+		if user && user.loginPasswordHash == BCrypt::Engine.hash_secret(password, user.loginPasswordSalt)
+			return user
+		else
+			return nil
+		end
 	end # authenticate
-  
+
   	# Encrypt password
 	def encrypt_password
-	  if password.present?
-	    	self.loginPasswordSalt = BCrypt::Engine.generate_salt
-	    	self.loginPasswordHash = BCrypt::Engine.hash_secret(password, loginPasswordSalt)
-	  end
+		if password.present?
+			self.loginPasswordSalt = BCrypt::Engine.generate_salt
+			self.loginPasswordHash = BCrypt::Engine.hash_secret(password, loginPasswordSalt)
+		end
 	end # encrypt_password
 
 	# generate authentification token
-  	def generate_token(column)
-	  	begin
-	    	self[column] = SecureRandom.urlsafe_base64
-	  	end while User.exists?(column => self[column])
+	def generate_token(column)
+		begin
+			self[column] = SecureRandom.urlsafe_base64
+		end while User.exists?(column => self[column])
 	end # generate_token
 
 	# check permissions

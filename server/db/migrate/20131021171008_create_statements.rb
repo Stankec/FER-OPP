@@ -1,7 +1,7 @@
 class CreateStatements < ActiveRecord::Migration
   def change
     create_table :statements do |t|
-      t.integer :type
+      t.integer :statemnetType
       t.date 	:statementDate
       t.float 	:money
 

@@ -1,9 +1,3 @@
-Napomene:
-===
-U projektu se populacija baze izvodi u metodi `initial` iz `ApplicationController` koja se poziva pri renderanju `layout.html.erb`.
-To se smatra lošom praksom i bilo bi pametnije taj isti kod preseliti u `seeds.rb` file.
-U tom slućaju bi nakon izvođenja naredbe `rake db:migrate` bilo potrebno izvesti naredbu `rake db:seed`.
-
 Organizacija Baze Podataka:
 ===
  - Users

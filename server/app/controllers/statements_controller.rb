@@ -1,27 +1,27 @@
 # encoding: UTF-8
 class StatementsController < ApplicationController
-  	def index
-      authUserFor("Statements")
-      if !params[:page]; params[:page] = 1; end;
-      if !params[:type]; params[:type] = 0; end;
-      @statement   = Statement.where(:statemnetType => params[:type]).order("statementDate DESC").paginate(:page => params[:page].to_i, :per_page => 20)
-  	end
+	def index
+		authUserFor("Statements")
+		if !params[:page]; params[:page] = 1; end;
+		if !params[:type]; params[:type] = 0; end;
+		@statement   = Statement.where(:statemnetType => params[:type]).order("statementDate DESC").paginate(:page => params[:page].to_i, :per_page => 20)
+	end # index
 	
-  	def show
-  	end
+	def show
+	end # show
 	
-  	def edit
-  	end
+	def edit
+	end # edit
 	
-  	def new
-  	end
+	def new
+	end # new
 
-  	##################
-  	### Rails CRUD ###
-  	##################
+	##################
+	### Rails CRUD ###
+	##################
 
-    def statement_params
-        params.require(:statement).permit(:statemnetType, :statementDate, :money)
-    end
+	def statement_params
+	    params.require(:statement).permit(:statemnetType, :statementDate, :money)
+	end # statement_params
 
 end

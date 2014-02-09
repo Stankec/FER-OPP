@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140115080758) do
+ActiveRecord::Schema.define(version: 20140112205934) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -273,9 +273,9 @@ ActiveRecord::Schema.define(version: 20140115080758) do
     t.datetime "loginLast"
     t.string   "contactEmail"
     t.string   "contactPhone"
+    t.boolean  "isDeleteable"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "isDeleteable"
   end
 
   create_table "vehicles", force: true do |t|
