@@ -1,40 +1,11 @@
-Pokretanje:
-===
-Aplikaciju je moguće pokrenuti sa bilokojeg računala na kojemu je instaliran Ruby 1.9.3 ili novije, te Rails 4.0 ili novije.
-Za pokretanje potrebno se pomaknuti naredbom `cd put/do/projekta/server`, te od tamo izvršiti redom naredbe
-`bundle`, `rake db:drop`, `rake db:migrate`, `rake db:seed` i `rails s`.
-Potom je moguće koristit aplikaciju iz bilokojeg web browsera na adresi `localhost:3000` ili `127.0.0.1:3000`.
+# Server
 
-Organizacija:
-===
-Ovi direktoriji imaju detaljnija objašnjenja svoje svrhe u njihovim `readme.md` fileovima.
+## Running
 
-  - app (Ruby, HTML, CSS, JS, Coffe)
-  - config (Ruby)
-  - db (Ruby, SQL)
+To run this application you need to have Ruby 1.9.3 or later installed on your system.
+* Navigate to the project's folder - `cd path/to/the/project/server`
+* Install the required dependencies - `bundle install`
+* Setup the database - `rake db:drop db:create db:migrate db:seed`
+* Start the server - `rails s`
 
-Korištene tehnologije:
-===
-  - Frontend Servera
-     - HTML
-     - CSS
-     - JavaScript
-     - Coffee
-     - jQuery
-     - NProgress
-     - Turbolinks
-     - CKEditor
-  - Backend Servera
-     - Ruby
-     - Ruby on Rails
-     - Carierwave
-     - Node.js
-     - bcrypt
-     - Image Magic
-     - RMagick
-     - MiniMagick
-     - acts-as-taggable-on
-     - FriendlyID
-     - will_paginate
-     - MySQL (fallback)
-     - Postgress SQL
+Now you can open a browser of your choosing and navigate to `localhost:3000`
